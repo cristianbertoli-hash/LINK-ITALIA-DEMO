@@ -1,0 +1,2 @@
+
+(function(){const c=LinkCms,q=document.querySelector("#lang"),a=localStorage.getItem("liLang")||"it";if(q){q.value=a;q.onchange=()=>{localStorage.setItem("liLang",q.value);location.reload()}}document.querySelectorAll("[data-k]").forEach(e=>{const v=c.g(a,e.dataset.k);if(v)e.textContent=v});const m=document.querySelector(".menu"),n=document.querySelector(".links");if(m&&n)m.onclick=()=>n.classList.toggle("open")})();
