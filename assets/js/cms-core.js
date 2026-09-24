@@ -1,2 +1,28 @@
-
-(function(){const K="linkItaliaCmsV1",D={it:{"home.title":"WE BREAK THE LINK®","home.lead":"Comprendere le connessioni tra violenza sugli animali, violenza interpersonale, devianza e criminalità per costruire prevenzione, formazione e sicurezza.","home.cta1":"Esplora THE LINK","home.cta2":"Formazione","home.s1t":"Un fenomeno connesso, non isolato","home.s1x":"THE LINK descrive la correlazione tra maltrattamento o uccisione di animali, violenza interpersonale e altre condotte devianti, antisociali o criminali.","home.s2t":"Dalla conoscenza all’intervento","home.s2x":"Ricerca, formazione, prevenzione, trattamento e contrasto: un percorso integrato che coinvolge professionisti, enti, imprese e cittadini.","home.s3t":"One Safety · One Health · One Welfare®","home.s3x":"Sicurezza, salute e benessere vengono letti come dimensioni interdipendenti della stessa comunità."},en:{"home.title":"WE BREAK THE LINK®","home.lead":"Understanding the connections between animal abuse, interpersonal violence, deviance and crime to build prevention, education and safety.","home.cta1":"Explore THE LINK","home.cta2":"Training"},fr:{"home.lead":"Comprendre les liens entre violence envers les animaux, violence interpersonnelle, déviance et criminalité."},de:{"home.lead":"Zusammenhänge zwischen Tiermisshandlung, zwischenmenschlicher Gewalt, Devianz und Kriminalität verstehen."},es:{"home.lead":"Comprender las conexiones entre violencia contra los animales, violencia interpersonal, desviación y criminalidad."}};function l(){try{return JSON.parse(localStorage.getItem(K)||"{}")}catch(e){return{}}}function s(v){localStorage.setItem(K,JSON.stringify(v))}function g(a,k){const x=l();return x[a]?.[k]||D[a]?.[k]||x.it?.[k]||D.it?.[k]||""}function set(a,k,v){const x=l();x[a]=x[a]||{};x[a][k]=v;s(x)}function reset(a,k){const x=l();if(x[a])delete x[a][k];s(x)}window.LinkCms={D,l,s,g,set,reset,exp:()=>JSON.stringify({version:1,content:l()},null,2),imp:t=>s((JSON.parse(t).content||JSON.parse(t)))}})();
+(function(root,factory){
+  const api=factory();
+  if(typeof module==='object'&&module.exports) module.exports=api;
+  root.LinkCmsCore=api;
+})(typeof globalThis!=='undefined'?globalThis:this,function(){
+  'use strict';
+  const STORAGE_KEY='linkItaliaCmsStateV2';
+  function readTranslated(pack,lang,key){
+    return (pack&&pack[lang]&&pack[lang][key]!==undefined)?pack[lang][key]:((pack&&pack.it&&pack.it[key]!==undefined)?pack.it[key]:'');
+  }
+  function mergeOverrides(base,overrides){return Object.assign({},base||{},overrides||{});}
+  function loadState(storage){
+    try{const raw=storage.getItem(STORAGE_KEY);return raw?JSON.parse(raw):{lang:'it',overrides:{},social:{},images:{},pageImages:{}};}catch(_){return {lang:'it',overrides:{},social:{},images:{},pageImages:{}};}
+  }
+  function saveState(storage,state){storage.setItem(STORAGE_KEY,JSON.stringify(state));return state;}
+  function normalizeExternalUrl(value){
+    const s=String(value||'').trim(); if(!s) return '';
+    if(/^javascript:/i.test(s)||/^data:/i.test(s)) return '';
+    try{const withScheme=/^https?:\/\//i.test(s)?s:'https://'+s;const u=new URL(withScheme);return ['http:','https:'].includes(u.protocol)?u.href:'';}catch(_){return '';}
+  }
+  function projectileLeft(targetCenter,projectileWidth){return targetCenter-projectileWidth;}
+  function resolveText(defaults,state,lang,key){
+    const over=state&&state.overrides&&state.overrides[lang];
+    if(over&&over[key]!==undefined&&over[key]!=='') return over[key];
+    return readTranslated(defaults,lang,key);
+  }
+  return {STORAGE_KEY,readTranslated,mergeOverrides,loadState,saveState,normalizeExternalUrl,projectileLeft,resolveText};
+});
