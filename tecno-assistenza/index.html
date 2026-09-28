@@ -998,3 +998,810 @@ footer{
         il pannello operativo completo derivato dalla V5 Air.
       </p>
     </div>
+
+    <div class="reserved-shell reveal">
+      <div class="reserved-copy">
+        <div class="kicker">Backoffice / CRM</div>
+        <h3>Clienti, interventi, documenti e comunicazioni in un solo ambiente.</h3>
+        <p>
+          Questa non è l’area personale del cliente: è la <strong>zona riservata della ditta</strong>.
+          Prima mostra cosa contiene; poi il pulsante <strong>Entra nell’area</strong> porta al login e al pannello operativo vero.
+        </p>
+        <div class="reserved-list">
+          <div class="reserved-item">Dashboard con KPI rapidi e accesso ai moduli principali</div>
+          <div class="reserved-item">Clienti con schede espandibili +/−, storico e interventi collegati</div>
+          <div class="reserved-item">Media, foto, video e PDF associabili a servizi, clienti o interventi</div>
+          <div class="reserved-item">Richieste intervento, comunicazioni e mail informative</div>
+          <div class="reserved-item">Servizi, dati rapidi e contenuti pubblici gestibili dal backoffice</div>
+        </div>
+        <div class="hero-actions">
+          <button class="btn primary" type="button" onclick="openBackofficeDemo()">Apri area riservata demo</button>
+          <button class="btn" type="button" onclick="document.getElementById('contatti').scrollIntoView({behavior:'smooth'})">Torna al sito pubblico</button>
+        </div>
+      </div>
+
+      <div class="backoffice-preview">
+        <div class="backoffice-top">
+          <b>Admin / Dashboard · Tecno Assistenza</b>
+          <div class="backoffice-badges">
+            <span class="bo-badge">Clienti</span><span class="bo-badge">Interventi</span><span class="bo-badge">Media</span><span class="bo-badge">Mail</span>
+          </div>
+        </div>
+        <div class="kpi-grid">
+          <div class="kpi"><small>Clienti</small><strong>25.000+</strong></div>
+          <div class="kpi"><small>Interventi aperti</small><strong>18</strong></div>
+          <div class="kpi"><small>Richieste</small><strong>7</strong></div>
+          <div class="kpi"><small>PDF/media</small><strong>342</strong></div>
+        </div>
+        <div class="admin-grid-demo">
+          <div class="admin-stack-demo">
+            <div class="admin-card-demo"><h4>Clienti / schede rapide</h4><div class="admin-list-demo">
+              <div class="admin-row-demo"><b>Mario Rossi</b><span>2 impianti · 8 documenti</span></div>
+              <div class="admin-row-demo"><b>Condominio Le Querce</b><span>Centralizzato · 3 interventi aperti</span></div>
+              <div class="admin-row-demo"><b>Paola Bianchi</b><span>Pompa di calore · manutenzione nov 2026</span></div>
+            </div></div>
+            <div class="admin-card-demo"><h4>Richieste / comunicazioni</h4><div class="admin-list-demo">
+              <div class="admin-row-demo"><b>Assenza acqua calda</b><span>Urgenza · Soliera</span></div>
+              <div class="admin-row-demo"><b>Manutenzione programmata</b><span>Lista contatti da richiamare</span></div>
+              <div class="admin-row-demo"><b>Invio promemoria clienti</b><span>Mail / comunicazione</span></div>
+            </div></div>
+          </div>
+          <div class="admin-stack-demo">
+            <div class="admin-card-demo"><h4>Media / PDF / allegati</h4><p>Archivio foto, video e documenti collegati a clienti, impianti e servizi.</p><div class="media-chips-demo">
+              <span class="media-chip-demo">Foto impianto</span><span class="media-chip-demo">Rapporto PDF</span><span class="media-chip-demo">Video tecnico</span><span class="media-chip-demo">Copertina PDF</span>
+            </div></div>
+            <div class="admin-card-demo"><h4>Servizi / dettagli estesi</h4><p>Testi pubblici, dettagli avanzati, CTA e allegati dedicati.</p><div class="admin-list-demo" style="margin-top:12px">
+              <div class="admin-row-demo"><b>Caldaie Immergas</b><span>popup completo</span></div>
+              <div class="admin-row-demo"><b>Abbonamenti</b><span>confronto formule</span></div>
+              <div class="admin-row-demo"><b>Edilkamin</b><span>scheda dedicata</span></div>
+            </div></div>
+            <div class="admin-card-demo"><h4>Mail / dati rapidi</h4><div class="admin-list-demo">
+              <div class="admin-row-demo"><b>Newsletter clienti</b><span>128 invii pronti</span></div>
+              <div class="admin-row-demo"><b>Promemoria manutenzione</b><span>32 scadenze prossime</span></div>
+            </div></div>
+          </div>
+        </div>
+        <div class="bo-footer-note">La scheda dimostrativa resta visibile. L’accesso operativo vero si apre solo dopo “Entra nell’area”.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contatti">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Contatti</div>
+        <h2>Assistenza immediata, senza cercare dove cliccare.</h2>
+      </div>
+      <p>
+        Ho mantenuto i campi che compaiono nel sito attuale: nome, telefono, email, località e messaggio,
+        ma con una gerarchia molto più evidente.
+      </p>
+    </div>
+
+    <div class="contact-shell">
+      <div class="contact-info reveal">
+        <div class="contact-row"><small>Telefono</small><strong>059 565867</strong></div>
+        <div class="contact-row"><small>Email</small><strong>info@tecnoassistenza.it</strong></div>
+        <div class="contact-row"><small>Sede</small><strong>Via Archimede 70<br>41019 Limidi di Soliera (MO)</strong></div>
+        <div class="contact-row"><small>Operatività</small><strong>Bassa Modenese · 15 comuni</strong></div>
+        <div class="contact-row"><small>Periodo invernale</small><strong>Reperibilità estesa da novembre a marzo</strong></div>
+      </div>
+
+      <form class="request-card reveal" style="transition-delay:.08s"
+        onsubmit="event.preventDefault();document.getElementById('formStatus').textContent='Demo: richiesta pronta per essere collegata al backend / CRM.'">
+        <h3>Richiedi assistenza</h3>
+        <p>Compila il modulo per essere ricontattato.</p>
+        <div class="form-grid">
+          <div class="field"><label>Nome</label><input placeholder="Nome e cognome"></div>
+          <div class="field"><label>Telefono</label><input placeholder="Telefono"></div>
+          <div class="field"><label>Email</label><input type="email" placeholder="Email"></div>
+          <div class="field"><label>Località</label><input placeholder="Comune / località"></div>
+          <div class="field wide"><label>Messaggio</label><textarea placeholder="Descrivi il problema o il servizio richiesto"></textarea></div>
+        </div>
+        <div class="form-actions">
+          <button class="btn primary" type="submit">Invia richiesta</button>
+          <span class="form-status" id="formStatus"></span>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-left">
+    <strong>Tecno Assistenza</strong>
+    <span>Via Archimede 70 · 41019 Limidi di Soliera (MO)</span>
+    <span>059 565867 · info@tecnoassistenza.it</span>
+  </div>
+  <button class="admin-entry-v6" id="adminEntryV6" type="button" onclick="openBackofficeDemo()">Area riservata</button>
+</footer>
+
+
+<div class="ta-admin-login" id="taAdminLogin" hidden aria-hidden="true">
+  <div class="ta-login-card" role="dialog" aria-modal="true" aria-labelledby="taLoginTitle">
+    <div class="ta-mini-brand"><i></i> TECNO ASSISTENZA · amministrazione</div>
+    <h2 id="taLoginTitle">Area riservata</h2>
+    <p>Accesso proprietario per modificare contenuti, clienti, richieste, media e comunicazioni senza intervenire sul codice.</p>
+    <form id="taAdminLoginForm">
+      <div class="ta-admin-field">
+        <label for="taAdminUser">Utente</label>
+        <input id="taAdminUser" autocomplete="username" value="admin">
+      </div>
+      <div class="ta-admin-field">
+        <label for="taAdminPassword">Password</label>
+        <input id="taAdminPassword" type="password" autocomplete="current-password" placeholder="Password">
+      </div>
+      <div class="ta-login-error" id="taLoginError" aria-live="polite"></div>
+      <div class="ta-login-actions">
+        <button class="ta-admin-btn primary" type="submit">Accedi</button>
+        <button class="ta-admin-btn ghost" id="taCancelLogin" type="button">Annulla</button>
+      </div>
+    </form>
+    <p class="ta-demo-note"><strong>Demo locale:</strong> utente <code>admin</code> · password <code>demo2026</code>. Nel sito reale l’accesso sarà protetto lato server.</p>
+  </div>
+</div>
+
+<section class="ta-admin-panel" id="taAdminPanel" hidden aria-hidden="true">
+  <header class="ta-admin-header">
+    <div class="ta-admin-title">
+      <i></i>
+      <div>
+        <strong>Pannello Tecno Assistenza</strong>
+        <small>Modifica contenuti · il layout resta protetto</small>
+      </div>
+    </div>
+    <div class="ta-admin-actions">
+      <button class="ta-admin-btn primary" id="taSaveAdmin" type="button">Salva modifiche</button>
+      <button class="ta-admin-btn" id="taRestoreAdmin" type="button">Ripristina demo</button>
+      <button class="ta-admin-btn ghost" id="taCloseAdmin" type="button">Chiudi pannello</button>
+      <button class="ta-admin-btn danger" id="taLogoutAdmin" type="button">Esci</button>
+    </div>
+  </header>
+
+  <div class="ta-admin-layout">
+    <div class="ta-admin-intro">
+      <h2>Contenuti del sito</h2>
+      <p>Il proprietario può aggiornare testi e dati operativi, ma non può spostare blocchi, rompere l’impaginazione o modificare lo stile.</p>
+    </div>
+
+    <div class="ta-module-grid" aria-label="Moduli gestionali">
+      <button class="ta-module-card" type="button" data-ta-module="clients">
+        <em>CRM</em><b>Clienti & interventi</b><span>Anagrafica, schede espandibili, storico lavori e documenti collegati.</span>
+      </button>
+      <button class="ta-module-card" type="button" data-ta-module="media">
+        <em>Media</em><b>Foto, video & PDF</b><span>Upload, watermark opzionale, copertine PDF e associazioni.</span>
+      </button>
+      <button class="ta-module-card" type="button" data-ta-module="requests">
+        <em>Richieste</em><b>Richieste intervento</b><span>Consulta i moduli ricevuti e collegali a cliente e impianto.</span>
+      </button>
+      <button class="ta-module-card" type="button" data-ta-module="communications">
+        <em>Email</em><b>Comunicazioni</b><span>Promemoria manutenzioni, chiusure e informazioni di servizio.</span>
+      </button>
+    </div>
+
+    <form id="taAdminForm" class="ta-admin-sections">
+      <details class="ta-admin-group" open>
+        <summary>Hero / apertura</summary>
+        <div class="ta-admin-grid">
+          <div class="ta-admin-field wide"><label>Riga tecnica</label><input data-ta-key="heroEyebrow" value="Centro assistenza autorizzato Immergas dal 1995"></div>
+          <div class="ta-admin-field"><label>Titolo — riga 1</label><input data-ta-key="heroTitle1" value="Il servizio fa la differenza."></div>
+          <div class="ta-admin-field"><label>Titolo — riga 2</label><input data-ta-key="heroTitle2" value="La differenza la fanno le persone."></div>
+          <div class="ta-admin-field wide"><label>Descrizione</label><textarea data-ta-key="heroLead">Assistenza e manutenzione per impianti termici, climatizzazione e sistemi a fonte rinnovabile. Una rete organizzata di tecnici, officine mobili e storico impianto per intervenire in modo rapido e mirato.</textarea></div>
+        </div>
+      </details>
+
+      <details class="ta-admin-group">
+        <summary>Dati rapidi</summary>
+        <div class="ta-admin-grid">
+          <div class="ta-admin-field"><label>Dipendenti</label><input data-ta-key="stat1" value="22"></div>
+          <div class="ta-admin-field"><label>Automezzi</label><input data-ta-key="stat2" value="15"></div>
+          <div class="ta-admin-field"><label>Clienti</label><input data-ta-key="stat3" value="25.000+"></div>
+          <div class="ta-admin-field"><label>Comuni</label><input data-ta-key="stat4" value="15"></div>
+        </div>
+      </details>
+
+      <details class="ta-admin-group">
+        <summary>Servizi</summary>
+        <div class="ta-admin-grid">
+          <div class="ta-admin-field"><label>Servizio 1</label><input data-ta-key="service1" value="Manutenzione e assistenza caldaie"></div>
+          <div class="ta-admin-field"><label>Servizio 2</label><input data-ta-key="service2" value="Climatizzazione"></div>
+          <div class="ta-admin-field"><label>Servizio 3</label><input data-ta-key="service3" value="Energia rinnovabile"></div>
+          <div class="ta-admin-field"><label>Servizio 4</label><input data-ta-key="service4" value="Lavaggio caldaia e disincrostazione boiler"></div>
+        </div>
+      </details>
+
+
+      <details class="ta-admin-group">
+        <summary>Clienti & interventi</summary>
+        <div class="ta-admin-grid">
+          <div class="wide ta-layer-box">
+            <h4>Archivio clienti · schede +/−</h4>
+            <div class="ta-client-list">
+              <details class="ta-client-row ta-client-detail-card">
+                <summary class="ta-client-head"><b>Mario Rossi</b><span>2 impianti · 8 documenti</span></summary>
+                <div class="ta-client-detail">Via Roma 12, Soliera · 333 0000000 · Caldaia Immergas · Ultimo intervento 14/04/2026 · Prossima manutenzione novembre 2026.
+                  <div class="ta-inline-actions"><button class="ta-admin-btn" type="button" onclick="taOpenModule('clients')">Apri CRM completo</button></div>
+                </div>
+              </details>
+              <details class="ta-client-row ta-client-detail-card">
+                <summary class="ta-client-head"><b>Condominio Le Querce</b><span>Centralizzato · 3 interventi</span></summary>
+                <div class="ta-client-detail">Impianto centralizzato · referente amministratore · storico lavori e documentazione tecnica collegati.</div>
+              </details>
+              <details class="ta-client-row ta-client-detail-card">
+                <summary class="ta-client-head"><b>Paola Bianchi</b><span>Pompa di calore · manutenzione</span></summary>
+                <div class="ta-client-detail">Pompa di calore · contratto manutenzione · documenti tecnici e rapporti intervento disponibili.</div>
+              </details>
+            </div>
+          </div>
+          <div class="wide ta-layer-box">
+            <h4>Storico interventi</h4>
+            <div class="ta-request-row"><span>14/04/2026</span><b>Manutenzione programmata</b><i>Completata</i></div>
+            <div class="ta-request-row"><span>08/01/2026</span><b>Controllo pressione</b><i>Completato</i></div>
+            <div class="ta-request-row"><span>11/11/2025</span><b>Analisi combustione</b><i>PDF</i></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="ta-admin-group">
+        <summary>Media / foto / video / PDF</summary>
+        <div class="ta-admin-grid">
+          <div class="ta-admin-field wide"><label>Nuovo file</label><input type="file" accept="image/*,video/*,.pdf"></div>
+          <div class="ta-admin-field"><label>Collega a</label><select><option>Servizio</option><option>Cliente</option><option>Intervento</option></select></div>
+          <div class="ta-admin-field"><label>Titolo</label><input placeholder="Titolo / descrizione"></div>
+          <div class="wide ta-media-options">
+            <label class="ta-option"><input type="checkbox"> Watermark immagine</label>
+            <label class="ta-option"><input type="checkbox"> Watermark PDF</label>
+            <label class="ta-option"><input type="checkbox"> Copertina PDF</label>
+          </div>
+          <div class="wide ta-inline-actions"><button class="ta-admin-btn" type="button" onclick="taOpenModule('media')">Apri gestione media completa</button></div>
+        </div>
+      </details>
+
+      <details class="ta-admin-group">
+        <summary>Richieste intervento</summary>
+        <div class="ta-admin-grid">
+          <div class="wide ta-layer-box">
+            <div class="ta-request-row"><span>Oggi 08:42</span><b>Assenza acqua calda · Soliera</b><i>Nuova</i></div>
+            <div class="ta-request-row"><span>Oggi 09:17</span><b>Manutenzione caldaia · Carpi</b><i>Da assegnare</i></div>
+            <div class="ta-request-row"><span>Ieri 16:05</span><b>Climatizzatore rumoroso · Novi</b><i>In lavorazione</i></div>
+            <div class="ta-request-row"><span>Ieri 11:28</span><b>Pompa di calore · Bastiglia</b><i>Richiamato</i></div>
+            <div class="ta-inline-actions"><button class="ta-admin-btn" type="button" onclick="taOpenModule('requests')">Apri richieste complete</button></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="ta-admin-group">
+        <summary>Comunicazioni / email</summary>
+        <div class="ta-admin-grid">
+          <div class="ta-admin-field wide"><label>Oggetto</label><input value="Promemoria manutenzione"></div>
+          <div class="ta-admin-field wide"><label>Messaggio</label><textarea>Gentile cliente, la manutenzione programmata del suo impianto è in scadenza.</textarea></div>
+          <div class="wide ta-inline-actions"><button class="ta-admin-btn" type="button" onclick="taOpenModule('communications')">Apri comunicazioni complete</button></div>
+          <div class="wide ta-inline-note">Demo locale: nessun invio reale viene effettuato.</div>
+        </div>
+      </details>
+
+      <details class="ta-admin-group">
+        <summary>Contatti</summary>
+        <div class="ta-admin-grid">
+          <div class="ta-admin-field"><label>Telefono</label><input data-ta-key="phone" value="059 565867"></div>
+          <div class="ta-admin-field"><label>Email</label><input data-ta-key="email" value="info@tecnoassistenza.it"></div>
+          <div class="ta-admin-field wide"><label>Sede</label><input data-ta-key="address" value="Via Archimede 70 · 41019 Limidi di Soliera (MO)"></div>
+        </div>
+      </details>
+
+      <details class="ta-admin-group">
+        <summary>Abbonamenti / note commerciali</summary>
+        <div class="ta-admin-grid">
+          <div class="ta-admin-field"><label>Formula Tecno Assistenza</label><input value="STANDARD / PLUS"></div>
+          <div class="ta-admin-field"><label>Formula Immergas</label><input value="COMFORT"></div>
+          <div class="ta-admin-field wide"><label>Nota interna</label><textarea>Verificare sempre condizioni, importi e periodicità prima della pubblicazione commerciale definitiva.</textarea></div>
+        </div>
+      </details>
+    </form>
+  </div>
+  <div class="ta-admin-save-status" id="taSaveStatus">Modifiche salvate nella demo locale.</div>
+</section>
+
+<div class="ta-admin-layer" id="taAdminLayer" hidden aria-hidden="true">
+  <div class="ta-layer-card" id="taAdminLayerCard" role="dialog" aria-modal="true"></div>
+</div>
+
+<div class="overlay" id="overlay" hidden aria-hidden="true" onclick="if(event.target===this)closeOverlay()">
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script>
+/* ===== dynamic hero canvas ===== */
+const canvas = document.getElementById('flowCanvas');
+const ctx = canvas.getContext('2d');
+let W=0,H=0,dpr=1;
+let pointer={x:.5,y:.5};
+let particles=[];
+function resizeCanvas(){
+  dpr=Math.min(window.devicePixelRatio||1,2);
+  W=canvas.clientWidth;H=canvas.clientHeight;
+  canvas.width=W*dpr;canvas.height=H*dpr;
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  const n=Math.max(24,Math.min(58,Math.floor(W/28)));
+  particles=Array.from({length:n},(_,i)=>({
+    x:Math.random()*W,
+    y:Math.random()*H,
+    vx:.20+Math.random()*.55,
+    vy:(Math.random()-.5)*.11,
+    len:28+Math.random()*92,
+    a:.08+Math.random()*.20,
+    red:Math.random()>.34
+  }));
+}
+function drawFlow(){
+  ctx.clearRect(0,0,W,H);
+  for(const p of particles){
+    p.x+=p.vx*(1+(pointer.x-.5)*.18);
+    p.y+=p.vy+(pointer.y-.5)*.02;
+    if(p.x>W+p.len){p.x=-p.len;p.y=Math.random()*H}
+    if(p.y<-20)p.y=H+20;if(p.y>H+20)p.y=-20;
+    const g=ctx.createLinearGradient(p.x,p.y,p.x+p.len,p.y);
+    if(p.red){
+      g.addColorStop(0,'rgba(214,46,46,0)');
+      g.addColorStop(.55,`rgba(214,46,46,${p.a})`);
+      g.addColorStop(1,'rgba(255,190,190,0)');
+    }else{
+      g.addColorStop(0,'rgba(255,255,255,0)');
+      g.addColorStop(.55,`rgba(255,255,255,${p.a*.75})`);
+      g.addColorStop(1,'rgba(255,255,255,0)');
+    }
+    ctx.strokeStyle=g;ctx.lineWidth=1;
+    ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(p.x+p.len,p.y);ctx.stroke();
+  }
+  requestAnimationFrame(drawFlow);
+}
+window.addEventListener('resize',resizeCanvas);
+window.addEventListener('pointermove',e=>{pointer.x=e.clientX/innerWidth;pointer.y=e.clientY/innerHeight});
+resizeCanvas();drawFlow();
+
+/* ===== reveal ===== */
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}
+  })
+},{threshold:.14});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* ===== panel content ===== */
+const services={
+  caldaie:{
+    kicker:'Manutenzione e assistenza caldaie Immergas',
+    title:'Dal 1995, assistenza autorizzata sul territorio.',
+    intro:'La pagina attuale raccoglie esperienza, manutenzione, sicurezza, risparmio, reperibilità stagionale, personale qualificato e ricambi originali. Qui gli stessi contenuti diventano leggibili per blocchi.',
+    boxes:[
+      ['Risparmio','Una manutenzione accurata aiuta a mantenere efficienza e funzionalità, limitando sprechi e malfunzionamenti.'],
+      ['Ambiente','Un impianto controllato e regolato correttamente riduce consumi inutili e contribuisce a un funzionamento più efficiente.'],
+      ['Sicurezza','Controlli, ventilazione e corretta gestione dell’ambiente di installazione sono elementi centrali per la sicurezza.'],
+      ['Assistenza 7 giorni su 7','Nel periodo invernale il sito attuale indica reperibilità estesa anche nel fine settimana, con fasce dedicate.'],
+      ['Personale qualificato','I tecnici vengono descritti come specializzati e costantemente aggiornati tramite formazione specifica Immergas.'],
+      ['Ricambi originali','Il sito dichiara l’impiego esclusivo di ricambi originali Immergas.']
+    ],
+    note:'Nota progettuale: prima della pubblicazione definitiva il testo sulle periodicità normative va aggiornato e validato rispetto alle regole vigenti in Emilia-Romagna.'
+  },
+  clima:{
+    kicker:'Manutenzione condizionatori',
+    title:'La manutenzione diventa una checklist visiva.',
+    intro:'I tecnici Tecno Assistenza dichiarano certificazione F-GAS. La pagina attuale elenca numerosi controlli: nella nuova UX li rendiamo immediatamente comprensibili.',
+    boxes:[
+      ['Unità esterna','Controllo generale dell’unità esterna e dello stato dei componenti.'],
+      ['Batteria esterna','Pulizia e lavaggio della batteria esterna.'],
+      ['Liquido refrigerante','Controllo del livello della carica refrigerante.'],
+      ['Motoventilatori','Verifica della funzionalità dei motoventilatori.'],
+      ['Compressore','Verifica della funzionalità del compressore.'],
+      ['Parametri funzionali','Controllo dei parametri di funzionamento dell’impianto.'],
+      ['Filtri','Controllo, pulizia e lavaggio dei filtri dell’unità interna.'],
+      ['Pannelli e circuito','Controllo visivo comandi e verifica delle connessioni del circuito frigorifero.']
+    ],
+    note:'Questa sezione può diventare una checklist stampabile o collegabile allo storico intervento del cliente.'
+  },
+  energia:{
+    kicker:'Energia rinnovabile',
+    title:'Solare, fotovoltaico e pompa di calore in una sezione più contemporanea.',
+    intro:'Il sito attuale presenta le energie rinnovabili come parte dell’evoluzione dell’azienda e indica l’abilitazione alla manutenzione ordinaria e straordinaria di impianti FER.',
+    boxes:[
+      ['Solare termico','Servizi collegati alla manutenzione degli impianti solari e supporto agli installatori per il riempimento impianto.'],
+      ['Fotovoltaico','Voce già presente nell’offerta rinnovabili del sito attuale.'],
+      ['Pompa di calore','Tecnologia centrale per sistemi moderni di riscaldamento e climatizzazione.'],
+      ['Impianti FER','L’azienda dichiara abilitazione per manutenzione ordinaria e straordinaria su impianti da fonti rinnovabili.']
+    ],
+    note:'La parte normativa FER va verificata e aggiornata prima della versione pubblica definitiva.'
+  },
+  straordinari:{
+    kicker:'Interventi straordinari',
+    title:'Due problemi concreti, due percorsi chiari.',
+    intro:'Nel vecchio sito lavaggio caldaia e disincrostazione boiler sono pagine testuali separate. Qui diventano servizi immediatamente riconoscibili.',
+    boxes:[
+      ['Lavaggio caldaia','Dopo diversi anni di utilizzo possono formarsi depositi e incrostazioni nei circuiti. Il lavaggio mira a migliorare circolazione, rendimento e funzionalità di componenti come scambiatori, tre vie e tubazioni.'],
+      ['Problemi ricorrenti','Il sito cita blocchi da alta temperatura, flussostato, valvola tre vie e scarsa circolazione tra i casi che possono essere associati a depositi nel circuito.'],
+      ['Disincrostazione boiler','Il calcare può ridurre erogazione di acqua calda e rendimento; l’intervento viene presentato come pulizia periodica del boiler.'],
+      ['Anodo','La sostituzione dell’anodo viene proposta come protezione del boiler dalle correnti vaganti, con possibilità di valutare un anodo elettronico.']
+    ],
+    note:'Nel nuovo sito questi servizi possono avere CTA dirette: “Chiedi se il tuo impianto ne ha bisogno”.'
+  },
+  abbonamentiTA:{
+    kicker:'Abbonamenti Tecno Assistenza · Check Gas 2',
+    title:'STANDARD e PLUS, finalmente confrontabili.',
+    intro:'Il sito attuale contiene molte condizioni in forma testuale. Qui le trasformiamo in un confronto leggibile, lasciando il dettaglio contrattuale in un secondo livello.',
+    boxes:[
+      ['STANDARD','Manutenzione programmata annuale; controlli di rendimento secondo potenza e periodicità; sconto ricambi indicato sul sito; gestione urgenze con condizioni stagionali.'],
+      ['PLUS','Per generatori sotto 35 kW: manutenzione programmata, verifica di rendimento, servizio urgenze 7/7 con ricambi a pagamento, diritto di chiamata e manodopera per straordinaria secondo le condizioni pubblicate.'],
+      ['Urgenze','Il sito definisce urgenza l’assenza di acqua calda sanitaria o di energia termica per il riscaldamento invernale.'],
+      ['Esclusioni','Restano fuori dal contratto diversi accessori, problematiche da incrostazioni, noleggi ponteggi/gru e adempimenti CRITER secondo quanto riportato nella pagina attuale.']
+    ],
+    note:'Prima della pubblicazione reale i termini devono essere confrontati con i contratti commerciali effettivamente in uso.'
+  },
+  abbonamentiImmergas:{
+    kicker:'Abbonamenti Immergas · Estensione di garanzia',
+    title:'Una linea di formule, non un muro di testo.',
+    intro:'La pagina attuale propone più formule con durate e quote una tantum differenti. Nella nuova struttura l’utente può confrontarle e aprire solo quella che gli interessa.',
+    plans:[
+      ['Comfort Extra','5 anni dalla verifica iniziale; la pagina attuale indica nessuna quota una tantum e canone annuo collegato alle manutenzioni programmate.'],
+      ['Comfort 5','5 anni; quota una tantum indicata sul sito: 60 € IVA 10% inclusa.'],
+      ['Comfort 10','10 anni; quota una tantum indicata sul sito: 170 € IVA 10% inclusa.'],
+      ['Comfort +3','Estensione di 3 anni dopo Comfort 5 / Extra; quota una tantum indicata: 75 € IVA 10% inclusa.'],
+      ['Comfort Ultra 2','Ulteriori 2 anni dopo Comfort +3; quota una tantum indicata: 50 € IVA 10% inclusa.'],
+      ['Comfort +5','Estensione di 5 anni dopo Comfort 5 / Extra; quota una tantum indicata: 110 € IVA 10% inclusa.']
+    ],
+    note:'Le cifre sono riprese dalla pagina pubblica attuale e vanno confermate prima di una nuova pubblicazione commerciale.'
+  }
+};
+
+const overlay=document.getElementById('overlay');
+const modalContent=document.getElementById('modalContent');
+
+function serviceHtml(s){
+  let body='';
+  if(s.boxes){
+    body='<div class="modal-grid">'+s.boxes.map(x=>`<div class="modal-box"><h4>${x[0]}</h4><p>${x[1]}</p></div>`).join('')+'</div>';
+  }
+  if(s.plans){
+    body='<div class="plan-list">'+s.plans.map(x=>`<div class="plan-row"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('')+'</div>';
+  }
+  return `<div class="modal-kicker">${s.kicker}</div>
+  <h3>${s.title}</h3>
+  <p>${s.intro}</p>
+  ${body}
+  <div class="modal-note">${s.note}</div>
+  <div class="modal-footer">
+    <span class="modal-hint">Chiudi cliccando fuori dal pannello, premendo ESC oppure usando “Torna al sito”.</span>
+    <button class="close-btn" type="button" onclick="closeOverlay()">Torna al sito</button>
+  </div>`;
+}
+function openService(key){
+  modalContent.innerHTML=serviceHtml(services[key]);
+  overlay.hidden=false;overlay.setAttribute('aria-hidden','false');document.body.classList.add('lock');
+}
+function closeOverlay(){
+  overlay.hidden=true;overlay.setAttribute('aria-hidden','true');document.body.classList.remove('lock');
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!overlay.hidden)closeOverlay()});
+document.querySelectorAll('[role="button"]').forEach(el=>{
+  el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click()}})
+});
+
+
+
+
+
+function backofficeDemoHtml(){
+  return `
+    <div class="modal-kicker">Area riservata / backoffice</div>
+    <h3>Una dashboard completa, come nella V5.</h3>
+    <p>Questa è la scheda dimostrativa che resta prima del login: KPI rapidi, clienti, media, richieste, comunicazioni e servizi. Da qui puoi entrare nell’area operativa completa.</p>
+
+    <div class="kpi-grid" style="margin-top:22px">
+      <div class="kpi"><small>Clienti</small><strong>25.000+</strong></div>
+      <div class="kpi"><small>Interventi oggi</small><strong>12</strong></div>
+      <div class="kpi"><small>Richieste nuove</small><strong>7</strong></div>
+      <div class="kpi"><small>Documenti</small><strong>342</strong></div>
+    </div>
+
+    <div class="modal-grid">
+      <div class="modal-box"><h4>Clienti</h4><ul><li>Anagrafica completa con schede espandibili +/−</li><li>Storico interventi collegato</li><li>Impianti, matricole, documenti e note</li></ul></div>
+      <div class="modal-box"><h4>Media / PDF</h4><ul><li>Foto, video e PDF collegati a clienti o servizi</li><li>Watermark e copertine PDF opzionali</li><li>Archivio centrale richiamabile</li></ul></div>
+      <div class="modal-box"><h4>Richieste / comunicazioni</h4><ul><li>Nuove richieste intervento</li><li>Promemoria manutenzioni</li><li>Comunicazioni informative</li></ul></div>
+      <div class="modal-box"><h4>Servizi / dettagli estesi</h4><ul><li>Gestione contenuti pubblici</li><li>Popup servizio completi</li><li>Dettagli tecnici e allegati dedicati</li></ul></div>
+    </div>
+
+    <div class="bo-footer-note">Questa è la parte “ditta”, separata dall’area personale cliente. Il pannello successivo mantiene sia la dashboard nuova sia le barre espandibili stile Air V5.</div>
+
+    <div class="modal-footer">
+      <span class="modal-hint">Puoi chiudere il pannello oppure entrare nell’area riservata.</span>
+      <div style="display:flex;gap:9px;flex-wrap:wrap">
+        <button class="close-btn" type="button" onclick="closeOverlay()">Torna al sito</button>
+        <button class="btn primary" type="button" onclick="openBackofficeLoginFromDemo()">Entra nell’area</button>
+      </div>
+    </div>`;
+}
+function openBackofficeDemo(){
+  modalContent.innerHTML=backofficeDemoHtml();
+  overlay.hidden=false;
+  overlay.setAttribute('aria-hidden','false');
+  document.body.classList.add('lock');
+}
+function openBackofficeLoginFromDemo(){
+  closeOverlay();
+  setTimeout(()=>taOpenLogin(),60);
+}
+
+/* ===== V7 real reserved/admin area ===== */
+const taAdminLogin = document.getElementById('taAdminLogin');
+const taAdminPanel = document.getElementById('taAdminPanel');
+const taAdminLayer = document.getElementById('taAdminLayer');
+const taAdminLayerCard = document.getElementById('taAdminLayerCard');
+const taSaveStatus = document.getElementById('taSaveStatus');
+const TA_ADMIN_KEY = 'tecnoAssistenzaAdminDemoV7';
+
+function taOpenLogin(){
+  taAdminLogin.hidden = false;
+  taAdminLogin.setAttribute('aria-hidden','false');
+  document.body.classList.add('lock');
+  setTimeout(()=>document.getElementById('taAdminPassword')?.focus(),50);
+}
+function taCloseLogin(){
+  taAdminLogin.hidden = true;
+  taAdminLogin.setAttribute('aria-hidden','true');
+  document.getElementById('taLoginError').textContent='';
+  if(taAdminPanel.hidden) document.body.classList.remove('lock');
+}
+function taOpenPanel(){
+  taCloseLogin();
+  taAdminPanel.hidden = false;
+  taAdminPanel.setAttribute('aria-hidden','false');
+  document.body.classList.add('lock');
+  taLoadAdmin();
+}
+function taClosePanel(){
+  taAdminPanel.hidden = true;
+  taAdminPanel.setAttribute('aria-hidden','true');
+  taCloseModule();
+  document.body.classList.remove('lock');
+}
+function taLogout(){
+  taClosePanel();
+}
+// Footer/top Area riservata entries open the demo first; login is reached via “Entra nell’area”.
+document.getElementById('taCancelLogin')?.addEventListener('click',taCloseLogin);
+document.getElementById('taCloseAdmin')?.addEventListener('click',taClosePanel);
+document.getElementById('taLogoutAdmin')?.addEventListener('click',taLogout);
+
+document.getElementById('taAdminLoginForm')?.addEventListener('submit',e=>{
+  e.preventDefault();
+  const u=document.getElementById('taAdminUser').value.trim();
+  const p=document.getElementById('taAdminPassword').value;
+  if(u==='admin' && p==='demo2026'){
+    document.getElementById('taLoginError').textContent='';
+    taOpenPanel();
+  }else{
+    document.getElementById('taLoginError').textContent='Credenziali demo non corrette.';
+  }
+});
+
+function taReadForm(){
+  const obj={};
+  document.querySelectorAll('[data-ta-key]').forEach(el=>obj[el.dataset.taKey]=el.value);
+  return obj;
+}
+function taWriteForm(obj={}){
+  document.querySelectorAll('[data-ta-key]').forEach(el=>{
+    if(Object.prototype.hasOwnProperty.call(obj,el.dataset.taKey)) el.value=obj[el.dataset.taKey];
+  });
+}
+function taApplyPublic(obj){
+  if(!obj) return;
+  const eyebrow=document.querySelector('.hero-copy .eyebrow');
+  const h1=document.querySelector('.hero-copy h1');
+  const lead=document.querySelector('.hero-copy .hero-lead');
+  if(eyebrow && obj.heroEyebrow) eyebrow.textContent=obj.heroEyebrow;
+  if(h1 && (obj.heroTitle1 || obj.heroTitle2)){
+    h1.innerHTML=`${obj.heroTitle1||'Il servizio fa la differenza.'} <span class="stroke">${obj.heroTitle2||'La differenza la fanno le persone.'}</span>`;
+  }
+  if(lead && obj.heroLead) lead.textContent=obj.heroLead;
+
+  const stats=[obj.stat1,obj.stat2,obj.stat3,obj.stat4];
+  document.querySelectorAll('.hero-stat strong').forEach((el,i)=>{if(stats[i])el.textContent=stats[i]});
+
+  const serviceTitles=[obj.service1,obj.service2,obj.service3,obj.service4];
+  document.querySelectorAll('.service-card .card-copy h3').forEach((el,i)=>{if(serviceTitles[i])el.textContent=serviceTitles[i]});
+
+  const contactStrong=document.querySelectorAll('.contact-row strong');
+  if(contactStrong[0] && obj.phone) contactStrong[0].textContent=obj.phone;
+  if(contactStrong[1] && obj.email) contactStrong[1].textContent=obj.email;
+  if(contactStrong[2] && obj.address) contactStrong[2].innerHTML=obj.address.replace(' · ','<br>');
+}
+function taSaveAdmin(){
+  const data=taReadForm();
+  localStorage.setItem(TA_ADMIN_KEY,JSON.stringify(data));
+  taApplyPublic(data);
+  taSaveStatus.classList.add('show');
+  setTimeout(()=>taSaveStatus.classList.remove('show'),1800);
+}
+function taLoadAdmin(){
+  try{
+    const data=JSON.parse(localStorage.getItem(TA_ADMIN_KEY)||'null');
+    if(data){taWriteForm(data);taApplyPublic(data)}
+  }catch(e){}
+}
+document.getElementById('taSaveAdmin')?.addEventListener('click',taSaveAdmin);
+document.getElementById('taRestoreAdmin')?.addEventListener('click',()=>{
+  localStorage.removeItem(TA_ADMIN_KEY);
+  location.reload();
+});
+
+function taModuleContent(key){
+  const commonHead=(kicker,title)=>`
+    <div class="ta-layer-head">
+      <div><small>${kicker}</small><h3>${title}</h3></div>
+      <button class="ta-admin-btn ghost" type="button" onclick="taCloseModule()">Chiudi</button>
+    </div>`;
+  if(key==='clients') return commonHead('CRM','Clienti & interventi')+`
+    <div class="ta-layer-grid">
+      <div class="ta-layer-box">
+        <h4>Clienti</h4>
+        <div class="ta-client-list">
+          <div class="ta-client-row">
+            <button class="ta-client-head" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden"><b>Mario Rossi</b><span>2 impianti · 8 documenti</span></button>
+            <div class="ta-client-detail" hidden>Via Roma 12, Soliera · 333 0000000 · Caldaia Immergas · Ultimo intervento 14/04/2026 · Prossima manutenzione novembre 2026.</div>
+          </div>
+          <div class="ta-client-row">
+            <button class="ta-client-head" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden"><b>Condominio Le Querce</b><span>Centralizzato · 3 interventi</span></button>
+            <div class="ta-client-detail" hidden>Impianto centralizzato · referente amministratore · storico lavori e documentazione tecnica collegati.</div>
+          </div>
+          <div class="ta-client-row">
+            <button class="ta-client-head" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden"><b>Paola Bianchi</b><span>Pompa di calore · manutenzione</span></button>
+            <div class="ta-client-detail" hidden>Pompa di calore · contratto manutenzione · documenti tecnici e rapporti intervento disponibili.</div>
+          </div>
+        </div>
+      </div>
+      <div class="ta-layer-box">
+        <h4>Storico interventi</h4>
+        <div class="ta-request-row"><span>14/04/2026</span><b>Manutenzione programmata</b><i>Completata</i></div>
+        <div class="ta-request-row"><span>08/01/2026</span><b>Controllo pressione</b><i>Completato</i></div>
+        <div class="ta-request-row"><span>11/11/2025</span><b>Analisi combustione</b><i>PDF</i></div>
+      </div>
+    </div>`;
+  if(key==='media') return commonHead('Media','Foto, video & PDF')+`
+    <div class="ta-layer-grid">
+      <div class="ta-layer-box"><h4>Nuovo media</h4>
+        <div class="ta-admin-field"><label>File</label><input type="file" accept="image/*,video/*,.pdf"></div>
+        <div class="ta-media-options">
+          <label class="ta-option"><input type="checkbox"> Watermark immagine</label>
+          <label class="ta-option"><input type="checkbox"> Watermark PDF</label>
+          <label class="ta-option"><input type="checkbox"> Copertina PDF</label>
+        </div>
+      </div>
+      <div class="ta-layer-box"><h4>Associazione</h4>
+        <div class="ta-admin-field"><label>Collega a</label><select><option>Servizio</option><option>Cliente</option><option>Intervento</option></select></div>
+        <div class="ta-admin-field"><label>Titolo / descrizione</label><textarea placeholder="Descrizione media"></textarea></div>
+      </div>
+    </div>`;
+  if(key==='requests') return commonHead('Richieste','Richieste intervento')+`
+    <div class="ta-layer-box">
+      <div class="ta-request-row"><span>Oggi 08:42</span><b>Assenza acqua calda · Soliera</b><i>Nuova</i></div>
+      <div class="ta-request-row"><span>Oggi 09:17</span><b>Manutenzione caldaia · Carpi</b><i>Da assegnare</i></div>
+      <div class="ta-request-row"><span>Ieri 16:05</span><b>Climatizzatore rumoroso · Novi</b><i>In lavorazione</i></div>
+      <div class="ta-request-row"><span>Ieri 11:28</span><b>Pompa di calore · Bastiglia</b><i>Richiamato</i></div>
+    </div>`;
+  return commonHead('Email','Comunicazioni')+`
+    <div class="ta-layer-grid">
+      <div class="ta-layer-box">
+        <h4>Nuova comunicazione</h4>
+        <div class="ta-admin-field"><label>Oggetto</label><input value="Promemoria manutenzione"></div>
+        <div class="ta-admin-field"><label>Messaggio</label><textarea>Gentile cliente, la manutenzione programmata del suo impianto è in scadenza.</textarea></div>
+        <button class="ta-admin-btn primary" type="button">Prepara comunicazione</button>
+      </div>
+      <div class="ta-layer-box">
+        <h4>Destinatari / storico</h4>
+        <ul><li>Clienti con manutenzione in scadenza</li><li>Comunicazioni di chiusura aziendale</li><li>Avvisi di servizio</li></ul>
+      </div>
+    </div>`;
+}
+function taOpenModule(key){
+  taAdminLayerCard.innerHTML=taModuleContent(key);
+  taAdminLayer.hidden=false;
+  taAdminLayer.setAttribute('aria-hidden','false');
+}
+function taCloseModule(){
+  taAdminLayer.hidden=true;
+  taAdminLayer.setAttribute('aria-hidden','true');
+}
+document.querySelectorAll('[data-ta-module]').forEach(btn=>btn.addEventListener('click',()=>taOpenModule(btn.dataset.taModule)));
+taAdminLayer?.addEventListener('click',e=>{if(e.target===taAdminLayer)taCloseModule()});
+taAdminLogin?.addEventListener('click',e=>{if(e.target===taAdminLogin)taCloseLogin()});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){
+    if(!taAdminLayer.hidden) taCloseModule();
+    else if(!taAdminLogin.hidden) taCloseLogin();
+  }
+});
+taLoadAdmin();
+
+/* ===== client area ===== */
+function clientAreaHtml(){
+return `
+<div class="client-modal-login" id="clientLogin">
+  <div class="modal-kicker">Area personale</div>
+  <h3>Accedi al tuo impianto.</h3>
+  <p>Il sito attuale dispone già di accesso e registrazione. Questa è una proposta di front-end: il contenuto reale sarà collegato al database solo dopo aver verificato struttura e permessi del sistema esistente.</p>
+
+  <div class="auth-tabs">
+    <button class="auth-tab active" id="tabLogin" onclick="switchAuth('login')">Accedi</button>
+    <button class="auth-tab" id="tabRegister" onclick="switchAuth('register')">Registrati</button>
+  </div>
+
+  <div class="auth-pane" id="paneLogin">
+    <div class="auth-form">
+      <div class="field wide"><label>Email</label><input placeholder="nome@email.it"></div>
+      <div class="field wide"><label>Password</label><input type="password" placeholder="••••••••"></div>
+    </div>
+    <div class="form-actions">
+      <button class="btn primary" type="button" onclick="showClientDemo()">Entra nella demo area cliente</button>
+      <span class="demo-login-note">Demo locale: nessuna credenziale reale viene inviata.</span>
+    </div>
+  </div>
+
+  <div class="auth-pane" id="paneRegister" hidden>
+    <div class="auth-form">
+      <div class="field"><label>Nome</label><input placeholder="Nome"></div>
+      <div class="field"><label>Cognome</label><input placeholder="Cognome"></div>
+      <div class="field wide"><label>Email</label><input placeholder="nome@email.it"></div>
+      <div class="field wide"><label>Telefono</label><input placeholder="Telefono"></div>
+    </div>
+    <div class="modal-note">La registrazione reale andrà collegata al database clienti e alle regole di associazione impianto/account già esistenti.</div>
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-hint">Il contenuto privato attuale non è stato inventato: va verificato con accesso autorizzato al backend.</span>
+    <button class="close-btn" type="button" onclick="closeOverlay()">Torna al sito</button>
+  </div>
+</div>
+
+<div class="client-modal-dashboard" id="clientDash">
+  <div class="modal-kicker">Area cliente · demo</div>
+  <h3>Mario Rossi · Impianto domestico</h3>
+  <p>Esempio di come potrebbe apparire il portale una volta collegato a clienti, impianti, interventi e documenti reali.</p>
+
+  <div class="modal-grid">
+    <div class="modal-box"><h4>Impianto</h4><p>Caldaia Immergas · matricola / modello collegati alla scheda cliente.</p></div>
+    <div class="modal-box"><h4>Prossima manutenzione</h4><p>Novembre 2026 · promemoria e richiesta appuntamento.</p></div>
+    <div class="modal-box"><h4>Storico interventi</h4><ul><li>14/04/2026 · manutenzione programmata</li><li>08/01/2026 · controllo pressione</li><li>11/11/2025 · analisi combustione</li></ul></div>
+    <div class="modal-box"><h4>Documenti</h4><ul><li>Rapporto intervento</li><li>Allegato tecnico</li><li>Documentazione impianto</li></ul></div>
+    <div class="modal-box"><h4>Abbonamento</h4><p>Formula cliente, stato, rinnovo e condizioni visualizzabili in modo chiaro.</p></div>
+    <div class="modal-box"><h4>Nuova richiesta</h4><p>Il cliente apre una richiesta già collegata alla propria scheda e al proprio impianto.</p></div>
+  </div>
+
+  <div class="modal-footer">
+    <button class="close-btn" type="button" onclick="backToLogin()">← Torna all’accesso</button>
+    <button class="btn primary" type="button" onclick="closeOverlay()">Chiudi demo</button>
+  </div>
+</div>`;
+}
+function openClientArea(){
+  modalContent.innerHTML=clientAreaHtml();
+  overlay.hidden=false;overlay.setAttribute('aria-hidden','false');document.body.classList.add('lock');
+}
+function switchAuth(mode){
+  const login=mode==='login';
+  document.getElementById('paneLogin').hidden=!login;
+  document.getElementById('paneRegister').hidden=login;
+  document.getElementById('tabLogin').classList.toggle('active',login);
+  document.getElementById('tabRegister').classList.toggle('active',!login);
+}
+function showClientDemo(){
+  document.getElementById('clientLogin').classList.add('hidden');
+  document.getElementById('clientDash').classList.add('active');
+}
+function backToLogin(){
+  document.getElementById('clientDash').classList.remove('active');
+  document.getElementById('clientLogin').classList.remove('hidden');
+}
+</script>
+</body>
+</html>
