@@ -1,0 +1,1000 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tecno Assistenza — V7 Dynamic + Area Riservata Completa</title>
+<meta name="description" content="Concept dinamico per Tecno Assistenza: assistenza caldaie Immergas, climatizzazione, rinnovabili, abbonamenti e area clienti.">
+<style>
+:root{
+  --bg:#14171b;
+  --bg2:#1a1e23;
+  --panel:#1d2228;
+  --panel2:#232932;
+  --ink:#f4f5f7;
+  --muted:#a9b0ba;
+  --red:#d62e2e;
+  --red2:#9e1e1e;
+  --redGlow:rgba(214,46,46,.28);
+  --steel:#7d858f;
+  --ice:#e9eef3;
+  --line:rgba(255,255,255,.09);
+  --cyan:#22a9da;
+  --shadow:0 28px 90px rgba(0,0,0,.42);
+  --radius:26px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{
+  margin:0;
+  color:var(--ink);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(214,46,46,.12), transparent 25%),
+    radial-gradient(circle at 86% 20%, rgba(255,255,255,.035), transparent 20%),
+    linear-gradient(180deg,#15181c 0%,#1b2026 54%,#13171b 100%);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  overflow-x:hidden;
+}
+body.lock{overflow:hidden}
+button,input,select,textarea{font:inherit}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+
+.topbar{
+  position:fixed;inset:0 0 auto 0;z-index:80;
+  display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;
+  padding:13px clamp(16px,4vw,54px);
+  background:linear-gradient(to bottom,rgba(18,21,25,.92),rgba(18,21,25,.68));
+  border-bottom:1px solid rgba(255,255,255,.055);
+  backdrop-filter:blur(16px);
+}
+.brand{
+  display:flex;align-items:center;gap:12px;min-width:230px;
+}
+.brand-logo{
+  width:182px;height:44px;object-fit:contain;object-position:left center;
+  background:#fff;border-radius:9px;padding:5px 8px;
+  box-shadow:0 8px 28px rgba(0,0,0,.25);
+}
+.brand-fallback{
+  display:none;font-weight:900;letter-spacing:.055em;text-transform:uppercase;font-style:italic;
+  color:#fff;
+}
+.brand-fallback b{color:var(--cyan)}
+.mainnav{
+  display:flex;justify-content:center;gap:24px;color:#cbd1d8;font-size:13px;font-weight:700;
+}
+.mainnav a{position:relative;padding:8px 0}
+.mainnav a:after{
+  content:"";position:absolute;left:0;right:100%;bottom:2px;height:2px;
+  background:linear-gradient(90deg,var(--red),rgba(214,46,46,.15));transition:.25s ease;
+}
+.mainnav a:hover:after{right:0}
+.top-actions{display:flex;gap:9px;justify-content:flex-end}
+.btn{
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(255,255,255,.045);
+  color:#fff;border-radius:13px;padding:11px 16px;font-weight:800;cursor:pointer;
+  transition:.22s ease;
+}
+.btn:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.26);background:rgba(255,255,255,.07)}
+.btn.primary{
+  border-color:transparent;
+  background:linear-gradient(135deg,var(--red),var(--red2));
+  box-shadow:0 14px 34px rgba(214,46,46,.22);
+}
+.mobile-menu{display:none}
+
+/* HERO */
+.hero{
+  position:relative;min-height:100svh;isolation:isolate;overflow:hidden;
+  display:grid;align-items:center;padding:112px clamp(18px,5vw,72px) 64px;
+}
+.hero-slides{position:absolute;inset:0;z-index:-6;background:#101216}
+.hero-slide{
+  position:absolute;inset:-3%;opacity:0;
+  background-position:center;background-size:cover;
+  filter:saturate(.72) contrast(1.08) brightness(.62);
+  transform:scale(1.06);
+  animation:heroCycle 24s infinite;
+}
+.hero-slide:nth-child(1){background-image:url("https://www.tecnoassistenza.it/uploads/280721095545slide-home-2jpg.jpg");animation-delay:0s}
+.hero-slide:nth-child(2){background-image:url("https://www.tecnoassistenza.it/uploads/280721130025slide-homejpg.jpg");animation-delay:8s}
+.hero-slide:nth-child(3){background-image:url("https://www.tecnoassistenza.it/uploads/290721153332dji-0021-modificatajpg.jpg");animation-delay:16s}
+@keyframes heroCycle{
+  0%{opacity:0;transform:scale(1.06) translate3d(0,0,0)}
+  5%,28%{opacity:1}
+  33%,100%{opacity:0}
+  30%{transform:scale(1.14) translate3d(-1.5%,1%,0)}
+}
+.hero-wash{
+  position:absolute;inset:0;z-index:-5;
+  background:
+    linear-gradient(90deg,rgba(5,6,8,.94) 0%,rgba(5,6,8,.78) 42%,rgba(5,6,8,.28) 72%,rgba(5,6,8,.58) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.24),rgba(0,0,0,.12) 54%,rgba(6,7,9,.90));
+}
+.hero-grid{
+  position:absolute;inset:0;z-index:-4;
+  background:
+    linear-gradient(90deg,rgba(255,255,255,.038) 1px,transparent 1px),
+    linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px);
+  background-size:60px 60px;
+  mask-image:linear-gradient(to bottom,black,transparent 82%);
+}
+#flowCanvas{position:absolute;inset:0;z-index:-3;width:100%;height:100%;pointer-events:none}
+.hero-orbits{position:absolute;inset:0;z-index:-2;pointer-events:none}
+.orbit{
+  position:absolute;border:1px solid rgba(255,255,255,.11);border-radius:50%;
+  box-shadow:inset 0 0 38px rgba(255,255,255,.014),0 0 0 18px rgba(255,255,255,.008);
+  animation:spin 18s linear infinite;
+}
+.orbit:before,.orbit:after{
+  content:"";position:absolute;border-radius:50%;background:var(--red);
+  box-shadow:0 0 20px rgba(214,46,46,.55)
+}
+.orbit:before{width:7px;height:7px;left:12%;top:18%}
+.orbit:after{width:4px;height:4px;right:8%;bottom:23%}
+.o1{width:430px;height:430px;right:-80px;top:14%}
+.o2{width:230px;height:230px;right:90px;top:33%;animation-direction:reverse;animation-duration:12s}
+.o3{width:150px;height:150px;left:43%;bottom:7%;animation-duration:10s}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero-inner{
+  width:min(1280px,100%);margin:auto;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.72fr);gap:38px;align-items:end
+}
+.hero-copy{padding-top:5vh}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:11px;color:#ffd0d0;
+  font-size:12px;font-weight:850;letter-spacing:.15em;text-transform:uppercase;
+}
+.eyebrow:before{content:"";width:40px;height:1px;background:linear-gradient(90deg,var(--red),transparent)}
+h1{
+  font-size:clamp(54px,7.6vw,112px);line-height:.89;letter-spacing:-.06em;
+  margin:17px 0 22px;max-width:920px;text-wrap:balance;
+}
+h1 .stroke{
+  display:block;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.55);
+}
+.hero-lead{
+  max-width:730px;color:#d2d7dd;font-size:clamp(17px,1.8vw,22px);line-height:1.58;margin:0
+}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.hero-side{
+  display:grid;gap:12px;align-self:end;padding-bottom:8px
+}
+.hero-stat{
+  position:relative;overflow:hidden;
+  display:grid;grid-template-columns:96px 1fr;align-items:center;gap:15px;
+  padding:17px 18px;border:1px solid rgba(255,255,255,.105);border-radius:19px;
+  background:rgba(28,32,38,.62);backdrop-filter:blur(16px);box-shadow:0 18px 44px rgba(0,0,0,.18)
+}
+.hero-stat:after{
+  content:"";position:absolute;right:-40px;top:-40px;width:120px;height:120px;border-radius:50%;
+  background:radial-gradient(circle,rgba(214,46,46,.20),transparent 67%)
+}
+.hero-stat strong{font-size:32px;letter-spacing:-.04em}
+.hero-stat span{color:#aeb6c0;line-height:1.4;font-size:13px}
+.hero-stat span b{display:block;color:#fff;font-size:14px;margin-bottom:2px}
+.scroll-hint{
+  position:absolute;left:clamp(18px,5vw,72px);bottom:22px;z-index:3;
+  display:flex;align-items:center;gap:10px;color:#a9b0ba;font-size:11px;letter-spacing:.12em;text-transform:uppercase
+}
+.scroll-hint i{display:block;width:42px;height:1px;background:linear-gradient(90deg,var(--red),transparent)}
+
+.section{padding:104px clamp(18px,5vw,72px);max-width:1380px;margin:auto}
+.section-head{
+  display:grid;grid-template-columns:1fr minmax(280px,520px);gap:34px;align-items:end;margin-bottom:38px
+}
+.section h2{font-size:clamp(39px,5vw,70px);line-height:.96;letter-spacing:-.052em;margin:0}
+.section-head p{margin:0;color:var(--muted);line-height:1.67}
+.kicker{color:#ffb7b7;font-size:11px;font-weight:850;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+
+/* BENTO SERVICES */
+.service-bento{
+  display:grid;grid-template-columns:1.25fr .75fr .75fr;grid-auto-rows:265px;gap:16px
+}
+.service-card{
+  position:relative;overflow:hidden;border-radius:var(--radius);border:1px solid rgba(255,255,255,.095);
+  background:linear-gradient(145deg,rgba(34,38,45,.96),rgba(19,23,29,.97));
+  box-shadow:var(--shadow);cursor:pointer;transition:.34s cubic-bezier(.2,.7,.2,1);
+  isolation:isolate;
+}
+.service-card.big{grid-row:span 2}
+.service-card.wide{grid-column:span 2}
+.service-card:hover{
+  transform:translateY(-8px) scale(1.008);
+  border-color:rgba(255,255,255,.28);
+  box-shadow:0 30px 90px rgba(0,0,0,.48),0 0 0 1px rgba(214,46,46,.10),0 0 46px rgba(214,46,46,.08)
+}
+.card-photo{
+  position:absolute;inset:0;z-index:-3;background-position:center;background-size:cover;
+  filter:saturate(.70) contrast(1.06) brightness(.62);transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .4s ease
+}
+.service-card:hover .card-photo{transform:scale(1.055);filter:saturate(.86) contrast(1.09) brightness(.67)}
+.card-photo.caldaie{background-image:url("https://www.tecnoassistenza.it/uploads/260721080048manutenzione-e-assistenza-caldaie-immergasjpg.jpg")}
+.card-photo.energia{background-image:url("https://www.tecnoassistenza.it/uploads/260721124714energia-rinnovabilejpg.jpg")}
+.card-photo.sede{background-image:url("https://www.tecnoassistenza.it/uploads/290721153332dji-0021-modificatajpg.jpg")}
+.service-card:before{
+  content:"";position:absolute;inset:0;z-index:-2;
+  background:linear-gradient(180deg,rgba(16,18,22,.10),rgba(16,18,22,.70) 86%)
+}
+.service-card:after{
+  content:"";position:absolute;width:170px;height:170px;border-radius:50%;right:-65px;top:-65px;
+  background:radial-gradient(circle,rgba(214,46,46,.24),transparent 70%);z-index:-1;transition:.35s ease
+}
+.service-card:hover:after{transform:scale(1.35)}
+.card-copy{position:absolute;left:25px;right:25px;bottom:23px}
+.card-index{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#ffc9c9;font-weight:800}
+.card-copy h3{font-size:clamp(25px,3vw,42px);margin:8px 0 9px;line-height:.98;letter-spacing:-.035em}
+.card-copy p{color:#c4cad2;line-height:1.55;margin:0;max-width:580px;font-size:14px}
+.card-open{display:inline-flex;align-items:center;gap:8px;margin-top:15px;color:#fff;font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.08em}
+.card-open:after{content:"→";transition:.25s ease}.service-card:hover .card-open:after{transform:translateX(5px)}
+
+/* METHOD */
+.method-shell{
+  display:grid;grid-template-columns:.85fr 1.15fr;gap:18px
+}
+.method-panel{
+  min-height:480px;border:1px solid var(--line);border-radius:30px;
+  background:linear-gradient(145deg,rgba(31,36,42,.92),rgba(17,21,26,.94));box-shadow:var(--shadow);overflow:hidden
+}
+.method-visual{
+  position:relative;background:
+    radial-gradient(circle at 22% 24%,rgba(214,46,46,.18),transparent 30%),
+    linear-gradient(145deg,#15181e,#090a0d);
+}
+.method-radar{
+  position:absolute;left:50%;top:50%;width:330px;height:330px;transform:translate(-50%,-50%);border-radius:50%;
+  border:1px solid rgba(255,255,255,.12)
+}
+.method-radar:before,.method-radar:after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.08)}
+.method-radar:before{inset:50px}.method-radar:after{inset:105px}
+.radar-line{position:absolute;left:50%;top:50%;width:46%;height:1px;background:linear-gradient(90deg,var(--red),transparent);transform-origin:left center;animation:radar 5s linear infinite}
+@keyframes radar{to{transform:rotate(360deg)}}
+.radar-dot{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 20px var(--red)}
+.rd1{left:28%;top:34%}.rd2{right:24%;top:43%}.rd3{left:45%;bottom:25%}.rd4{right:34%;bottom:36%}
+.method-caption{position:absolute;left:26px;right:26px;bottom:24px}
+.method-caption b{display:block;font-size:31px;margin-bottom:7px}.method-caption span{color:#b9c0c9;line-height:1.55}
+.steps{padding:14px}
+.step{
+  display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:start;
+  padding:20px 18px;border-bottom:1px solid rgba(255,255,255,.07);transition:.24s ease
+}
+.step:last-child{border-bottom:none}
+.step:hover{background:rgba(255,255,255,.035);transform:translateX(5px)}
+.step-num{
+  width:43px;height:43px;border-radius:50%;display:grid;place-items:center;
+  border:1px solid rgba(214,46,46,.36);background:rgba(214,46,46,.08);color:#ffc7c7;font-weight:900
+}
+.step b{display:block;font-size:18px;margin-bottom:5px}.step span{color:#aeb6c0;line-height:1.55;font-size:14px}
+
+/* COMPANY */
+.company{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:18px;align-items:stretch
+}
+.company-photo{
+  min-height:560px;border-radius:30px;overflow:hidden;border:1px solid rgba(255,255,255,.09);position:relative;
+  background-image:linear-gradient(180deg,rgba(0,0,0,.02),rgba(0,0,0,.48)),url("https://www.tecnoassistenza.it/uploads/290721153332dji-0021-modificatajpg.jpg");
+  background-size:cover;background-position:center;box-shadow:var(--shadow)
+}
+.company-photo:after{
+  content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 55%,rgba(214,46,46,.14));mix-blend-mode:screen
+}
+.company-label{position:absolute;left:24px;right:24px;bottom:22px;z-index:2}
+.company-label b{font-size:35px;display:block;line-height:1}.company-label span{color:#c5cbd2;display:block;margin-top:8px}
+.company-copy{
+  border:1px solid var(--line);border-radius:30px;padding:30px;background:linear-gradient(145deg,#22272d,#15191e);box-shadow:var(--shadow)
+}
+.company-copy h3{font-size:clamp(34px,4vw,54px);margin:0 0 16px;line-height:.98;letter-spacing:-.04em}
+.company-copy p{color:#b9c0c9;line-height:1.7;margin:0 0 17px}
+.metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:23px}
+.metric{padding:17px;border:1px solid rgba(255,255,255,.08);border-radius:18px;background:rgba(255,255,255,.025)}
+.metric strong{font-size:28px;display:block}.metric small{color:#aab2bc}
+
+/* SUBSCRIPTIONS */
+.sub-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.sub-card{
+  min-height:330px;border-radius:28px;padding:28px;border:1px solid rgba(255,255,255,.09);
+  background:linear-gradient(145deg,#232830,#171b21);position:relative;overflow:hidden;cursor:pointer;
+  transition:.3s ease;box-shadow:var(--shadow)
+}
+.sub-card:hover{transform:translateY(-7px);border-color:rgba(255,255,255,.22)}
+.sub-card:after{content:"";position:absolute;right:-80px;bottom:-80px;width:240px;height:240px;border:1px solid rgba(255,255,255,.06);border-radius:50%;box-shadow:0 0 0 36px rgba(255,255,255,.012)}
+.sub-card h3{font-size:37px;margin:30px 0 11px;line-height:1}.sub-card p{color:#b6bec7;line-height:1.6;max-width:530px}
+.sub-chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.chip{padding:8px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.09);background:rgba(255,255,255,.035);font-size:12px;color:#dce1e6}
+
+/* CLIENT AREA */
+.client-showcase{
+  border:1px solid rgba(255,255,255,.09);border-radius:32px;overflow:hidden;
+  display:grid;grid-template-columns:.78fr 1.22fr;background:linear-gradient(145deg,#23282f,#15191e);box-shadow:var(--shadow)
+}
+.client-copy{padding:34px}
+.client-copy h3{font-size:clamp(36px,4vw,57px);line-height:.96;letter-spacing:-.045em;margin:9px 0 15px}
+.client-copy p{color:#b8c0c9;line-height:1.68}
+.client-features{display:grid;gap:10px;margin:20px 0}
+.client-feature{display:flex;gap:10px;align-items:center;color:#d6dbe1}
+.client-feature:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 12px var(--redGlow)}
+.dashboard-preview{
+  position:relative;padding:24px;background:
+  radial-gradient(circle at 84% 18%,rgba(214,46,46,.11),transparent 26%),
+  #181c22;border-left:1px solid rgba(255,255,255,.08);min-height:520px
+}
+.dash-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.dash-top b{font-size:18px}.dash-status{font-size:11px;color:#8ff0b4;border:1px solid rgba(92,219,139,.25);padding:7px 9px;border-radius:999px;background:rgba(92,219,139,.06)}
+.dash-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.dash-box{border:1px solid rgba(255,255,255,.085);border-radius:20px;padding:17px;background:rgba(255,255,255,.025)}
+.dash-box.wide{grid-column:1/-1}
+.dash-box small{display:block;color:#9ea7b2;margin-bottom:6px}.dash-box strong{font-size:20px}
+.dash-list{display:grid;gap:9px;margin-top:12px}
+.dash-row{display:grid;grid-template-columns:90px 1fr auto;gap:12px;align-items:center;padding:10px;border-radius:13px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.05);font-size:12px}
+.dash-row span{color:#aeb6bf}.dash-row b{font-size:13px}
+.dash-row i{font-style:normal;color:#ffc7c7}
+
+
+/* CONTACT */
+.contact-shell{display:grid;grid-template-columns:.72fr 1.28fr;gap:18px}
+.contact-info,.request-card{
+  border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,#15181d,#0a0c10);box-shadow:var(--shadow)
+}
+.contact-info{padding:28px}
+.contact-row{padding:14px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.contact-row:last-child{border-bottom:none}
+.contact-row small{display:block;color:#ffbcbc;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:5px}
+.contact-row strong{font-size:18px;line-height:1.45}
+.request-card{padding:28px}
+.request-card h3{font-size:34px;margin:0 0 8px}.request-card>p{color:#aeb6c0;margin:0 0 22px;line-height:1.6}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field{display:grid;gap:7px}.field.wide{grid-column:1/-1}
+.field label{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#aeb6c0}
+.field input,.field select,.field textarea{
+  width:100%;padding:13px;border:1px solid rgba(255,255,255,.10);border-radius:13px;background:#14181d;color:#fff;outline:none
+}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:rgba(214,46,46,.55);box-shadow:0 0 0 3px rgba(214,46,46,.08)}
+.field textarea{min-height:120px;resize:vertical}
+.form-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.form-status{font-size:12px;color:#ffbcbc}
+
+footer{
+  padding:42px clamp(18px,5vw,72px) 90px;border-top:1px solid rgba(255,255,255,.07);
+  display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:#9099a4;font-size:13px
+}
+
+/* OVERLAY / PANELS — no X */
+.overlay[hidden]{display:none!important}
+.overlay{
+  position:fixed;inset:0;z-index:150;display:grid;place-items:center;padding:18px;
+  background:rgba(4,5,7,.78);backdrop-filter:blur(16px);
+  animation:fadeIn .22s ease both
+}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.modal{
+  width:min(1040px,96vw);max-height:min(88vh,860px);overflow:auto;position:relative;
+  border:1px solid rgba(255,255,255,.10);border-radius:30px;padding:clamp(24px,4vw,44px);
+  background:
+    radial-gradient(circle at 90% 10%,rgba(214,46,46,.10),transparent 25%),
+    linear-gradient(145deg,#16191f,#090b0f);
+  box-shadow:0 45px 140px rgba(0,0,0,.60);
+  transform-origin:center;
+  animation:modalIn .32s cubic-bezier(.2,.75,.25,1) both
+}
+@keyframes modalIn{from{opacity:0;transform:translateY(28px) scale(.96)}to{opacity:1;transform:none}}
+.modal-kicker{color:#ffbcbc;font-size:11px;letter-spacing:.15em;text-transform:uppercase;font-weight:850}
+.modal h3{font-size:clamp(38px,5vw,66px);margin:13px 0 15px;line-height:.96;letter-spacing:-.05em}
+.modal>p{color:#bcc4cd;line-height:1.72;max-width:850px}
+.modal-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.modal-box{border:1px solid rgba(255,255,255,.085);border-radius:20px;padding:19px;background:rgba(255,255,255,.025)}
+.modal-box h4{margin:0 0 10px;font-size:18px}.modal-box p,.modal-box li{color:#b8c0c9;line-height:1.62}
+.modal-box ul{margin:8px 0 0;padding-left:20px}
+.modal-note{margin-top:15px;padding:13px 15px;border-radius:16px;border:1px solid rgba(214,46,46,.18);background:rgba(214,46,46,.06);color:#ffd0d0;font-size:12px;line-height:1.55}
+.modal-footer{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;margin-top:22px}
+.modal-hint{color:#8f98a3;font-size:12px}
+.close-btn{
+  border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);color:#fff;border-radius:13px;padding:11px 15px;font-weight:800;cursor:pointer
+}
+.close-btn:hover{background:rgba(255,255,255,.09)}
+.plan-list{display:grid;gap:10px}
+.plan-row{padding:13px;border-radius:15px;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.02)}
+.plan-row b{display:block;margin-bottom:4px}.plan-row span{color:#aeb7c1;font-size:13px;line-height:1.5}
+
+/* LOGIN / CLIENT DASH MODAL */
+.auth-tabs{display:flex;gap:8px;margin:20px 0 16px}
+.auth-tab{border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.035);color:#d7dce2;border-radius:11px;padding:9px 12px;font-weight:800;cursor:pointer}
+.auth-tab.active{background:rgba(214,46,46,.12);border-color:rgba(214,46,46,.35);color:#fff}
+.auth-pane[hidden]{display:none}
+.auth-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.auth-form .wide{grid-column:1/-1}
+.demo-login-note{font-size:12px;color:#a9b2bc;margin-top:12px}
+.client-modal-dashboard{display:none}
+.client-modal-dashboard.active{display:block}
+.client-modal-login.hidden{display:none}
+
+
+/* ================================================================
+   V7 — AREA RISERVATA COMPLETA: DEMO + LOGIN + ADMIN V5
+   ================================================================ */
+.site-footer{
+  padding:34px clamp(18px,5vw,72px) 52px;
+  border-top:1px solid rgba(255,255,255,.07);
+  display:flex;justify-content:space-between;gap:22px;align-items:end;flex-wrap:wrap;
+  color:#98a2ad;font-size:13px;background:rgba(13,16,20,.62)
+}
+.footer-left{display:grid;gap:4px}
+.footer-left strong{color:#e9edf1;font-size:14px}
+.admin-entry-v6{
+  appearance:none;border:1px solid rgba(255,255,255,.11);
+  background:rgba(255,255,255,.035);color:#aeb7c1;
+  padding:8px 11px;border-radius:10px;font-size:11px;cursor:pointer;
+  transition:.22s ease
+}
+.admin-entry-v6:hover{
+  color:#fff;border-color:rgba(214,46,46,.42);
+  background:rgba(214,46,46,.08);transform:translateY(-1px)
+}
+
+.ta-admin-login[hidden], .ta-admin-panel[hidden], .ta-admin-layer[hidden]{display:none!important}
+
+.ta-admin-login{
+  position:fixed;inset:0;z-index:300;
+  display:grid;place-items:center;padding:20px;
+  background:
+    radial-gradient(circle at 68% 18%,rgba(214,46,46,.13),transparent 28%),
+    rgba(8,10,13,.84);
+  backdrop-filter:blur(18px);
+  animation:fadeIn .22s ease both
+}
+.ta-login-card{
+  width:min(430px,94vw);
+  padding:28px;border-radius:23px;
+  border:1px solid rgba(255,255,255,.10);
+  background:
+    radial-gradient(circle at 92% 10%,rgba(214,46,46,.11),transparent 30%),
+    linear-gradient(145deg,#22272d,#14191f);
+  box-shadow:0 38px 120px rgba(0,0,0,.58)
+}
+.ta-mini-brand{
+  display:flex;align-items:center;gap:9px;
+  color:#ffbebe;font-size:10px;font-weight:850;letter-spacing:.13em;text-transform:uppercase
+}
+.ta-mini-brand i{
+  display:block;width:24px;height:24px;border-radius:8px;
+  background:linear-gradient(135deg,var(--red),var(--red2));
+  box-shadow:0 0 24px rgba(214,46,46,.22)
+}
+.ta-login-card h2{margin:15px 0 8px;font-size:32px;letter-spacing:-.04em}
+.ta-login-card>p{color:#aeb8c2;line-height:1.55;font-size:13px;margin:0 0 18px}
+.ta-admin-field{display:grid;gap:6px;margin-bottom:12px}
+.ta-admin-field label{
+  color:#aab3bd;font-size:10px;font-weight:850;letter-spacing:.09em;text-transform:uppercase
+}
+.ta-admin-field input,.ta-admin-field textarea,.ta-admin-field select{
+  width:100%;border:1px solid rgba(255,255,255,.10);
+  background:#11151a;color:#fff;border-radius:11px;padding:11px 12px;outline:none
+}
+.ta-admin-field textarea{min-height:92px;resize:vertical}
+.ta-admin-field input:focus,.ta-admin-field textarea:focus,.ta-admin-field select:focus{
+  border-color:rgba(214,46,46,.50);box-shadow:0 0 0 3px rgba(214,46,46,.08)
+}
+.ta-login-actions{display:flex;gap:9px;margin-top:15px}
+.ta-admin-btn{
+  appearance:none;border:1px solid rgba(255,255,255,.10);
+  background:#242a31;color:#fff;border-radius:10px;padding:9px 12px;
+  font-weight:800;font-size:12px;cursor:pointer;transition:.2s ease
+}
+.ta-admin-btn:hover{transform:translateY(-1px);border-color:rgba(255,255,255,.20)}
+.ta-admin-btn.primary{background:linear-gradient(135deg,var(--red),var(--red2));border-color:transparent}
+.ta-admin-btn.ghost{background:transparent;color:#b0bac4}
+.ta-admin-btn.danger{background:rgba(214,46,46,.10);border-color:rgba(214,46,46,.24);color:#ffbcbc}
+.ta-demo-note{
+  margin-top:14px!important;padding:10px 11px;border-radius:11px;
+  background:rgba(255,255,255,.028);border:1px solid rgba(255,255,255,.06);
+  color:#87929d!important;font-size:11px!important
+}
+.ta-login-error{min-height:16px;color:#ff9e9e;font-size:11px;margin:4px 0 0}
+
+.ta-admin-panel{
+  position:fixed;inset:0;z-index:290;overflow:auto;
+  background:
+    radial-gradient(circle at 85% 5%,rgba(214,46,46,.08),transparent 28%),
+    linear-gradient(180deg,#11161b,#171d23 48%,#11161b);
+  color:#eef2f5
+}
+.ta-admin-header{
+  position:sticky;top:0;z-index:6;
+  display:flex;align-items:center;justify-content:space-between;gap:18px;
+  padding:13px clamp(16px,3vw,36px);
+  background:rgba(14,18,22,.92);border-bottom:1px solid rgba(255,255,255,.07);
+  backdrop-filter:blur(16px)
+}
+.ta-admin-title{display:flex;align-items:center;gap:10px}
+.ta-admin-title i{
+  width:30px;height:30px;border-radius:9px;display:block;
+  background:linear-gradient(135deg,var(--red),var(--red2))
+}
+.ta-admin-title strong{display:block;font-size:14px}
+.ta-admin-title small{display:block;color:#8f99a4;font-size:10px;margin-top:1px}
+.ta-admin-actions{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.ta-admin-layout{width:min(1240px,94vw);margin:0 auto;padding:28px 0 80px}
+.ta-admin-intro{margin-bottom:16px}
+.ta-admin-intro h2{font-size:30px;margin:0 0 5px;letter-spacing:-.035em}
+.ta-admin-intro p{margin:0;color:#99a4af;font-size:13px;line-height:1.55}
+
+.ta-module-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0
+}
+.ta-module-card{
+  text-align:left;min-height:130px;padding:16px;border-radius:16px;cursor:pointer;
+  border:1px solid rgba(255,255,255,.075);
+  background:linear-gradient(145deg,#20262d,#171c22);color:#fff;
+  transition:.25s ease
+}
+.ta-module-card:hover{
+  transform:translateY(-4px);
+  border-color:rgba(214,46,46,.32);
+  box-shadow:0 18px 46px rgba(0,0,0,.24),0 0 26px rgba(214,46,46,.05)
+}
+.ta-module-card em{
+  display:block;font-style:normal;color:#ffb7b7;font-size:9px;font-weight:900;
+  letter-spacing:.13em;text-transform:uppercase;margin-bottom:18px
+}
+.ta-module-card b{display:block;font-size:15px;margin-bottom:5px}
+.ta-module-card span{display:block;color:#8f9aa5;font-size:11px;line-height:1.45}
+
+.ta-admin-sections{display:grid;gap:9px}
+.ta-admin-group{
+  border:1px solid rgba(255,255,255,.075);border-radius:15px;
+  background:#181e24;overflow:hidden
+}
+.ta-admin-group summary{
+  list-style:none;padding:14px 16px;cursor:pointer;font-size:12px;font-weight:850;
+  display:flex;align-items:center;justify-content:space-between
+}
+.ta-admin-group summary::-webkit-details-marker{display:none}
+.ta-admin-group summary:after{content:"▾";color:#ffb7b7;transition:.2s ease}
+.ta-admin-group[open] summary:after{transform:rotate(180deg)}
+.ta-admin-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;
+  padding:0 16px 16px;border-top:1px solid rgba(255,255,255,.05);padding-top:15px
+}
+.ta-admin-grid .wide{grid-column:1/-1}
+.ta-admin-save-status{
+  position:fixed;right:20px;bottom:20px;z-index:310;
+  padding:10px 13px;border-radius:12px;
+  background:#18231d;border:1px solid rgba(110,220,145,.18);
+  color:#9aefb8;font-size:11px;opacity:0;transform:translateY(10px);
+  pointer-events:none;transition:.24s ease
+}
+.ta-admin-save-status.show{opacity:1;transform:none}
+
+/* module layer */
+.ta-admin-layer{
+  position:fixed;inset:0;z-index:320;display:grid;place-items:center;padding:20px;
+  background:rgba(7,9,12,.80);backdrop-filter:blur(15px)
+}
+.ta-layer-card{
+  width:min(1100px,96vw);max-height:88vh;overflow:auto;
+  border:1px solid rgba(255,255,255,.09);border-radius:24px;
+  background:linear-gradient(145deg,#20262d,#12171c);
+  box-shadow:0 40px 130px rgba(0,0,0,.58);padding:24px
+}
+.ta-layer-head{display:flex;justify-content:space-between;gap:15px;align-items:start;margin-bottom:17px}
+.ta-layer-head h3{font-size:30px;letter-spacing:-.035em;margin:3px 0 0}
+.ta-layer-head small{color:#ffb7b7;text-transform:uppercase;letter-spacing:.11em;font-weight:850}
+.ta-layer-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ta-layer-box{padding:15px;border:1px solid rgba(255,255,255,.07);border-radius:16px;background:rgba(255,255,255,.025)}
+.ta-layer-box h4{margin:0 0 9px;font-size:15px}
+.ta-layer-box p,.ta-layer-box li{color:#99a4af;font-size:12px;line-height:1.55}
+.ta-layer-box ul{margin:0;padding-left:17px}
+.ta-client-list{display:grid;gap:8px}
+.ta-client-row{
+  border:1px solid rgba(255,255,255,.07);border-radius:13px;background:#171c22;overflow:hidden
+}
+.ta-client-head{
+  width:100%;border:0;background:transparent;color:#fff;text-align:left;
+  display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:11px 12px;cursor:pointer
+}
+.ta-client-head span{color:#89949f;font-size:11px}
+.ta-client-head b{font-size:12px}
+.ta-client-detail{padding:0 12px 12px;color:#a4aeb8;font-size:11px;line-height:1.55}
+.ta-media-options{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.ta-option{
+  padding:8px 9px;border:1px solid rgba(255,255,255,.07);
+  border-radius:10px;background:#171c22;color:#c5ccd3;font-size:11px
+}
+.ta-request-row{
+  display:grid;grid-template-columns:100px 1fr auto;gap:10px;align-items:center;
+  padding:10px;border-bottom:1px solid rgba(255,255,255,.05);font-size:11px
+}
+.ta-request-row:last-child{border-bottom:none}
+.ta-request-row span{color:#8f99a4}.ta-request-row i{font-style:normal;color:#ffb7b7}
+
+@media(max-width:900px){
+  .ta-module-grid{grid-template-columns:1fr 1fr}
+  .ta-admin-grid,.ta-layer-grid{grid-template-columns:1fr}
+  .ta-admin-grid .wide{grid-column:auto}
+}
+@media(max-width:620px){
+  .ta-admin-header{align-items:flex-start;flex-direction:column}
+  .ta-admin-actions{justify-content:flex-start}
+  .ta-module-grid{grid-template-columns:1fr}
+  .ta-layer-card{padding:17px}
+}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:.8s cubic-bezier(.2,.72,.22,1)}
+.reveal.on{opacity:1;transform:none}
+
+@media(max-width:1080px){
+  .mainnav{display:none}
+  .hero-inner{grid-template-columns:1fr}
+  .hero-side{grid-template-columns:repeat(4,1fr);gap:8px}
+  .hero-stat{grid-template-columns:1fr}
+  .service-bento{grid-template-columns:1fr 1fr;grid-auto-rows:270px}
+  .service-card.big{grid-row:span 1;grid-column:span 2}
+  .method-shell,.company,.client-showcase,.contact-shell{grid-template-columns:1fr}
+  .dashboard-preview{border-left:none;border-top:1px solid rgba(255,255,255,.08)}
+}
+@media(max-width:720px){
+  .topbar{grid-template-columns:1fr auto;padding:11px 14px}
+  .brand{min-width:0}.brand-logo{width:160px;height:40px}
+  .top-actions .btn:not(.primary){display:none}
+  .mobile-menu{display:block}
+  .hero{padding:100px 16px 56px}.hero-side{grid-template-columns:1fr 1fr}
+  .hero-stat{padding:13px}
+  h1{font-size:52px}
+  .service-bento{grid-template-columns:1fr;grid-auto-rows:290px}
+  .service-card.big,.service-card.wide{grid-column:auto}
+  .section{padding:82px 16px}
+  .section-head{grid-template-columns:1fr}
+  .sub-grid,.metric-grid,.modal-grid,.form-grid,.auth-form,.dash-grid{grid-template-columns:1fr}
+  .field.wide,.auth-form .wide,.dash-box.wide{grid-column:auto}
+  .company-photo{min-height:400px}
+}
+@media(max-width:480px){
+  .top-actions .btn.primary{font-size:12px;padding:10px 12px}
+  .hero-side{grid-template-columns:1fr 1fr}
+  .hero-stat strong{font-size:25px}
+  .client-copy,.dashboard-preview,.contact-info,.request-card{padding:20px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .hero-slide:first-child{opacity:1}
+  .reveal{opacity:1;transform:none}
+}
+
+
+/* V7 — restored public reserved-area showcase from the approved V5 concept */
+.reserved-shell{
+  border:1px solid rgba(255,255,255,.09);border-radius:32px;overflow:hidden;
+  display:grid;grid-template-columns:.76fr 1.24fr;
+  background:linear-gradient(145deg,#242932,#171b21);box-shadow:var(--shadow)
+}
+.reserved-copy{padding:34px}
+.reserved-copy h3{font-size:clamp(36px,4vw,58px);line-height:.96;letter-spacing:-.045em;margin:8px 0 15px}
+.reserved-copy p{color:#b8c0c9;line-height:1.68}
+.reserved-list{display:grid;gap:10px;margin:20px 0 24px}
+.reserved-item{display:flex;gap:10px;align-items:flex-start;color:#d8dde3}
+.reserved-item:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--red);margin-top:8px;box-shadow:0 0 12px var(--redGlow)}
+.backoffice-preview{position:relative;padding:24px;background:radial-gradient(circle at 82% 14%,rgba(214,46,46,.11),transparent 28%),#181d24;border-left:1px solid rgba(255,255,255,.08);min-height:620px}
+.backoffice-top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:16px}.backoffice-top b{font-size:18px}
+.backoffice-badges{display:flex;gap:8px;flex-wrap:wrap}.bo-badge{font-size:11px;color:#ffcdcd;border:1px solid rgba(214,46,46,.22);padding:7px 9px;border-radius:999px;background:rgba(214,46,46,.06)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px}.kpi{border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px;background:rgba(255,255,255,.03)}.kpi small{display:block;color:#98a3af;margin-bottom:6px}.kpi strong{font-size:24px}
+.admin-grid-demo{display:grid;grid-template-columns:1.05fr .95fr;gap:12px}.admin-stack-demo{display:grid;gap:12px}.admin-card-demo{border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:16px;background:rgba(255,255,255,.03)}.admin-card-demo h4{margin:0 0 10px;font-size:17px}.admin-card-demo p{margin:0;color:#adbac5;line-height:1.55;font-size:13px}
+.admin-list-demo{display:grid;gap:8px}.admin-row-demo{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:10px 12px;border-radius:13px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.05)}.admin-row-demo b{font-size:13px}.admin-row-demo span{font-size:12px;color:#9da8b4}
+.media-chips-demo{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.media-chip-demo{padding:8px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.035);font-size:12px;color:#dbe0e5}.bo-footer-note{margin-top:12px;padding:12px 14px;border-radius:15px;border:1px solid rgba(214,46,46,.16);background:rgba(214,46,46,.06);color:#ffd0d0;font-size:12px;line-height:1.55}.reserved-top{white-space:nowrap}
+
+/* Air V5 interaction language: + closed / − open */
+.ta-admin-group summary:after{content:"+"!important;transform:none!important;width:31px;height:31px;border-radius:10px;border:1px solid rgba(214,46,46,.28);display:grid!important;place-items:center;color:#ffb7b7!important;font-size:21px!important;line-height:1;flex:none;transition:.2s ease;background:rgba(214,46,46,.035)}
+.ta-admin-group[open] summary:after{content:"−"!important;transform:none!important}.ta-admin-group summary:hover:after{border-color:rgba(214,46,46,.5);box-shadow:0 0 18px rgba(214,46,46,.12)}
+.ta-client-detail-card>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px}.ta-client-detail-card>summary::-webkit-details-marker{display:none}.ta-client-detail-card>summary:before{content:"+";width:27px;height:27px;border-radius:9px;border:1px solid rgba(214,46,46,.25);display:grid;place-items:center;color:#ffb7b7;font-size:18px;flex:none}.ta-client-detail-card[open]>summary:before{content:"−"}.ta-client-detail-card .ta-client-detail{border-top:1px solid rgba(255,255,255,.05);padding:11px 12px 12px 49px}.ta-inline-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.ta-inline-note{color:#89949f;font-size:11px;line-height:1.55;margin-top:8px}
+@media(max-width:980px){.reserved-shell{grid-template-columns:1fr}.backoffice-preview{border-left:none;border-top:1px solid rgba(255,255,255,.08)}.kpi-grid{grid-template-columns:1fr 1fr}.admin-grid-demo{grid-template-columns:1fr}}
+@media(max-width:620px){.reserved-copy,.backoffice-preview{padding:20px}.kpi-grid{grid-template-columns:1fr 1fr}}
+
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a href="#home" class="brand" aria-label="Tecno Assistenza home">
+    <img class="brand-logo"
+      src="https://www.tecnoassistenza.it/uploads/220721150649logo-ta-2jpg.jpg"
+      alt="Tecno Assistenza"
+      onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+    <span class="brand-fallback"><b>Tecno</b> Assistenza</span>
+  </a>
+
+  <nav class="mainnav" aria-label="Navigazione principale">
+    <a href="#servizi">Servizi</a>
+    <a href="#abbonamenti">Abbonamenti</a>
+    <a href="#straordinari">Interventi</a>
+    <a href="#azienda">Azienda</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+
+  <div class="top-actions">
+    <button class="btn reserved-top" type="button" onclick="openBackofficeDemo()">Area riservata</button>
+    <button class="btn" type="button" onclick="openClientArea()">Area clienti</button>
+    <button class="btn primary" type="button" onclick="document.getElementById('contatti').scrollIntoView({behavior:'smooth'})">Richiedi assistenza</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-slides" aria-hidden="true">
+      <div class="hero-slide"></div>
+      <div class="hero-slide"></div>
+      <div class="hero-slide"></div>
+    </div>
+    <div class="hero-wash"></div>
+    <div class="hero-grid"></div>
+    <canvas id="flowCanvas" aria-hidden="true"></canvas>
+    <div class="hero-orbits" aria-hidden="true">
+      <div class="orbit o1"></div>
+      <div class="orbit o2"></div>
+      <div class="orbit o3"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">Centro assistenza autorizzato Immergas dal 1995</div>
+        <h1>Il servizio fa la differenza. <span class="stroke">La differenza la fanno le persone.</span></h1>
+        <p class="hero-lead">
+          Assistenza e manutenzione per impianti termici, climatizzazione e sistemi a fonte rinnovabile.
+          Una rete organizzata di tecnici, officine mobili e storico impianto per intervenire in modo rapido e mirato.
+        </p>
+        <div class="hero-actions">
+          <button class="btn primary" onclick="document.getElementById('contatti').scrollIntoView({behavior:'smooth'})">Richiedi assistenza</button>
+          <button class="btn" onclick="document.getElementById('servizi').scrollIntoView({behavior:'smooth'})">Esplora i servizi</button>
+          <button class="btn" onclick="openClientArea()">Accedi alla tua area</button>
+        </div>
+      </div>
+
+      <div class="hero-side reveal" style="transition-delay:.12s">
+        <div class="hero-stat"><strong>22</strong><span><b>Dipendenti</b>operativi nella Bassa Modenese</span></div>
+        <div class="hero-stat"><strong>15</strong><span><b>Automezzi</b>vere officine mobili attrezzate</span></div>
+        <div class="hero-stat"><strong>25.000+</strong><span><b>Clienti</b>raggiunti nel corso dell’attività</span></div>
+        <div class="hero-stat"><strong>15</strong><span><b>Comuni</b>coperti dal servizio sul territorio</span></div>
+      </div>
+    </div>
+
+    <div class="scroll-hint"><i></i> scorri per esplorare</div>
+  </section>
+
+  <section class="section" id="servizi">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Servizi</div>
+        <h2>Tutto quello che serve, senza perdersi nel sito.</h2>
+      </div>
+      <p>
+        Le sezioni del sito attuale vengono mantenute, ma diventano più leggibili e più vive:
+        passi sopra una scheda, cambia profondità e luminosità; clicchi e si apre il dettaglio completo.
+      </p>
+    </div>
+
+    <div class="service-bento">
+      <article class="service-card big reveal" onclick="openService('caldaie')" tabindex="0" role="button">
+        <div class="card-photo caldaie"></div>
+        <div class="card-copy">
+          <div class="card-index">01 · Immergas</div>
+          <h3>Manutenzione e assistenza caldaie</h3>
+          <p>Manutenzione, sicurezza, risparmio, reperibilità invernale, personale qualificato e ricambi originali.</p>
+          <span class="card-open">Apri il servizio</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal" onclick="openService('clima')" tabindex="0" role="button">
+        <div class="card-copy">
+          <div class="card-index">02 · F-GAS</div>
+          <h3>Climatizzazione</h3>
+          <p>Controlli su unità esterna, batteria, refrigerante, filtri, compressore e parametri funzionali.</p>
+          <span class="card-open">Apri il servizio</span>
+        </div>
+      </article>
+
+      <article class="service-card reveal" onclick="openService('energia')" tabindex="0" role="button">
+        <div class="card-photo energia"></div>
+        <div class="card-copy">
+          <div class="card-index">03 · FER</div>
+          <h3>Energia rinnovabile</h3>
+          <p>Solare termico, fotovoltaico, pompe di calore e manutenzione su impianti a fonte rinnovabile.</p>
+          <span class="card-open">Apri il servizio</span>
+        </div>
+      </article>
+
+      <article class="service-card wide reveal" id="straordinari" onclick="openService('straordinari')" tabindex="0" role="button">
+        <div class="card-photo sede"></div>
+        <div class="card-copy">
+          <div class="card-index">04 · Interventi straordinari</div>
+          <h3>Lavaggio caldaia e disincrostazione boiler</h3>
+          <p>Due interventi dedicati per efficienza, circolazione, acqua calda e protezione del boiler.</p>
+          <span class="card-open">Apri gli interventi</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Metodo</div>
+        <h2>Una richiesta, uno storico, un intervento mirato.</h2>
+      </div>
+      <p>
+        Il sito attuale dichiara già l’uso di un software gestionale che conserva i dati tecnici degli impianti.
+        Qui quell’organizzazione diventa finalmente visibile anche nell’esperienza digitale.
+      </p>
+    </div>
+
+    <div class="method-shell">
+      <div class="method-panel method-visual reveal">
+        <div class="method-radar">
+          <div class="radar-line"></div>
+          <span class="radar-dot rd1"></span>
+          <span class="radar-dot rd2"></span>
+          <span class="radar-dot rd3"></span>
+          <span class="radar-dot rd4"></span>
+        </div>
+        <div class="method-caption">
+          <b>Storico impianto → intervento più consapevole.</b>
+          <span>Dati, manutenzioni, richieste e documenti possono convergere in un’unica scheda tecnica.</span>
+        </div>
+      </div>
+
+      <div class="method-panel steps reveal" style="transition-delay:.08s">
+        <div class="step"><span class="step-num">01</span><div><b>Richiesta assistenza</b><span>Il cliente invia il problema dal sito o dalla propria area personale.</span></div></div>
+        <div class="step"><span class="step-num">02</span><div><b>Consultazione storico</b><span>L’operatore vede impianto, interventi precedenti, note e documenti associati.</span></div></div>
+        <div class="step"><span class="step-num">03</span><div><b>Tecnico e officina mobile</b><span>L’intervento viene organizzato con informazioni e materiali più pertinenti.</span></div></div>
+        <div class="step"><span class="step-num">04</span><div><b>Aggiornamento scheda</b><span>Rapporto, prossima scadenza e allegati tornano nello storico cliente.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="azienda">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Azienda</div>
+        <h2>La dimensione reale dell’azienda, finalmente in primo piano.</h2>
+      </div>
+      <p>
+        Il vecchio sito racconta una struttura organizzata, ma la presenta con un linguaggio visivo molto più piccolo
+        della realtà. Qui sede, squadra, mezzi e competenza diventano parte della narrazione.
+      </p>
+    </div>
+
+    <div class="company">
+      <div class="company-photo reveal">
+        <div class="company-label">
+          <b>Una sede, una squadra, una rete di intervento.</b>
+          <span>Immagine originale del sito attuale usata nella demo per mantenere riconoscibilità.</span>
+        </div>
+      </div>
+
+      <div class="company-copy reveal" style="transition-delay:.08s">
+        <div class="kicker">Dal 1995</div>
+        <h3>Assistenza autorizzata e organizzazione sul territorio.</h3>
+        <p>
+          Tecno Assistenza nasce come centro autorizzato Immergas e sviluppa nel tempo competenze su manutenzione caldaie,
+          impianti centralizzati, climatizzazione ed energie rinnovabili.
+        </p>
+        <p>
+          Il sito attuale sottolinea anche la presenza di un gestionale informatizzato per conservare le informazioni
+          tecniche degli impianti e preparare gli interventi in modo più mirato.
+        </p>
+        <p>
+          La dotazione di automezzi attrezzati e il magazzino ricambi permettono di presentare l’azienda non come semplice
+          “sito di assistenza”, ma come struttura operativa vera.
+        </p>
+        <div class="metric-grid">
+          <div class="metric"><strong>1995</strong><small>inizio attività / centro autorizzato</small></div>
+          <div class="metric"><strong>2016</strong><small>specializzazione su centralizzati e rinnovabili</small></div>
+          <div class="metric"><strong>2018</strong><small>centro autorizzato Edilkamin / Italiana Camini</small></div>
+          <div class="metric"><strong>F-GAS</strong><small>tecnici certificati per climatizzazione</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="abbonamenti">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Abbonamenti</div>
+        <h2>Le formule non devono sembrare un muro di testo.</h2>
+      </div>
+      <p>
+        Nel nuovo impianto grafico le formule vengono confrontate in modo visivo e il dettaglio si apre solo quando serve.
+      </p>
+    </div>
+
+    <div class="sub-grid">
+      <article class="sub-card reveal" onclick="openService('abbonamentiTA')" tabindex="0" role="button">
+        <div class="card-index">Tecno Assistenza · Check Gas 2</div>
+        <h3>STANDARD / PLUS</h3>
+        <p>Manutenzione programmata, controlli di rendimento, gestione urgenze e condizioni differenti in base alla formula.</p>
+        <div class="sub-chips">
+          <span class="chip">Manutenzione annuale</span>
+          <span class="chip">Urgenze</span>
+          <span class="chip">Sconti / manodopera</span>
+          <span class="chip">Condizioni da confrontare</span>
+        </div>
+        <span class="card-open">Confronta formule</span>
+      </article>
+
+      <article class="sub-card reveal" onclick="openService('abbonamentiImmergas')" tabindex="0" role="button">
+        <div class="card-index">Immergas · Estensione garanzia</div>
+        <h3>COMFORT</h3>
+        <p>Comfort Extra, Comfort 5, Comfort 10 e successive estensioni con durata e quote una tantum differenti.</p>
+        <div class="sub-chips">
+          <span class="chip">Ricambi originali</span>
+          <span class="chip">Manodopera</span>
+          <span class="chip">Diritto di chiamata</span>
+          <span class="chip">Servizio invernale</span>
+        </div>
+        <span class="card-open">Apri le formule</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Area clienti</div>
+        <h2>Il sito può diventare anche uno strumento di servizio.</h2>
+      </div>
+      <p>
+        Login, scheda impianto, prossima manutenzione, storico interventi, documenti e nuova richiesta:
+        la stessa logica del nostro modulo V5, adattata a questa azienda e a un front-end differente.
+      </p>
+    </div>
+
+    <div class="client-showcase reveal">
+      <div class="client-copy">
+        <div class="kicker">Portale personale</div>
+        <h3>Il tuo impianto, senza telefonate inutili.</h3>
+        <p>
+          Il sito attuale possiede già login e registrazione. La demo mostra come quell’area potrebbe diventare molto più chiara
+          e utile, senza affermare funzioni che andranno verificate sul database reale.
+        </p>
+        <div class="client-features">
+          <div class="client-feature">Dati impianto e matricola</div>
+          <div class="client-feature">Ultimo intervento e prossima scadenza</div>
+          <div class="client-feature">Documenti e rapporti tecnici</div>
+          <div class="client-feature">Richiesta assistenza collegata alla scheda</div>
+        </div>
+        <button class="btn primary" onclick="openClientArea()">Apri area clienti demo</button>
+      </div>
+
+      <div class="dashboard-preview">
+        <div class="dash-top">
+          <b>Area Cliente · Mario Rossi</b>
+          <span class="dash-status">Impianto attivo</span>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-box"><small>Impianto</small><strong>Caldaia Immergas</strong></div>
+          <div class="dash-box"><small>Prossima manutenzione</small><strong>Novembre 2026</strong></div>
+          <div class="dash-box"><small>Ultimo intervento</small><strong>14 aprile 2026</strong></div>
+          <div class="dash-box"><small>Documenti</small><strong>8 disponibili</strong></div>
+          <div class="dash-box wide">
+            <small>Storico recente</small>
+            <div class="dash-list">
+              <div class="dash-row"><span>14/04/2026</span><b>Manutenzione programmata</b><i>Completata</i></div>
+              <div class="dash-row"><span>08/01/2026</span><b>Controllo pressione</b><i>Completato</i></div>
+              <div class="dash-row"><span>11/11/2025</span><b>Analisi combustione</b><i>Documento</i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="area-riservata">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Area riservata</div>
+        <h2>La parte privata della ditta entra davvero nel sito.</h2>
+      </div>
+      <p>
+        Qui convivono le due parti approvate: la presentazione scenica del backoffice e, dopo l’accesso,
+        il pannello operativo completo derivato dalla V5 Air.
+      </p>
+    </div>
