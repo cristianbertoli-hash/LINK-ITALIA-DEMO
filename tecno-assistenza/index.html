@@ -94,13 +94,13 @@ img{display:block;max-width:100%}
 .hero-slide{
   position:absolute;inset:-3%;opacity:0;
   background-position:center;background-size:cover;
-  filter:saturate(.72) contrast(1.08) brightness(.62);
+  filter:saturate(.78) contrast(1.04) brightness(.80);
   transform:scale(1.06);
   animation:heroCycle 24s infinite;
 }
-.hero-slide:nth-child(1){background-image:url("https://www.tecnoassistenza.it/uploads/280721095545slide-home-2jpg.jpg");animation-delay:0s}
-.hero-slide:nth-child(2){background-image:url("https://www.tecnoassistenza.it/uploads/280721130025slide-homejpg.jpg");animation-delay:8s}
-.hero-slide:nth-child(3){background-image:url("https://www.tecnoassistenza.it/uploads/290721153332dji-0021-modificatajpg.jpg");animation-delay:16s}
+.hero-slide:nth-child(1){background-image:url("https://www.tecnoassistenza.it/uploads/280721095545slide-home-2jpg.jpg");animation-delay:0s;filter:saturate(.84) contrast(1.05) brightness(.96)}
+.hero-slide:nth-child(2){background-image:url("https://www.tecnoassistenza.it/uploads/280721130025slide-homejpg.jpg");animation-delay:8s;filter:saturate(.82) contrast(1.04) brightness(.98)}
+.hero-slide:nth-child(3){background-image:url("https://www.tecnoassistenza.it/uploads/290721153332dji-0021-modificatajpg.jpg");animation-delay:16s;filter:saturate(.78) contrast(1.04) brightness(.84)}
 @keyframes heroCycle{
   0%{opacity:0;transform:scale(1.06) translate3d(0,0,0)}
   5%,28%{opacity:1}
@@ -110,8 +110,8 @@ img{display:block;max-width:100%}
 .hero-wash{
   position:absolute;inset:0;z-index:-5;
   background:
-    linear-gradient(90deg,rgba(5,6,8,.94) 0%,rgba(5,6,8,.78) 42%,rgba(5,6,8,.28) 72%,rgba(5,6,8,.58) 100%),
-    linear-gradient(180deg,rgba(0,0,0,.24),rgba(0,0,0,.12) 54%,rgba(6,7,9,.90));
+    linear-gradient(90deg,rgba(5,6,8,.90) 0%,rgba(5,6,8,.68) 42%,rgba(5,6,8,.18) 72%,rgba(5,6,8,.48) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.18),rgba(0,0,0,.08) 54%,rgba(6,7,9,.82));
 }
 .hero-grid{
   position:absolute;inset:0;z-index:-4;
@@ -688,6 +688,29 @@ footer{
 .ta-client-detail-card>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px}.ta-client-detail-card>summary::-webkit-details-marker{display:none}.ta-client-detail-card>summary:before{content:"+";width:27px;height:27px;border-radius:9px;border:1px solid rgba(214,46,46,.25);display:grid;place-items:center;color:#ffb7b7;font-size:18px;flex:none}.ta-client-detail-card[open]>summary:before{content:"−"}.ta-client-detail-card .ta-client-detail{border-top:1px solid rgba(255,255,255,.05);padding:11px 12px 12px 49px}.ta-inline-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.ta-inline-note{color:#89949f;font-size:11px;line-height:1.55;margin-top:8px}
 @media(max-width:980px){.reserved-shell{grid-template-columns:1fr}.backoffice-preview{border-left:none;border-top:1px solid rgba(255,255,255,.08)}.kpi-grid{grid-template-columns:1fr 1fr}.admin-grid-demo{grid-template-columns:1fr}}
 @media(max-width:620px){.reserved-copy,.backoffice-preview{padding:20px}.kpi-grid{grid-template-columns:1fr 1fr}}
+
+
+
+/* CHAT CLIENTI */
+.chat-fab{position:fixed;right:18px;bottom:18px;z-index:90;border:none;border-radius:999px;background:linear-gradient(135deg,var(--red),var(--red-2));color:#fff;padding:14px 18px;display:flex;align-items:center;gap:10px;box-shadow:0 18px 48px rgba(0,0,0,.30);cursor:pointer;font:600 12px/1 Inter,system-ui,sans-serif;letter-spacing:.08em;transition:transform .22s ease,box-shadow .22s ease,opacity .22s ease}
+.chat-fab:hover{transform:translateY(-2px);box-shadow:0 22px 54px rgba(0,0,0,.36)}
+.chat-fab i{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.18);font-style:normal;font-size:14px}
+.chat-panel{position:fixed;right:18px;bottom:84px;width:min(380px,calc(100vw - 24px));max-height:min(76vh,720px);z-index:91;background:rgba(10,12,16,.92);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.12);border-radius:24px;box-shadow:0 30px 80px rgba(0,0,0,.42);overflow:hidden;display:none}
+.chat-panel.open{display:block;animation:chatUp .24s ease}
+@keyframes chatUp{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+.chat-head{padding:16px 18px;background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.01));display:flex;align-items:center;justify-content:space-between;gap:12px}
+.chat-brand{display:flex;align-items:center;gap:12px}.chat-brand strong{display:block;font-size:13px;letter-spacing:.08em}.chat-brand small{display:block;font-size:11px;opacity:.74;margin-top:2px}
+.chat-badge{width:38px;height:38px;border-radius:14px;background:linear-gradient(135deg,var(--red),#ad1818);display:grid;place-items:center;font-weight:700;color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.26)}
+.chat-close{border:none;background:transparent;color:#fff;font-size:24px;line-height:1;cursor:pointer;opacity:.8}
+.chat-body{padding:18px;display:grid;gap:14px}
+.chat-bubble{padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);font-size:13px;line-height:1.6;color:#eef2f6}
+.chat-bubble strong{display:block;margin-bottom:6px;font-size:12px;letter-spacing:.08em;color:#fff}
+.chat-form{display:grid;gap:10px}.chat-form .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.chat-form input,.chat-form textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);color:#fff;border-radius:14px;padding:12px 13px;font:500 13px/1.4 Inter,system-ui,sans-serif;outline:none}.chat-form textarea{min-height:110px;resize:vertical}.chat-form input:focus,.chat-form textarea:focus{border-color:rgba(225,30,37,.72);box-shadow:0 0 0 3px rgba(225,30,37,.14)}
+.chat-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:2px}.chat-note{font-size:11px;line-height:1.5;opacity:.68}.chat-send{border:none;border-radius:999px;padding:12px 18px;background:linear-gradient(135deg,var(--red),var(--red-2));color:#fff;font:700 11px/1 Inter,system-ui,sans-serif;letter-spacing:.10em;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,.26)}
+.chat-status{font-size:12px;line-height:1.6;padding:0 18px 18px;color:#dfe9ef;display:none}.chat-status.show{display:block}
+.chat-status.ok{color:#d8f3dc}.chat-status.warn{color:#ffe7a8}.chat-links{display:flex;gap:10px;flex-wrap:wrap}.chat-chip{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.10);font-size:11px;letter-spacing:.06em;color:#fff;text-decoration:none}
+body.lock .chat-fab,body.lock .chat-panel{display:none!important}
+@media (max-width:700px){.chat-panel{right:10px;left:10px;bottom:78px;width:auto}.chat-fab{right:10px;bottom:10px;padding:13px 16px}.chat-form .row{grid-template-columns:1fr}}
 
 </style>
 </head>
@@ -1802,6 +1825,105 @@ function backToLogin(){
   document.getElementById('clientDash').classList.remove('active');
   document.getElementById('clientLogin').classList.remove('hidden');
 }
+
+
+/* ===== chat clienti ===== */
+const TA_CHAT_CONFIG={
+  recipient:'info@tecnoassistenza.it',
+  webhook:'', // inserire qui il relay/GAS già sperimentato su Air quando disponibile
+  subjectPrefix:'[Tecno Assistenza] Nuova richiesta chat sito'
+};
+const taChatFab=document.getElementById('taChatFab');
+const taChatPanel=document.getElementById('taChatPanel');
+const taChatClose=document.getElementById('taChatClose');
+const taChatForm=document.getElementById('taChatForm');
+const taChatStatus=document.getElementById('taChatStatus');
+function taOpenChat(){ taChatPanel.classList.add('open'); taChatPanel.setAttribute('aria-hidden','false'); }
+function taCloseChat(){ taChatPanel.classList.remove('open'); taChatPanel.setAttribute('aria-hidden','true'); }
+function taSetChatStatus(msg,type='ok'){ taChatStatus.textContent=msg; taChatStatus.className='chat-status show '+type; }
+taChatFab?.addEventListener('click',taOpenChat);
+taChatClose?.addEventListener('click',taCloseChat);
+document.addEventListener('keydown',e=>{ if(e.key==='Escape' && taChatPanel?.classList.contains('open')) taCloseChat(); });
+taChatForm?.addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const fd=new FormData(taChatForm);
+  const data=Object.fromEntries(fd.entries());
+  const text=[
+    'Nuova richiesta dal widget chat del sito Tecno Assistenza',
+    '',
+    'Nome: '+(data.name||''),
+    'Telefono: '+(data.phone||''),
+    'Email: '+(data.email||''),
+    'Comune / località: '+(data.city||''),
+    '',
+    'Messaggio:',
+    data.message||''
+  ].join('\n');
+
+  if(TA_CHAT_CONFIG.webhook){
+    try{
+      const res=await fetch(TA_CHAT_CONFIG.webhook,{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({source:'tecno-assistenza-chat',...data,message:data.message,subject:TA_CHAT_CONFIG.subjectPrefix})
+      });
+      if(!res.ok) throw new Error('Webhook non raggiungibile');
+      taSetChatStatus('Richiesta inviata. Il messaggio è stato inoltrato al recapito configurato.', 'ok');
+      taChatForm.reset();
+      return;
+    }catch(err){
+      taSetChatStatus('Relay non disponibile in questa demo. Apro il fallback email locale.', 'warn');
+    }
+  }
+
+  const mailto='mailto:'+encodeURIComponent(TA_CHAT_CONFIG.recipient)+'?subject='+encodeURIComponent(TA_CHAT_CONFIG.subjectPrefix)+'&body='+encodeURIComponent(text);
+  window.location.href=mailto;
+  taSetChatStatus('Aperto il client email locale con il messaggio precompilato. Sul sito pubblicato possiamo riattivare il relay automatico già usato su Air.', 'warn');
+});
+
 </script>
+
+
+<button class="chat-fab" id="taChatFab" type="button" aria-label="Apri chat assistenza">
+  <i>✦</i><span>Chat assistenza</span>
+</button>
+
+<aside class="chat-panel" id="taChatPanel" aria-hidden="true">
+  <div class="chat-head">
+    <div class="chat-brand">
+      <div class="chat-badge">TA</div>
+      <div><strong>Tecno Assistenza</strong><small>Richieste rapide · risposta via email</small></div>
+    </div>
+    <button class="chat-close" id="taChatClose" type="button" aria-label="Chiudi chat">×</button>
+  </div>
+  <div class="chat-body">
+    <div class="chat-bubble">
+      <strong>Benvenuto.</strong>
+      Scrivi qui la tua richiesta: predisponiamo il messaggio cliente e lo inoltriamo al recapito impostato.
+      In questa demo il flusso è già pronto per essere collegato al relay email usato su Air; se non è configurato, usa il fallback mail locale.
+    </div>
+    <div class="chat-links">
+      <a class="chat-chip" href="tel:0590000000">☎ Chiama</a>
+      <a class="chat-chip" href="mailto:info@tecnoassistenza.it">✉ Email</a>
+    </div>
+    <form class="chat-form" id="taChatForm">
+      <div class="row">
+        <input name="name" placeholder="Nome e cognome" required>
+        <input name="phone" placeholder="Telefono" required>
+      </div>
+      <div class="row">
+        <input name="email" type="email" placeholder="Email">
+        <input name="city" placeholder="Comune / località">
+      </div>
+      <textarea name="message" placeholder="Descrivi il problema o la richiesta…" required></textarea>
+      <div class="chat-actions">
+        <div class="chat-note">Dati essenziali, invio rapido. Il collegamento finale al relay email può essere riattivato sul sito pubblicato.</div>
+        <button class="chat-send" type="submit">INVIA RICHIESTA</button>
+      </div>
+    </form>
+  </div>
+  <div class="chat-status" id="taChatStatus"></div>
+</aside>
+
 </body>
 </html>
