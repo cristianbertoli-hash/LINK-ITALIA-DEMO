@@ -1,0 +1,58 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LINK FX · Atmosfere</title><style>
+*{box-sizing:border-box}body{margin:0;background:#080c17;color:#fff;font:15px/1.5 system-ui,sans-serif}header{padding:26px 5vw;border-bottom:1px solid #ffffff22;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}a{color:#8de8f3}h1{font-size:clamp(28px,4vw,56px);margin:8px 0;letter-spacing:-.05em}p{color:#b4bac8}main{max-width:1500px;margin:auto;padding:22px 5vw 70px}.scene{position:relative;height:min(68vh,650px);min-height:370px;overflow:hidden;border:1px solid #ffffff30;border-radius:24px;background:radial-gradient(ellipse at 65% 40%,#65425d,#223a56 45%,#0c1529 85%)}.scene:before{content:"";position:absolute;inset:0;background:linear-gradient(130deg,transparent,#f6b4a319 40%,transparent 65%),radial-gradient(circle at 78% 22%,#ffffff33,transparent 16%)}canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.scene-copy{position:absolute;left:6%;top:20%;z-index:2;max-width:470px;pointer-events:none;text-shadow:0 2px 25px #000b}.scene-copy h2{font-size:clamp(35px,5vw,70px);line-height:1;margin:0}.scene-copy p{color:#e6eaf4}.controls{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 28px}.controls button,.controls select{background:#171e30;color:#fff;border:1px solid #ffffff30;border-radius:11px;padding:11px 15px;cursor:pointer}.controls button.active{background:#aa3566;border-color:#ff82b3}.controls button:hover{border-color:#fff}.controls label{display:flex;gap:9px;align-items:center;background:#171e30;padding:8px 13px;border-radius:10px}.controls input{accent-color:#f75b91}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}.card{border:1px solid #ffffff23;background:#121827;border-radius:15px;padding:15px;cursor:pointer;text-align:left;color:#fff;min-height:115px}.card:hover,.card:focus-visible{border-color:#ff82b3;background:#24203a}.card b{display:block;margin:7px 0}.card small{color:#b2b6c4}.id{color:#ff90b1;font-weight:800;font-size:11px;letter-spacing:.08em}.note{font-size:12px;color:#aaa}footer{padding:25px 5vw;text-align:center;border-top:1px solid #ffffff1d;color:#888}@media(prefers-reduced-motion:reduce){.scene:before{animation:none}}</style></head><body><header><div><div class="id">LINK ITALIA · FX LAB / SCENE AUTONOME</div><h1>Atmosfere <span style="color:#ff7eaa">& fenomeni</span></h1><p>Effetti diversi per comportamento, non semplici varianti cromatiche.</p></div><a href="index.html">← Torna al catalogo</a></header><main><div class="scene" id="scene"><div class="scene-copy"><div class="id" id="code">ATM-01</div><h2 id="title">Vetro bagnato</h2><p id="description">Gocce aderenti al vetro, scie e riflessi.</p></div><canvas id="fx"></canvas></div><div class="controls"><button id="pause">Pausa</button><button id="reset">Rigenera</button><label>Intensità <input type="range" id="intensity" min="15" max="100" value="60"></label><label>Vento <input type="range" id="wind" min="-100" max="100" value="15"></label><button id="copy">Copia codice</button></div><div class="cards" id="cards"></div><p class="note">Animazioni originali Canvas 2D: prototipi leggeri. Il vetro bagnato usa gocce e scie, non una rifrazione WebGL fotorealistica. Gli effetti sono disattivabili e rispettano la preferenza di movimento ridotto.</p></main><footer>LINK FX LAB · Branch di sperimentazione indipendente dal sito pubblico</footer><script>
+const scenes=[
+['ATM-01','Vetro bagnato','Gocce aderenti al vetro e scie lente.','wet'],
+['ATM-02','Pioggia battente','Scie veloci oblique e spruzzi.','rain'],
+['ATM-03','Neve','Fiocchi che oscillano e scendono lentamente.','snow'],
+['ATM-04','Vento','Raffiche e linee di movimento laterali.','wind'],
+['ATM-05','Nebbia','Banchi semitrasparenti in movimento.','fog'],
+['ATM-06','Temporale','Pioggia intensa con lampi intermittenti.','storm'],
+['ATM-07','Lucciole','Punti luminosi che vagano e pulsano.','fireflies'],
+['ATM-08','Braci','Particelle incandescenti che salgono.','embers'],
+['ATM-09','Stelle cadenti','Cielo notturno e scie luminose.','meteors'],
+['ATM-10','Bolle sott’acqua','Bolle che risalgono oscillando.','bubbles'],
+['ATM-11','Foglie nel vento','Foglie autunnali che volteggiano.','leaves'],
+['ATM-12','Polvere sospesa','Pulviscolo atmosferico in controluce.','dust'],
+['ATM-13','Onde concentriche','Cerchi d’acqua che si propagano.','ripples'],
+['ATM-14','Aurora boreale','Nastri luminosi ondulati.','aurora'],
+['ATM-15','Matrix digitale','Colonne di simboli in caduta.','matrix'],
+['ATM-16','Scintille','Scie incandescenti a ventaglio.','sparks']
+];
+const canvas=document.getElementById('fx'),ctx=canvas.getContext('2d'),scene=document.getElementById('scene');
+let index=0,particles=[],running=!matchMedia('(prefers-reduced-motion: reduce)').matches,frame=0,w=1,h=1,last=0;
+const rand=(a,b)=>a+Math.random()*(b-a),intensity=document.getElementById('intensity'),wind=document.getElementById('wind');
+function resize(){const r=canvas.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);w=r.width;h=r.height;canvas.width=Math.floor(w*d);canvas.height=Math.floor(h*d);ctx.setTransform(d,0,0,d,0,0);reset()}
+function reset(){particles=Array.from({length:Math.round(45+Number(intensity.value)*1.7)},()=>({x:rand(0,w),y:rand(0,h),r:rand(1,5),v:rand(.3,2.6),a:rand(0,6.28),life:rand(0,1),seed:Math.random()}));frame=0}
+function select(i){index=i;const s=scenes[i];document.getElementById('code').textContent=s[0];document.getElementById('title').textContent=s[1];document.getElementById('description').textContent=s[2];document.querySelectorAll('.card').forEach((c,j)=>c.setAttribute('aria-pressed',String(i===j)));reset()}
+document.getElementById('cards').innerHTML=scenes.map((s,i)=>'<button class="card" data-i="'+i+'"><span class="id">'+s[0]+'</span><b>'+s[1]+'</b><small>'+s[2]+'</small></button>').join('');
+document.getElementById('cards').addEventListener('click',e=>{const b=e.target.closest('[data-i]');if(b){select(Number(b.dataset.i));scene.scrollIntoView({behavior:'smooth',block:'center'})}});
+function draw(t){
+ if(!running)return;const dt=Math.min(2,(t-last)/16.67||1);last=t;frame+=dt;
+ const mode=scenes[index][3],breeze=Number(wind.value)/100;
+ ctx.clearRect(0,0,w,h);
+ if(mode==='fog'){for(let i=0;i<8;i++){const x=((frame*(.12+breeze*.18)+i*w/5)%(w*1.8))-w*.4,y=h*(.2+i*.11);const g=ctx.createRadialGradient(x,y,5,x,y,w*.35);g.addColorStop(0,'#cce5ff25');g.addColorStop(1,'#cce5ff00');ctx.fillStyle=g;ctx.fillRect(x-w*.35,y-w*.35,w*.7,w*.7)}}
+ if(mode==='aurora'){for(let k=0;k<5;k++){ctx.beginPath();for(let x=0;x<w;x+=8){const y=h*(.18+k*.12)+Math.sin(x*.009+frame*.013+k)*32+Math.sin(x*.024-frame*.008)*12;x===0?ctx.moveTo(x,y):ctx.lineTo(x,y)}ctx.strokeStyle=['#55ffb955','#63ddff66','#b36cff66','#49ffde44','#e45fff44'][k];ctx.lineWidth=24;ctx.stroke()}}
+ if(mode==='storm'&&Math.sin(frame*.029)*Math.sin(frame*.011)>.94){ctx.fillStyle='#d9e9ff55';ctx.fillRect(0,0,w,h)}
+ particles.forEach((p,i)=>{
+ let vx=breeze*(mode==='wind'?8:mode==='snow'?1.4:1.2),vy=p.v;
+ if(['rain','storm'].includes(mode)){vy=10+p.v*7;vx*=3;ctx.strokeStyle=mode==='storm'?'#b7d9ff9a':'#c4e7ff95';ctx.lineWidth=p.r*.24;ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(p.x-vx*2,p.y-vy*2.3);ctx.stroke()}
+ else if(mode==='wet'){vy=p.seed>.65?.5+p.v*.55:.02;vx=0;ctx.beginPath();ctx.ellipse(p.x,p.y,p.r*.75,p.r*1.5,0,0,Math.PI*2);ctx.fillStyle='#d9efff55';ctx.fill();ctx.strokeStyle='#ffffff80';ctx.lineWidth=.7;ctx.stroke();if(p.seed>.65){ctx.strokeStyle='#ffffff19';ctx.beginPath();ctx.moveTo(p.x,p.y-4);ctx.lineTo(p.x,p.y-18-p.r*2);ctx.stroke()}}
+ else if(mode==='snow'){vy=.35+p.v*.55;vx+=Math.sin(frame*.02+p.a)*.7;ctx.fillStyle='#ffffffbd';ctx.beginPath();ctx.arc(p.x,p.y,p.r*.55,0,Math.PI*2);ctx.fill()}
+ else if(mode==='wind'){vy=Math.sin(p.a+frame*.02)*.3;ctx.strokeStyle='#c7edff55';ctx.lineWidth=1.2;ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(p.x-35-p.r*6,p.y+Math.sin(p.a)*5);ctx.stroke()}
+ else if(mode==='fireflies'||mode==='dust'){vx=Math.sin(frame*.01+p.a)*.5;vy=Math.cos(frame*.008+p.a)*.3;const a=mode==='fireflies'?.35+.6*Math.abs(Math.sin(frame*.025+p.a)):.15;ctx.fillStyle=mode==='fireflies'?'rgba(235,255,125,'+a+')':'#fff6d544';ctx.beginPath();ctx.arc(p.x,p.y,mode==='dust'?p.r*.35:p.r*.8,0,Math.PI*2);ctx.fill()}
+ else if(mode==='embers'||mode==='sparks'){vy=-1.5-p.v*1.4;vx+=Math.sin(p.a+frame*.03)*(mode==='sparks'?2:.4);ctx.fillStyle=mode==='sparks'?'#ffecaa':'#ff7549';ctx.fillRect(p.x,p.y,p.r*.7,p.r*1.6)}
+ else if(mode==='meteors'){vy=p.v*2.4;vx=-p.v*5;ctx.strokeStyle='#c7f1ff9c';ctx.lineWidth=p.r*.4;ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(p.x+30,p.y-15);ctx.stroke()}
+ else if(mode==='bubbles'){vy=-.8-p.v;vx+=Math.sin(frame*.02+p.a)*.6;ctx.strokeStyle='#8de9ff99';ctx.lineWidth=1.2;ctx.beginPath();ctx.arc(p.x,p.y,p.r*2,0,Math.PI*2);ctx.stroke()}
+ else if(mode==='leaves'){vy=.6+p.v;vx+=Math.sin(frame*.02+p.a)*2;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(frame*.02+p.a);ctx.fillStyle=['#ef8a42','#f5c464','#bf5e3e'][i%3];ctx.beginPath();ctx.ellipse(0,0,p.r*2.4,p.r,Math.PI/4,0,Math.PI*2);ctx.fill();ctx.restore()}
+ else if(mode==='ripples'){vx=0;vy=0;const radius=(frame*.8+p.a*50)%(Math.min(w,h)*.5);ctx.strokeStyle='rgba(158,231,255,'+(1-radius/(Math.min(w,h)*.5))*.18+')';ctx.beginPath();ctx.arc(p.x,p.y,radius,0,Math.PI*2);ctx.stroke()}
+ else if(mode==='matrix'){vy=3+p.v*2;vx=0;ctx.font=(11+p.r*2)+'px monospace';ctx.fillStyle='#61ff93a0';ctx.fillText(String.fromCharCode(0x30A0+Math.floor(Math.random()*90)),p.x,p.y)}
+ else if(mode==='aurora'){vx=0;vy=0}
+ p.x+=vx*dt;p.y+=vy*dt;if(p.y>h+40||p.y< -40||p.x>w+70||p.x< -70){p.x=rand(0,w);p.y=vy<0?h+20:vy>0?-20:rand(0,h)}
+ });
+ requestAnimationFrame(draw);
+}
+document.getElementById('pause').onclick=()=>{running=!running;document.getElementById('pause').textContent=running?'Pausa':'Riprendi';if(running){last=0;requestAnimationFrame(draw)}};
+document.getElementById('reset').onclick=reset;intensity.oninput=reset;wind.oninput=()=>{};
+document.getElementById('copy').onclick=async()=>{const code=scenes[index][0];try{await navigator.clipboard.writeText(code);document.getElementById('copy').textContent='Copiato '+code}catch{document.getElementById('copy').textContent=code}setTimeout(()=>document.getElementById('copy').textContent='Copia codice',1600)};
+window.addEventListener('resize',resize);resize();select(0);requestAnimationFrame(draw);
+</script></body></html>
