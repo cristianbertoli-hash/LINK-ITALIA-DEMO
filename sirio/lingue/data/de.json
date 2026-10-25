@@ -1,0 +1,2158 @@
+{
+  "schemaVersion": 3,
+  "locale": "de-DE",
+  "modules": [
+    {
+      "id": "days",
+      "kind": "vocabulary",
+      "title": "I giorni della settimana",
+      "subtitle": "Days / Jours / Días / Tage",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "Montag",
+          "it": "lunedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Dienstag",
+          "it": "martedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Mittwoch",
+          "it": "mercoledì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Donnerstag",
+          "it": "giovedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Freitag",
+          "it": "venerdì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Samstag",
+          "it": "sabato",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Sonntag",
+          "it": "domenica",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "colors",
+      "kind": "vocabulary",
+      "title": "I colori",
+      "subtitle": "Colors / Couleurs / Colores / Farben",
+      "icon": "🎨",
+      "words": [
+        {
+          "fr": "blau",
+          "it": "blu",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#5072DF"
+        },
+        {
+          "fr": "rot",
+          "it": "rosso",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#E54C55"
+        },
+        {
+          "fr": "gelb",
+          "it": "giallo",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#F5D44F"
+        },
+        {
+          "fr": "grün",
+          "it": "verde",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#3FAF73"
+        },
+        {
+          "fr": "orange",
+          "it": "arancione",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#FF9E47"
+        },
+        {
+          "fr": "braun",
+          "it": "marrone",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#986445"
+        },
+        {
+          "fr": "rosa",
+          "it": "rosa",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#EF85B3"
+        },
+        {
+          "fr": "violett",
+          "it": "viola",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#9061C9"
+        },
+        {
+          "fr": "grau",
+          "it": "grigio",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#9EA5B3"
+        },
+        {
+          "fr": "schwarz",
+          "it": "nero",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#262B37"
+        },
+        {
+          "fr": "weiß",
+          "it": "bianco",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#FFFFFF"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "numbers",
+      "kind": "vocabulary",
+      "title": "I numeri da 0 a 20",
+      "subtitle": "Numbers 0–20",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "null",
+          "it": "zero",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "eins",
+          "it": "uno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "zwei",
+          "it": "due",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "drei",
+          "it": "tre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "vier",
+          "it": "quattro",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "fünf",
+          "it": "cinque",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "sechs",
+          "it": "sei",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "sieben",
+          "it": "sette",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "acht",
+          "it": "otto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "neun",
+          "it": "nove",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "zehn",
+          "it": "dieci",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "elf",
+          "it": "undici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "zwölf",
+          "it": "dodici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "dreizehn",
+          "it": "tredici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "vierzehn",
+          "it": "quattordici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "fünfzehn",
+          "it": "quindici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "sechzehn",
+          "it": "sedici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "siebzehn",
+          "it": "diciassette",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "achtzehn",
+          "it": "diciotto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "neunzehn",
+          "it": "diciannove",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "zwanzig",
+          "it": "venti",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "months",
+      "kind": "vocabulary",
+      "title": "I mesi dell'anno",
+      "subtitle": "Months / Mois / Meses / Monate",
+      "icon": "🗓️",
+      "words": [
+        {
+          "fr": "Januar",
+          "it": "gennaio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Februar",
+          "it": "febbraio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "März",
+          "it": "marzo",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "April",
+          "it": "aprile",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Mai",
+          "it": "maggio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Juni",
+          "it": "giugno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Juli",
+          "it": "luglio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "August",
+          "it": "agosto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "September",
+          "it": "settembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Oktober",
+          "it": "ottobre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "November",
+          "it": "novembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Dezember",
+          "it": "dicembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "seasons",
+      "kind": "vocabulary",
+      "title": "Le stagioni",
+      "subtitle": "Seasons / Saisons / Estaciones / Jahreszeiten",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "Frühling",
+          "it": "primavera",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Sommer",
+          "it": "estate",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Herbst",
+          "it": "autunno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Winter",
+          "it": "inverno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "greetings",
+      "kind": "vocabulary",
+      "title": "I saluti e le frasi utili",
+      "subtitle": "Greetings / Salutations / Saludos / Grüße",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "hallo",
+          "it": "ciao",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "guten Morgen",
+          "it": "buongiorno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "guten Abend",
+          "it": "buonasera",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "gute Nacht",
+          "it": "buonanotte",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "auf Wiedersehen",
+          "it": "arrivederci",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "danke",
+          "it": "grazie",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "bitte",
+          "it": "per favore",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "wie geht es dir?",
+          "it": "come stai?",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "sc_saluti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Saluti e cortesia",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "hallo",
+          "it": "ciao",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "guten Morgen",
+          "it": "buongiorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "guten Abend",
+          "it": "buonasera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "auf Wiedersehen",
+          "it": "arrivederci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bitte",
+          "it": "per favore",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "danke",
+          "it": "grazie",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bitte schön",
+          "it": "prego",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "entschuldigung",
+          "it": "scusa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wie geht es dir?",
+          "it": "come stai?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_presentarsi",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Presentarsi",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🙋",
+      "words": [
+        {
+          "fr": "ich heiße",
+          "it": "mi chiamo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bin",
+          "it": "sono",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich wohne in",
+          "it": "abito a",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich komme aus",
+          "it": "vengo da",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bin elf Jahre alt",
+          "it": "ho undici anni",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "freut mich",
+          "it": "piacere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich spreche Italienisch",
+          "it": "parlo italiano",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich verstehe nicht",
+          "it": "non capisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "kannst du das wiederholen?",
+          "it": "puoi ripetere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_numeri",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Numeri e dati",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "eins",
+          "it": "uno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "zwei",
+          "it": "due",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "drei",
+          "it": "tre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vier",
+          "it": "quattro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "fünf",
+          "it": "cinque",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "sechs",
+          "it": "sei",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "sieben",
+          "it": "sette",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "acht",
+          "it": "otto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "neun",
+          "it": "nove",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "zehn",
+          "it": "dieci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "zwanzig",
+          "it": "venti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "hundert",
+          "it": "cento",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_famiglia",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Famiglia e persone",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "👨‍👩‍👦",
+      "words": [
+        {
+          "fr": "die Familie",
+          "it": "la famiglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Mutter",
+          "it": "la madre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Vater",
+          "it": "il padre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Bruder",
+          "it": "il fratello",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Schwester",
+          "it": "la sorella",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Sohn",
+          "it": "il figlio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Tochter",
+          "it": "la figlia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ein Freund",
+          "it": "un amico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "eine Person",
+          "it": "una persona",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_scuola",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Scuola e studio",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🎒",
+      "words": [
+        {
+          "fr": "die Schule",
+          "it": "la scuola",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Klassenzimmer",
+          "it": "la classe",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Buch",
+          "it": "il libro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Heft",
+          "it": "il quaderno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Kugelschreiber",
+          "it": "la penna",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Bleistift",
+          "it": "la matita",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Unterrichtsstunde",
+          "it": "la lezione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Lehrkraft",
+          "it": "l'insegnante",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Hausaufgabe",
+          "it": "il compito",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_casa",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Casa e stanze",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🏠",
+      "words": [
+        {
+          "fr": "das Haus",
+          "it": "la casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Zimmer",
+          "it": "la stanza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Küche",
+          "it": "la cucina",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Badezimmer",
+          "it": "il bagno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Schlafzimmer",
+          "it": "la camera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Bett",
+          "it": "il letto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Tür",
+          "it": "la porta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Fenster",
+          "it": "la finestra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Tisch",
+          "it": "il tavolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_tempo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Giorni, mesi e ora",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "heute",
+          "it": "oggi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "morgen",
+          "it": "domani",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "gestern",
+          "it": "ieri",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Montag",
+          "it": "lunedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Dienstag",
+          "it": "martedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Mittwoch",
+          "it": "mercoledì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Donnerstag",
+          "it": "giovedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Freitag",
+          "it": "venerdì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Samstag",
+          "it": "sabato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Sonntag",
+          "it": "domenica",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wie spät ist es?",
+          "it": "che ore sono?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_cibo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Cibo e bevande",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "das Wasser",
+          "it": "l'acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Brot",
+          "it": "il pane",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Nudeln",
+          "it": "la pasta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Obst",
+          "it": "la frutta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Gemüse",
+          "it": "la verdura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Reis",
+          "it": "il riso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Apfel",
+          "it": "la mela",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Kaffee",
+          "it": "il caffè",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich hätte gern einen Tee",
+          "it": "vorrei un tè",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_acquisti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Negozi e prezzi",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🛍️",
+      "words": [
+        {
+          "fr": "das Geschäft",
+          "it": "il negozio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Markt",
+          "it": "il mercato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wie viel kostet das?",
+          "it": "quanto costa?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ein Euro",
+          "it": "un euro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Größe",
+          "it": "la taglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "klein",
+          "it": "piccolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "groß",
+          "it": "grande",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "teuer",
+          "it": "caro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "günstig",
+          "it": "economico",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_citta",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Città e indicazioni",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🚏",
+      "words": [
+        {
+          "fr": "die Straße",
+          "it": "la strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Platz",
+          "it": "la piazza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Bahnhof",
+          "it": "la stazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Bus",
+          "it": "l'autobus",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Apotheke",
+          "it": "la farmacia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Bibliothek",
+          "it": "la biblioteca",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nach rechts",
+          "it": "a destra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nach links",
+          "it": "a sinistra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wo ist...?",
+          "it": "dov'è...?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_salute",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Salute e aiuto",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🩹",
+      "words": [
+        {
+          "fr": "Hilfe!",
+          "it": "aiuto!",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich brauche Hilfe",
+          "it": "ho bisogno di aiuto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mir geht es nicht gut",
+          "it": "non sto bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "es tut weh",
+          "it": "mi fa male",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Arzt",
+          "it": "il medico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Krankenhaus",
+          "it": "l'ospedale",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich habe Fieber",
+          "it": "ho la febbre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Gesundheitskarte",
+          "it": "la tessera sanitaria",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_attivita",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Verbi e attività",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🎲",
+      "words": [
+        {
+          "fr": "essen",
+          "it": "mangiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "trinken",
+          "it": "bere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "schlafen",
+          "it": "dormire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "lernen",
+          "it": "studiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "arbeiten",
+          "it": "lavorare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "lesen",
+          "it": "leggere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "schreiben",
+          "it": "scrivere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "gehen",
+          "it": "andare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "machen",
+          "it": "fare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "haben",
+          "it": "avere",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_routine",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Routine e frequenza",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "ich wache auf",
+          "it": "mi sveglio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich stehe auf",
+          "it": "mi alzo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich frühstücke",
+          "it": "faccio colazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich gehe aus dem Haus",
+          "it": "esco di casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich komme nach Hause",
+          "it": "torno a casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "oft",
+          "it": "spesso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "manchmal",
+          "it": "qualche volta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nie",
+          "it": "mai",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_passato",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Raccontare il passato",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "📖",
+      "words": [
+        {
+          "fr": "gestern bin ich gegangen",
+          "it": "ieri sono andato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich habe gegessen",
+          "it": "ho mangiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich habe gelernt",
+          "it": "ho studiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich habe gesehen",
+          "it": "ho visto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wir haben gespielt",
+          "it": "abbiamo giocato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "letzte Woche",
+          "it": "la settimana scorsa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "letztes Jahr",
+          "it": "l'anno scorso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vorher",
+          "it": "prima",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_viaggi",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Viaggi e trasporti",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🚆",
+      "words": [
+        {
+          "fr": "die Fahrkarte",
+          "it": "il biglietto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Zug",
+          "it": "il treno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Flughafen",
+          "it": "l'aeroporto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Abfahrt",
+          "it": "la partenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Ankunft",
+          "it": "l'arrivo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Verspätung",
+          "it": "il ritardo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Hin- und Rückfahrt",
+          "it": "andata e ritorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wo muss ich aussteigen?",
+          "it": "dove devo scendere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_lavoro",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Lavoro e colloqui",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "💼",
+      "words": [
+        {
+          "fr": "das Vorstellungsgespräch",
+          "it": "il colloquio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Lebenslauf",
+          "it": "il curriculum",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Arbeitszeit",
+          "it": "l'orario",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Vertrag",
+          "it": "il contratto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Kollege",
+          "it": "il collega",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Gehalt",
+          "it": "lo stipendio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich habe Erfahrung",
+          "it": "ho esperienza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich suche Arbeit",
+          "it": "cerco lavoro",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_uffici",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Documenti e servizi",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🏛️",
+      "words": [
+        {
+          "fr": "das Dokument",
+          "it": "il documento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Personalausweis",
+          "it": "la carta d'identità",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Wohnsitz",
+          "it": "la residenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Rathaus",
+          "it": "il comune",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Termin",
+          "it": "l'appuntamento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Formular",
+          "it": "il modulo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich muss unterschreiben",
+          "it": "devo firmare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wo kann ich fragen?",
+          "it": "dove posso chiedere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_sentimenti",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Emozioni e opinioni",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🙂",
+      "words": [
+        {
+          "fr": "ich bin froh",
+          "it": "sono contento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bin besorgt",
+          "it": "sono preoccupato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bin müde",
+          "it": "sono stanco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "meiner Meinung nach",
+          "it": "secondo me",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich denke dass",
+          "it": "penso che",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bevorzuge",
+          "it": "preferisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bin einverstanden",
+          "it": "sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bin nicht einverstanden",
+          "it": "non sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_progetti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Futuro e progetti",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🎯",
+      "words": [
+        {
+          "fr": "morgen werde ich gehen",
+          "it": "domani andrò",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich möchte lernen",
+          "it": "voglio imparare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich kann kommen",
+          "it": "posso venire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich muss losfahren",
+          "it": "devo partire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nächste Woche",
+          "it": "la prossima settimana",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mein Plan",
+          "it": "il mio progetto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich hoffe",
+          "it": "spero di",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich möchte werden",
+          "it": "vorrei diventare",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_relazioni",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Conversazioni e messaggi",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "darf ich dich anrufen?",
+          "it": "ti posso chiamare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "schick mir eine Nachricht",
+          "it": "mandami un messaggio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich habe nicht verstanden",
+          "it": "non ho capito",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "kannst du es erklären?",
+          "it": "puoi spiegare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "es tut mir leid",
+          "it": "mi dispiace",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "in Ordnung",
+          "it": "va bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "warum?",
+          "it": "perché?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "also",
+          "it": "quindi",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_ambiente",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Ambiente e comunità",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "recyceln",
+          "it": "riciclare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Wasser sparen",
+          "it": "risparmiare acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Natur",
+          "it": "la natura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Park",
+          "it": "il parco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Viertel",
+          "it": "il quartiere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "der Müll",
+          "it": "i rifiuti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Mülltrennung",
+          "it": "la raccolta differenziata",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "die Gemeinschaft",
+          "it": "la comunità",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_imprevisti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Problemi e richieste",
+      "subtitle": "Parole e frasi in tedesco",
+      "icon": "📞",
+      "words": [
+        {
+          "fr": "ich habe meine Schlüssel verloren",
+          "it": "ho perso le chiavi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "das Telefon funktioniert nicht",
+          "it": "il telefono non funziona",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich bin falsch abgebogen",
+          "it": "ho sbagliato strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "können Sie mir helfen?",
+          "it": "può aiutarmi?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "es ist dringend",
+          "it": "è urgente",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "warten Sie einen Moment",
+          "it": "aspetti un momento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ich komme nicht hinein",
+          "it": "non riesco a entrare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "was soll ich tun?",
+          "it": "cosa devo fare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_0",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Materie scolastiche",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "📚",
+      "words": [
+        {
+          "fr": "Mathematik",
+          "it": "la matematica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Naturwissenschaften",
+          "it": "le scienze",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Geschichte",
+          "it": "la storia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Geografie",
+          "it": "la geografia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Musik",
+          "it": "la musica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Kunst",
+          "it": "l'arte",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Sprache",
+          "it": "la lingua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Sport",
+          "it": "l'educazione fisica",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_1",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Sport e hobby",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🏀",
+      "words": [
+        {
+          "fr": "Basketball",
+          "it": "il basket",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Fußball",
+          "it": "il calcio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Schwimmen",
+          "it": "il nuoto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Kampfsport",
+          "it": "le arti marziali",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "Klavier spielen",
+          "it": "suonare il piano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "zeichnen",
+          "it": "disegnare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich lese gern",
+          "it": "mi piace leggere",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "mit Freunden spielen",
+          "it": "giocare con gli amici",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_2",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Vestiti e colori",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "👕",
+      "words": [
+        {
+          "fr": "das T-Shirt",
+          "it": "la maglietta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "die Hose",
+          "it": "i pantaloni",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "die Schuhe",
+          "it": "le scarpe",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "die Jacke",
+          "it": "la giacca",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "der Mantel",
+          "it": "il cappotto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "der Hut",
+          "it": "il cappello",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "der Rock",
+          "it": "la gonna",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "das Kleid",
+          "it": "il vestito",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_3",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Il tempo meteorologico",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🌦️",
+      "words": [
+        {
+          "fr": "es ist heiß",
+          "it": "fa caldo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "es ist kalt",
+          "it": "fa freddo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "es regnet",
+          "it": "piove",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "es schneit",
+          "it": "nevica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "die Sonne scheint",
+          "it": "c'è il sole",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "es ist bewölkt",
+          "it": "è nuvoloso",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "es ist windig",
+          "it": "c'è vento",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "wie ist das Wetter?",
+          "it": "che tempo fa?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_4",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Dialoghi in classe",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "darf ich reinkommen?",
+          "it": "posso entrare?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich habe es nicht verstanden",
+          "it": "non ho capito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "kannst du das bitte wiederholen?",
+          "it": "puoi ripetere, per favore?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "wie schreibt man das?",
+          "it": "come si scrive?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "öffne das Buch",
+          "it": "apri il libro",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "hör zu und sprich nach",
+          "it": "ascolta e ripeti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich bin fertig",
+          "it": "ho finito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich habe eine Frage",
+          "it": "ho una domanda",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_5",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Una giornata insieme",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "ich wache um sieben auf",
+          "it": "mi sveglio alle sette",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich fahre mit dem Bus zur Schule",
+          "it": "vado a scuola in autobus",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich lerne am Nachmittag",
+          "it": "studio nel pomeriggio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich treffe meine Freunde",
+          "it": "incontro i miei amici",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich mache dienstags Sport",
+          "it": "faccio sport il martedì",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "nach dem Abendessen lese ich",
+          "it": "dopo cena leggo",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_6",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Al ristorante",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "haben Sie einen freien Tisch?",
+          "it": "avete un tavolo libero?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "die Speisekarte, bitte",
+          "it": "il menù, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich bin Vegetarier",
+          "it": "sono vegetariano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ohne Milch, bitte",
+          "it": "senza latte, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich hätte gern Wasser",
+          "it": "vorrei dell'acqua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "die Rechnung, bitte",
+          "it": "il conto, per favore",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_7",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Orientarsi in città",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🗺️",
+      "words": [
+        {
+          "fr": "wo ist das Museum?",
+          "it": "dove si trova il museo?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "biegen Sie rechts ab",
+          "it": "giri a destra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "gehen Sie geradeaus",
+          "it": "vada sempre dritto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "überqueren Sie den Platz",
+          "it": "attraversi la piazza",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "es ist in der Nähe des Bahnhofs",
+          "it": "è vicino alla stazione",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "danke für Ihre Hilfe",
+          "it": "grazie per l'aiuto",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_8",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Raccontare le vacanze",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "🌍",
+      "words": [
+        {
+          "fr": "letzten Sommer bin ich verreist",
+          "it": "l'estate scorsa ho viaggiato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "wir haben eine Stadt besucht",
+          "it": "abbiamo visitato una città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "die Reise war wunderschön",
+          "it": "il viaggio è stato bellissimo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich habe viele Fotos gemacht",
+          "it": "ho scattato molte foto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich möchte eines Tages zurückkehren",
+          "it": "vorrei tornare un giorno",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich erzähle von meiner Erfahrung",
+          "it": "racconto la mia esperienza",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_9",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Scelte e opinioni",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "💡",
+      "words": [
+        {
+          "fr": "ich denke, dass es wichtig ist",
+          "it": "penso che sia importante",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich stimme dir zu",
+          "it": "sono d'accordo con te",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich bevorzuge eine andere Lösung",
+          "it": "preferisco una soluzione diversa",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "einerseits... andererseits",
+          "it": "da una parte... dall'altra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "meiner Meinung nach können wir uns verbessern",
+          "it": "secondo me possiamo migliorare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "kannst du deine Meinung erklären?",
+          "it": "puoi spiegare la tua opinione?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_10",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Messaggi e progetti",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "✉️",
+      "words": [
+        {
+          "fr": "ich schreibe dir, um dich einzuladen",
+          "it": "ti scrivo per invitarti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "wir sehen uns am Samstag",
+          "it": "ci vediamo sabato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "morgen werden wir die Stadt besuchen",
+          "it": "domani visiteremo la città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich warte auf deine Antwort",
+          "it": "aspetto la tua risposta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "bis bald und danke",
+          "it": "a presto e grazie",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ich würde gern teilnehmen",
+          "it": "mi piacerebbe partecipare",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_1",
+      "kind": "grammar",
+      "level": "Prima media",
+      "title": "Grammatica Prima media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Artikel",
+          "explanation": "Nominativo: der (maschile), die (femminile), das (neutro), die (plurale).",
+          "exampleFr": "Das ist ein Buch.",
+          "exampleIt": "Questo è un libro."
+        },
+        {
+          "title": "Sein und haben",
+          "explanation": "Sein: ich bin, du bist, er ist. Haben: ich habe, du hast, sie hat.",
+          "exampleFr": "Ich bin elf Jahre alt.",
+          "exampleIt": "Ho undici anni."
+        },
+        {
+          "title": "Präsens",
+          "explanation": "I verbi seguono desinenze personali: ich lerne, du lernst, er lernt.",
+          "exampleFr": "Wir lernen Deutsch.",
+          "exampleIt": "Studiamo tedesco."
+        },
+        {
+          "title": "W-Fragen",
+          "explanation": "Wer, was, wann, wo, warum, wie iniziano le domande.",
+          "exampleFr": "Wo wohnst du?",
+          "exampleIt": "Dove abiti?"
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_2",
+      "kind": "grammar",
+      "level": "Seconda media",
+      "title": "Grammatica Seconda media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Akkusativ",
+          "explanation": "Con complemento oggetto diretto: der diventa den; die e das restano invariati.",
+          "exampleFr": "Ich kaufe den Stift.",
+          "exampleIt": "Compro la penna."
+        },
+        {
+          "title": "Trennbare Verben",
+          "explanation": "Al presente il prefisso separabile spesso va in fondo alla frase.",
+          "exampleFr": "Ich stehe früh auf.",
+          "exampleIt": "Mi alzo presto."
+        },
+        {
+          "title": "Perfekt",
+          "explanation": "Haben o sein + participio passato per raccontare eventi.",
+          "exampleFr": "Ich habe das Buch gelesen.",
+          "exampleIt": "Ho letto il libro."
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_3",
+      "kind": "grammar",
+      "level": "Terza media",
+      "title": "Grammatica Terza media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Modalverben",
+          "explanation": "Müssen, können, wollen con infinito a fine frase.",
+          "exampleFr": "Ich muss heute lernen.",
+          "exampleIt": "Devo studiare oggi."
+        },
+        {
+          "title": "Nebensätze mit weil",
+          "explanation": "Nella subordinata introdotta da weil il verbo va in fondo.",
+          "exampleFr": "Ich lerne, weil ich morgen einen Test habe.",
+          "exampleIt": "Studio perché domani ho un compito."
+        },
+        {
+          "title": "Vergleiche",
+          "explanation": "Comparativo spesso con -er e als; superlativo con am -sten.",
+          "exampleFr": "Der Zug ist schneller als der Bus.",
+          "exampleIt": "Il treno è più veloce dell'autobus."
+        }
+      ]
+    }
+  ],
+  "curriculum": "Progressione editoriale originale 1ª–3ª media; non copia del libro scolastico."
+}
