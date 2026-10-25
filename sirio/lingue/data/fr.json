@@ -1,0 +1,2440 @@
+{
+  "schemaVersion": 3,
+  "locale": "fr-FR",
+  "modules": [
+    {
+      "id": "days",
+      "kind": "vocabulary",
+      "title": "I giorni della settimana",
+      "subtitle": "Les jours de la semaine",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "lundi",
+          "it": "lunedì",
+          "hint": "len-dì (la prima vocale è nasale)"
+        },
+        {
+          "fr": "mardi",
+          "it": "martedì",
+          "hint": "mar-dì"
+        },
+        {
+          "fr": "mercredi",
+          "it": "mercoledì",
+          "hint": "mer-cre-dì"
+        },
+        {
+          "fr": "jeudi",
+          "it": "giovedì",
+          "hint": "jö-dì (la j è dolce, come in bonjour)"
+        },
+        {
+          "fr": "vendredi",
+          "it": "venerdì",
+          "hint": "van-dre-dì (la prima vocale è nasale)"
+        },
+        {
+          "fr": "samedi",
+          "it": "sabato",
+          "hint": "sam-dì"
+        },
+        {
+          "fr": "dimanche",
+          "it": "domenica",
+          "hint": "di-mansh (la an è nasale)"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "colors",
+      "kind": "vocabulary",
+      "title": "I colori",
+      "subtitle": "Les couleurs",
+      "icon": "🎨",
+      "words": [
+        {
+          "fr": "bleu",
+          "it": "blu",
+          "hint": "blö",
+          "color": "#5072DF"
+        },
+        {
+          "fr": "rouge",
+          "it": "rosso",
+          "hint": "ruj",
+          "color": "#E54C55"
+        },
+        {
+          "fr": "jaune",
+          "it": "giallo",
+          "hint": "jon",
+          "color": "#F5D44F"
+        },
+        {
+          "fr": "vert",
+          "it": "verde",
+          "hint": "ver (la t non si legge)",
+          "color": "#3FAF73"
+        },
+        {
+          "fr": "orange",
+          "it": "arancione",
+          "hint": "o-ranj (la an è nasale)",
+          "color": "#FF9E47"
+        },
+        {
+          "fr": "marron",
+          "it": "marrone",
+          "hint": "ma-ron (finale nasale)",
+          "color": "#986445"
+        },
+        {
+          "fr": "rose",
+          "it": "rosa",
+          "hint": "roz",
+          "color": "#EF85B3"
+        },
+        {
+          "fr": "violet",
+          "it": "viola",
+          "hint": "vio-lè (la t non si legge)",
+          "color": "#9061C9"
+        },
+        {
+          "fr": "gris",
+          "it": "grigio",
+          "hint": "gri (la s non si legge)",
+          "color": "#9EA5B3"
+        },
+        {
+          "fr": "noir",
+          "it": "nero",
+          "hint": "nuar",
+          "color": "#262B37"
+        },
+        {
+          "fr": "blanc",
+          "it": "bianco",
+          "hint": "blan (nasale, la c non si legge)",
+          "color": "#FFFFFF"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "numbers",
+      "kind": "vocabulary",
+      "title": "I numeri da 0 a 20",
+      "subtitle": "Les nombres",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "zéro",
+          "it": "zero",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "un",
+          "it": "uno",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "deux",
+          "it": "due",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "trois",
+          "it": "tre",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "quatre",
+          "it": "quattro",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "cinq",
+          "it": "cinque",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "six",
+          "it": "sei",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "sept",
+          "it": "sette",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "huit",
+          "it": "otto",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "neuf",
+          "it": "nove",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "dix",
+          "it": "dieci",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "onze",
+          "it": "undici",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "douze",
+          "it": "dodici",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "treize",
+          "it": "tredici",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "quatorze",
+          "it": "quattordici",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "quinze",
+          "it": "quindici",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "seize",
+          "it": "sedici",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "dix-sept",
+          "it": "diciassette",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "dix-huit",
+          "it": "diciotto",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "dix-neuf",
+          "it": "diciannove",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "vingt",
+          "it": "venti",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "months",
+      "kind": "vocabulary",
+      "title": "I mesi dell'anno",
+      "subtitle": "Les mois",
+      "icon": "🗓️",
+      "words": [
+        {
+          "fr": "janvier",
+          "it": "gennaio",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "février",
+          "it": "febbraio",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "mars",
+          "it": "marzo",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "avril",
+          "it": "aprile",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "mai",
+          "it": "maggio",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "juin",
+          "it": "giugno",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "juillet",
+          "it": "luglio",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "août",
+          "it": "agosto",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "septembre",
+          "it": "settembre",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "octobre",
+          "it": "ottobre",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "novembre",
+          "it": "novembre",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "décembre",
+          "it": "dicembre",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "seasons",
+      "kind": "vocabulary",
+      "title": "Le stagioni",
+      "subtitle": "Les saisons",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "printemps",
+          "it": "primavera",
+          "hint": "Ascolta la pronuncia e ripeti"
+        },
+        {
+          "fr": "été",
+          "it": "estate",
+          "hint": "Ascolta la pronuncia e ripeti"
+        },
+        {
+          "fr": "automne",
+          "it": "autunno",
+          "hint": "Ascolta la pronuncia e ripeti"
+        },
+        {
+          "fr": "hiver",
+          "it": "inverno",
+          "hint": "Ascolta la pronuncia e ripeti"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "greetings",
+      "kind": "vocabulary",
+      "title": "Saluti e frasi utili",
+      "subtitle": "Premiers mots",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "bonjour",
+          "it": "buongiorno",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "bonsoir",
+          "it": "buonasera",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "salut",
+          "it": "ciao",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "au revoir",
+          "it": "arrivederci",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "merci",
+          "it": "grazie",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "s'il vous plaît",
+          "it": "per favore (formale)",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "oui",
+          "it": "sì",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "non",
+          "it": "no",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "school",
+      "kind": "vocabulary",
+      "title": "Nomi di scuola e famiglia",
+      "subtitle": "Les noms",
+      "icon": "🎒",
+      "words": [
+        {
+          "fr": "le livre",
+          "it": "il libro",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "le cahier",
+          "it": "il quaderno",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "le stylo",
+          "it": "la penna",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "la classe",
+          "it": "la classe",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "l'école",
+          "it": "la scuola",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "le professeur",
+          "it": "l'insegnante",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "un ami",
+          "it": "un amico",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "une amie",
+          "it": "un'amica",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "la mère",
+          "it": "la mamma",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "le père",
+          "it": "il papà",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "etre",
+      "kind": "vocabulary",
+      "title": "Verbo essere: être",
+      "subtitle": "Présent de l'indicatif",
+      "icon": "🧩",
+      "words": [
+        {
+          "fr": "je suis",
+          "it": "io sono",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "tu es",
+          "it": "tu sei",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "il est",
+          "it": "lui è",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "elle est",
+          "it": "lei è",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "nous sommes",
+          "it": "noi siamo",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "vous êtes",
+          "it": "voi siete",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "ils sont",
+          "it": "loro sono",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "avoir",
+      "kind": "vocabulary",
+      "title": "Verbo avere: avoir",
+      "subtitle": "Présent de l'indicatif",
+      "icon": "🧩",
+      "words": [
+        {
+          "fr": "j'ai",
+          "it": "io ho",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "tu as",
+          "it": "tu hai",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "il a",
+          "it": "lui ha",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "elle a",
+          "it": "lei ha",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "nous avons",
+          "it": "noi abbiamo",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "vous avez",
+          "it": "voi avete",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "ils ont",
+          "it": "loro hanno",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "aller",
+      "kind": "vocabulary",
+      "title": "Verbo andare: aller",
+      "subtitle": "Présent de l'indicatif",
+      "icon": "🚶",
+      "words": [
+        {
+          "fr": "je vais",
+          "it": "io vado",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "tu vas",
+          "it": "tu vai",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "il va",
+          "it": "lui va",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "nous allons",
+          "it": "noi andiamo",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "vous allez",
+          "it": "voi andate",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "ils vont",
+          "it": "loro vanno",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "faire",
+      "kind": "vocabulary",
+      "title": "Verbo fare: faire",
+      "subtitle": "Présent de l'indicatif",
+      "icon": "✍️",
+      "words": [
+        {
+          "fr": "je fais",
+          "it": "io faccio",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "tu fais",
+          "it": "tu fai",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "il fait",
+          "it": "lui fa",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "nous faisons",
+          "it": "noi facciamo",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "vous faites",
+          "it": "voi fate",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        },
+        {
+          "fr": "ils font",
+          "it": "loro fanno",
+          "hint": "Ascolta la voce francese per la pronuncia."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "grammar",
+      "kind": "grammar",
+      "title": "Grammatica essenziale",
+      "subtitle": "Regole brevi con esempi",
+      "icon": "📚",
+      "rules": [
+        {
+          "title": "I pronomi personali",
+          "explanation": "Je = io, tu = tu, il/elle = lui/lei, nous = noi, vous = voi/Lei, ils/elles = loro.",
+          "exampleFr": "Je suis élève.",
+          "exampleIt": "Io sono uno studente."
+        },
+        {
+          "title": "Articoli determinativi",
+          "explanation": "Le (maschile), la (femminile), l' (davanti a vocale), les (plurale).",
+          "exampleFr": "Le livre et la classe.",
+          "exampleIt": "Il libro e la classe."
+        },
+        {
+          "title": "Articoli indeterminativi",
+          "explanation": "Un (maschile), une (femminile), des (plurale).",
+          "exampleFr": "Un livre, une amie.",
+          "exampleIt": "Un libro, un'amica."
+        },
+        {
+          "title": "La negazione",
+          "explanation": "Metti ne prima del verbo e pas dopo. Davanti a vocale ne diventa n'.",
+          "exampleFr": "Je ne suis pas fatigué.",
+          "exampleIt": "Non sono stanco."
+        },
+        {
+          "title": "Fare una domanda",
+          "explanation": "Una domanda semplice si può formare con Est-ce que + frase.",
+          "exampleFr": "Est-ce que tu as un livre ?",
+          "exampleIt": "Hai un libro?"
+        },
+        {
+          "title": "Il plurale",
+          "explanation": "Di solito si aggiunge -s al nome, spesso non pronunciata. Gli articoli diventano les o des.",
+          "exampleFr": "Les livres.",
+          "exampleIt": "I libri."
+        },
+        {
+          "title": "Aggettivi maschili e femminili",
+          "explanation": "Molti aggettivi aggiungono -e al femminile. Impara anche le eccezioni.",
+          "exampleFr": "Il est petit. Elle est petite.",
+          "exampleIt": "Lui è piccolo. Lei è piccola."
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "sc_saluti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Saluti e cortesia",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "salut",
+          "it": "ciao",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bonjour",
+          "it": "buongiorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bonsoir",
+          "it": "buonasera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "au revoir",
+          "it": "arrivederci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "s'il vous plaît",
+          "it": "per favore",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "merci",
+          "it": "grazie",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "de rien",
+          "it": "prego",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pardon",
+          "it": "scusa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "comment ça va ?",
+          "it": "come stai?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_presentarsi",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Presentarsi",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🙋",
+      "words": [
+        {
+          "fr": "je m'appelle",
+          "it": "mi chiamo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je suis",
+          "it": "sono",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'habite à",
+          "it": "abito a",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je viens de",
+          "it": "vengo da",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai onze ans",
+          "it": "ho undici anni",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "enchanté",
+          "it": "piacere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je parle italien",
+          "it": "parlo italiano",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je ne comprends pas",
+          "it": "non capisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "peux-tu répéter ?",
+          "it": "puoi ripetere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_numeri",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Numeri e dati",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "un",
+          "it": "uno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "deux",
+          "it": "due",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "trois",
+          "it": "tre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "quatre",
+          "it": "quattro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "cinq",
+          "it": "cinque",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "six",
+          "it": "sei",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "sept",
+          "it": "sette",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "huit",
+          "it": "otto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "neuf",
+          "it": "nove",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "dix",
+          "it": "dieci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vingt",
+          "it": "venti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "cent",
+          "it": "cento",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_famiglia",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Famiglia e persone",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "👨‍👩‍👦",
+      "words": [
+        {
+          "fr": "la famille",
+          "it": "la famiglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la mère",
+          "it": "la madre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le père",
+          "it": "il padre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le frère",
+          "it": "il fratello",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la sœur",
+          "it": "la sorella",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le fils",
+          "it": "il figlio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la fille",
+          "it": "la figlia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "un ami",
+          "it": "un amico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "une personne",
+          "it": "una persona",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_scuola",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Scuola e studio",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🎒",
+      "words": [
+        {
+          "fr": "l'école",
+          "it": "la scuola",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la classe",
+          "it": "la classe",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le livre",
+          "it": "il libro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le cahier",
+          "it": "il quaderno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le stylo",
+          "it": "la penna",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le crayon",
+          "it": "la matita",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la leçon",
+          "it": "la lezione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le professeur",
+          "it": "l'insegnante",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le devoir",
+          "it": "il compito",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_casa",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Casa e stanze",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🏠",
+      "words": [
+        {
+          "fr": "la maison",
+          "it": "la casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la pièce",
+          "it": "la stanza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la cuisine",
+          "it": "la cucina",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la salle de bains",
+          "it": "il bagno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la chambre",
+          "it": "la camera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le lit",
+          "it": "il letto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la porte",
+          "it": "la porta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la fenêtre",
+          "it": "la finestra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la table",
+          "it": "il tavolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_tempo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Giorni, mesi e ora",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "aujourd'hui",
+          "it": "oggi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "demain",
+          "it": "domani",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "hier",
+          "it": "ieri",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "lundi",
+          "it": "lunedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mardi",
+          "it": "martedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mercredi",
+          "it": "mercoledì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "jeudi",
+          "it": "giovedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vendredi",
+          "it": "venerdì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "samedi",
+          "it": "sabato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "dimanche",
+          "it": "domenica",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "quelle heure est-il ?",
+          "it": "che ore sono?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_cibo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Cibo e bevande",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "l'eau",
+          "it": "l'acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le pain",
+          "it": "il pane",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "les pâtes",
+          "it": "la pasta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "les fruits",
+          "it": "la frutta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "les légumes",
+          "it": "la verdura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le riz",
+          "it": "il riso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la pomme",
+          "it": "la mela",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le café",
+          "it": "il caffè",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je voudrais un thé",
+          "it": "vorrei un tè",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_acquisti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Negozi e prezzi",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🛍️",
+      "words": [
+        {
+          "fr": "le magasin",
+          "it": "il negozio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le marché",
+          "it": "il mercato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "combien ça coûte ?",
+          "it": "quanto costa?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "un euro",
+          "it": "un euro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la taille",
+          "it": "la taglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "petit",
+          "it": "piccolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "grand",
+          "it": "grande",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "cher",
+          "it": "caro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bon marché",
+          "it": "economico",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_citta",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Città e indicazioni",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🚏",
+      "words": [
+        {
+          "fr": "la rue",
+          "it": "la strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la place",
+          "it": "la piazza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la gare",
+          "it": "la stazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le bus",
+          "it": "l'autobus",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la pharmacie",
+          "it": "la farmacia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la bibliothèque",
+          "it": "la biblioteca",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "à droite",
+          "it": "a destra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "à gauche",
+          "it": "a sinistra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "où est... ?",
+          "it": "dov'è...?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_salute",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Salute e aiuto",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🩹",
+      "words": [
+        {
+          "fr": "au secours !",
+          "it": "aiuto!",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai besoin d'aide",
+          "it": "ho bisogno di aiuto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je ne vais pas bien",
+          "it": "non sto bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai mal",
+          "it": "mi fa male",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le médecin",
+          "it": "il medico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "l'hôpital",
+          "it": "l'ospedale",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai de la fièvre",
+          "it": "ho la febbre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la carte de santé",
+          "it": "la tessera sanitaria",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_attivita",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Verbi e attività",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🎲",
+      "words": [
+        {
+          "fr": "manger",
+          "it": "mangiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "boire",
+          "it": "bere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "dormir",
+          "it": "dormire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "étudier",
+          "it": "studiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "travailler",
+          "it": "lavorare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "lire",
+          "it": "leggere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "écrire",
+          "it": "scrivere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "aller",
+          "it": "andare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "faire",
+          "it": "fare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "avoir",
+          "it": "avere",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_routine",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Routine e frequenza",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "je me réveille",
+          "it": "mi sveglio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je me lève",
+          "it": "mi alzo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je prends le petit-déjeuner",
+          "it": "faccio colazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je quitte la maison",
+          "it": "esco di casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je rentre à la maison",
+          "it": "torno a casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "souvent",
+          "it": "spesso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "parfois",
+          "it": "qualche volta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "jamais",
+          "it": "mai",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_passato",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Raccontare il passato",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "📖",
+      "words": [
+        {
+          "fr": "hier je suis allé",
+          "it": "ieri sono andato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai mangé",
+          "it": "ho mangiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai étudié",
+          "it": "ho studiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai vu",
+          "it": "ho visto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nous avons joué",
+          "it": "abbiamo giocato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la semaine dernière",
+          "it": "la settimana scorsa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "l'année dernière",
+          "it": "l'anno scorso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "avant",
+          "it": "prima",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_viaggi",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Viaggi e trasporti",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🚆",
+      "words": [
+        {
+          "fr": "le billet",
+          "it": "il biglietto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le train",
+          "it": "il treno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "l'aéroport",
+          "it": "l'aeroporto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le départ",
+          "it": "la partenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "l'arrivée",
+          "it": "l'arrivo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le retard",
+          "it": "il ritardo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "aller-retour",
+          "it": "andata e ritorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "où dois-je descendre ?",
+          "it": "dove devo scendere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_lavoro",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Lavoro e colloqui",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "💼",
+      "words": [
+        {
+          "fr": "l'entretien",
+          "it": "il colloquio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le CV",
+          "it": "il curriculum",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "l'horaire",
+          "it": "l'orario",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le contrat",
+          "it": "il contratto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le collègue",
+          "it": "il collega",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le salaire",
+          "it": "lo stipendio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'ai de l'expérience",
+          "it": "ho esperienza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je cherche du travail",
+          "it": "cerco lavoro",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_uffici",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Documenti e servizi",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🏛️",
+      "words": [
+        {
+          "fr": "le document",
+          "it": "il documento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la carte d'identité",
+          "it": "la carta d'identità",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la résidence",
+          "it": "la residenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la mairie",
+          "it": "il comune",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le rendez-vous",
+          "it": "l'appuntamento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le formulaire",
+          "it": "il modulo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je dois signer",
+          "it": "devo firmare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "où puis-je demander ?",
+          "it": "dove posso chiedere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_sentimenti",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Emozioni e opinioni",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🙂",
+      "words": [
+        {
+          "fr": "je suis content",
+          "it": "sono contento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je suis inquiet",
+          "it": "sono preoccupato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je suis fatigué",
+          "it": "sono stanco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "à mon avis",
+          "it": "secondo me",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je pense que",
+          "it": "penso che",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je préfère",
+          "it": "preferisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je suis d'accord",
+          "it": "sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je ne suis pas d'accord",
+          "it": "non sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_progetti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Futuro e progetti",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🎯",
+      "words": [
+        {
+          "fr": "demain j'irai",
+          "it": "domani andrò",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je veux apprendre",
+          "it": "voglio imparare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je peux venir",
+          "it": "posso venire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je dois partir",
+          "it": "devo partire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la semaine prochaine",
+          "it": "la prossima settimana",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mon projet",
+          "it": "il mio progetto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "j'espère",
+          "it": "spero di",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je voudrais devenir",
+          "it": "vorrei diventare",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_relazioni",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Conversazioni e messaggi",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "je peux t'appeler ?",
+          "it": "ti posso chiamare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "envoie-moi un message",
+          "it": "mandami un messaggio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je n'ai pas compris",
+          "it": "non ho capito",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "peux-tu expliquer ?",
+          "it": "puoi spiegare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je suis désolé",
+          "it": "mi dispiace",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "d'accord",
+          "it": "va bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pourquoi ?",
+          "it": "perché?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "donc",
+          "it": "quindi",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_ambiente",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Ambiente e comunità",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "recycler",
+          "it": "riciclare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "économiser l'eau",
+          "it": "risparmiare acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la nature",
+          "it": "la natura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le parc",
+          "it": "il parco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le quartier",
+          "it": "il quartiere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "les déchets",
+          "it": "i rifiuti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le tri sélectif",
+          "it": "la raccolta differenziata",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la communauté",
+          "it": "la comunità",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_imprevisti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Problemi e richieste",
+      "subtitle": "Parole e frasi in francese",
+      "icon": "📞",
+      "words": [
+        {
+          "fr": "j'ai perdu mes clés",
+          "it": "ho perso le chiavi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "le téléphone ne fonctionne pas",
+          "it": "il telefono non funziona",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je me suis trompé de route",
+          "it": "ho sbagliato strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pouvez-vous m'aider ?",
+          "it": "può aiutarmi?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "c'est urgent",
+          "it": "è urgente",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "attendez un instant",
+          "it": "aspetti un momento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "je n'arrive pas à entrer",
+          "it": "non riesco a entrare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "que dois-je faire ?",
+          "it": "cosa devo fare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_0",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Materie scolastiche",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "📚",
+      "words": [
+        {
+          "fr": "les mathématiques",
+          "it": "la matematica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "les sciences",
+          "it": "le scienze",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "l'histoire",
+          "it": "la storia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la géographie",
+          "it": "la geografia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la musique",
+          "it": "la musica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "les arts plastiques",
+          "it": "l'arte",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la langue",
+          "it": "la lingua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "l'éducation physique",
+          "it": "l'educazione fisica",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_1",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Sport e hobby",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🏀",
+      "words": [
+        {
+          "fr": "le basket",
+          "it": "il basket",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "le football",
+          "it": "il calcio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la natation",
+          "it": "il nuoto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "les arts martiaux",
+          "it": "le arti marziali",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "jouer du piano",
+          "it": "suonare il piano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "dessiner",
+          "it": "disegnare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'aime lire",
+          "it": "mi piace leggere",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "jouer avec des amis",
+          "it": "giocare con gli amici",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_2",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Vestiti e colori",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "👕",
+      "words": [
+        {
+          "fr": "le tee-shirt",
+          "it": "la maglietta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "le pantalon",
+          "it": "i pantaloni",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "les chaussures",
+          "it": "le scarpe",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la veste",
+          "it": "la giacca",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "le manteau",
+          "it": "il cappotto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "le chapeau",
+          "it": "il cappello",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la jupe",
+          "it": "la gonna",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la robe",
+          "it": "il vestito",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_3",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Il tempo meteorologico",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🌦️",
+      "words": [
+        {
+          "fr": "il fait chaud",
+          "it": "fa caldo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "il fait froid",
+          "it": "fa freddo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "il pleut",
+          "it": "piove",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "il neige",
+          "it": "nevica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "il y a du soleil",
+          "it": "c'è il sole",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "il y a des nuages",
+          "it": "è nuvoloso",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "il y a du vent",
+          "it": "c'è vento",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "quel temps fait-il ?",
+          "it": "che tempo fa?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_4",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Dialoghi in classe",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "je peux entrer ?",
+          "it": "posso entrare?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je n'ai pas compris",
+          "it": "non ho capito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "peux-tu répéter, s'il te plaît ?",
+          "it": "puoi ripetere, per favore?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "comment ça s'écrit ?",
+          "it": "come si scrive?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "ouvre le livre",
+          "it": "apri il libro",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "écoute et répète",
+          "it": "ascolta e ripeti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'ai fini",
+          "it": "ho finito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'ai une question",
+          "it": "ho una domanda",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_5",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Una giornata insieme",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "je me réveille à sept heures",
+          "it": "mi sveglio alle sette",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je vais à l'école en bus",
+          "it": "vado a scuola in autobus",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'étudie l'après-midi",
+          "it": "studio nel pomeriggio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je retrouve mes amis",
+          "it": "incontro i miei amici",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je fais du sport le mardi",
+          "it": "faccio sport il martedì",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "après le dîner, je lis",
+          "it": "dopo cena leggo",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_6",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Al ristorante",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "avez-vous une table libre ?",
+          "it": "avete un tavolo libero?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la carte, s'il vous plaît",
+          "it": "il menù, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je suis végétarien",
+          "it": "sono vegetariano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "sans lait, s'il vous plaît",
+          "it": "senza latte, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je voudrais de l'eau",
+          "it": "vorrei dell'acqua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "l'addition, s'il vous plaît",
+          "it": "il conto, per favore",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_7",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Orientarsi in città",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🗺️",
+      "words": [
+        {
+          "fr": "où se trouve le musée ?",
+          "it": "dove si trova il museo?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "tournez à droite",
+          "it": "giri a destra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "allez tout droit",
+          "it": "vada sempre dritto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "traversez la place",
+          "it": "attraversi la piazza",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "c'est près de la gare",
+          "it": "è vicino alla stazione",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "merci pour votre aide",
+          "it": "grazie per l'aiuto",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_8",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Raccontare le vacanze",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "🌍",
+      "words": [
+        {
+          "fr": "l'été dernier, j'ai voyagé",
+          "it": "l'estate scorsa ho viaggiato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "nous avons visité une ville",
+          "it": "abbiamo visitato una città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "le voyage était magnifique",
+          "it": "il viaggio è stato bellissimo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'ai pris beaucoup de photos",
+          "it": "ho scattato molte foto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'aimerais revenir un jour",
+          "it": "vorrei tornare un giorno",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je raconte mon expérience",
+          "it": "racconto la mia esperienza",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_9",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Scelte e opinioni",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "💡",
+      "words": [
+        {
+          "fr": "je pense que c'est important",
+          "it": "penso che sia importante",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je suis d'accord avec toi",
+          "it": "sono d'accordo con te",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "je préfère une autre solution",
+          "it": "preferisco una soluzione diversa",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "d'une part... d'autre part",
+          "it": "da una parte... dall'altra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "à mon avis, nous pouvons nous améliorer",
+          "it": "secondo me possiamo migliorare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "peux-tu expliquer ton opinion ?",
+          "it": "puoi spiegare la tua opinione?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_10",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Messaggi e progetti",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "✉️",
+      "words": [
+        {
+          "fr": "je t'écris pour t'inviter",
+          "it": "ti scrivo per invitarti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "on se voit samedi",
+          "it": "ci vediamo sabato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "demain, nous visiterons la ville",
+          "it": "domani visiteremo la città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'attends ta réponse",
+          "it": "aspetto la tua risposta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "à bientôt et merci",
+          "it": "a presto e grazie",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "j'aimerais participer",
+          "it": "mi piacerebbe partecipare",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_1",
+      "kind": "grammar",
+      "level": "Prima media",
+      "title": "Grammatica Prima media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Les articles",
+          "explanation": "Articoli: un, une, des; le, la, l', les. Cambiano secondo genere e numero.",
+          "exampleFr": "C'est un cahier.",
+          "exampleIt": "È un quaderno."
+        },
+        {
+          "title": "Être et avoir",
+          "explanation": "Essere: je suis, tu es, il/elle est, nous sommes. Avere: j'ai, tu as, il/elle a.",
+          "exampleFr": "Je suis élève et j'ai onze ans.",
+          "exampleIt": "Sono studente e ho undici anni."
+        },
+        {
+          "title": "La négation",
+          "explanation": "La forma negativa si costruisce generalmente con ne ... pas intorno al verbo.",
+          "exampleFr": "Je n'aime pas le froid.",
+          "exampleIt": "Non mi piace il freddo."
+        },
+        {
+          "title": "Les questions",
+          "explanation": "Parole interrogative: comment, où, quand, pourquoi, qui, combien.",
+          "exampleFr": "Où habites-tu ?",
+          "exampleIt": "Dove abiti?"
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_2",
+      "kind": "grammar",
+      "level": "Seconda media",
+      "title": "Grammatica Seconda media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Verbes en -er",
+          "explanation": "Al presente: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent.",
+          "exampleFr": "Nous parlons français.",
+          "exampleIt": "Parliamo francese."
+        },
+        {
+          "title": "Le passé composé",
+          "explanation": "Usa avoir/être al presente più participio passato per raccontare eventi conclusi.",
+          "exampleFr": "J'ai visité Paris.",
+          "exampleIt": "Ho visitato Parigi."
+        },
+        {
+          "title": "Les prépositions",
+          "explanation": "Per luoghi: à, au, aux, en, chez; per posizione: devant, derrière, sous.",
+          "exampleFr": "La bibliothèque est près du parc.",
+          "exampleIt": "La biblioteca è vicino al parco."
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_3",
+      "kind": "grammar",
+      "level": "Terza media",
+      "title": "Grammatica Terza media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Le futur proche",
+          "explanation": "Per piani imminenti si usa aller + infinito.",
+          "exampleFr": "Je vais apprendre une nouvelle langue.",
+          "exampleIt": "Imparerò una nuova lingua."
+        },
+        {
+          "title": "Le comparatif",
+          "explanation": "Confronta usando plus ... que, moins ... que, aussi ... que.",
+          "exampleFr": "Le train est plus rapide que le bus.",
+          "exampleIt": "Il treno è più veloce dell'autobus."
+        },
+        {
+          "title": "L'imparfait",
+          "explanation": "Descrive situazioni abituali o di sfondo nel passato.",
+          "exampleFr": "Quand j'étais petit, je lisais beaucoup.",
+          "exampleIt": "Da piccolo leggevo molto."
+        }
+      ]
+    }
+  ],
+  "curriculum": "Progressione editoriale originale 1ª–3ª media; non copia del libro scolastico."
+}
