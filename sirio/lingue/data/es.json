@@ -1,0 +1,2158 @@
+{
+  "schemaVersion": 3,
+  "locale": "es-ES",
+  "modules": [
+    {
+      "id": "days",
+      "kind": "vocabulary",
+      "title": "I giorni della settimana",
+      "subtitle": "Days / Jours / Días / Tage",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "lunes",
+          "it": "lunedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "martes",
+          "it": "martedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "miércoles",
+          "it": "mercoledì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "jueves",
+          "it": "giovedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "viernes",
+          "it": "venerdì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "sábado",
+          "it": "sabato",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "domingo",
+          "it": "domenica",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "colors",
+      "kind": "vocabulary",
+      "title": "I colori",
+      "subtitle": "Colors / Couleurs / Colores / Farben",
+      "icon": "🎨",
+      "words": [
+        {
+          "fr": "azul",
+          "it": "blu",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#5072DF"
+        },
+        {
+          "fr": "rojo",
+          "it": "rosso",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#E54C55"
+        },
+        {
+          "fr": "amarillo",
+          "it": "giallo",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#F5D44F"
+        },
+        {
+          "fr": "verde",
+          "it": "verde",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#3FAF73"
+        },
+        {
+          "fr": "naranja",
+          "it": "arancione",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#FF9E47"
+        },
+        {
+          "fr": "marrón",
+          "it": "marrone",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#986445"
+        },
+        {
+          "fr": "rosa",
+          "it": "rosa",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#EF85B3"
+        },
+        {
+          "fr": "violeta",
+          "it": "viola",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#9061C9"
+        },
+        {
+          "fr": "gris",
+          "it": "grigio",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#9EA5B3"
+        },
+        {
+          "fr": "negro",
+          "it": "nero",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#262B37"
+        },
+        {
+          "fr": "blanco",
+          "it": "bianco",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#FFFFFF"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "numbers",
+      "kind": "vocabulary",
+      "title": "I numeri da 0 a 20",
+      "subtitle": "Numbers 0–20",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "cero",
+          "it": "zero",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "uno",
+          "it": "uno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "dos",
+          "it": "due",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "tres",
+          "it": "tre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "cuatro",
+          "it": "quattro",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "cinco",
+          "it": "cinque",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "seis",
+          "it": "sei",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "siete",
+          "it": "sette",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "ocho",
+          "it": "otto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "nueve",
+          "it": "nove",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "diez",
+          "it": "dieci",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "once",
+          "it": "undici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "doce",
+          "it": "dodici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "trece",
+          "it": "tredici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "catorce",
+          "it": "quattordici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "quince",
+          "it": "quindici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "dieciséis",
+          "it": "sedici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "diecisiete",
+          "it": "diciassette",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "dieciocho",
+          "it": "diciotto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "diecinueve",
+          "it": "diciannove",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "veinte",
+          "it": "venti",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "months",
+      "kind": "vocabulary",
+      "title": "I mesi dell'anno",
+      "subtitle": "Months / Mois / Meses / Monate",
+      "icon": "🗓️",
+      "words": [
+        {
+          "fr": "enero",
+          "it": "gennaio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "febrero",
+          "it": "febbraio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "marzo",
+          "it": "marzo",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "abril",
+          "it": "aprile",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "mayo",
+          "it": "maggio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "junio",
+          "it": "giugno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "julio",
+          "it": "luglio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "agosto",
+          "it": "agosto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "septiembre",
+          "it": "settembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "octubre",
+          "it": "ottobre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "noviembre",
+          "it": "novembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "diciembre",
+          "it": "dicembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "seasons",
+      "kind": "vocabulary",
+      "title": "Le stagioni",
+      "subtitle": "Seasons / Saisons / Estaciones / Jahreszeiten",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "primavera",
+          "it": "primavera",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "verano",
+          "it": "estate",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "otoño",
+          "it": "autunno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "invierno",
+          "it": "inverno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "greetings",
+      "kind": "vocabulary",
+      "title": "I saluti e le frasi utili",
+      "subtitle": "Greetings / Salutations / Saludos / Grüße",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "hola",
+          "it": "ciao",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "buenos días",
+          "it": "buongiorno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "buenas tardes",
+          "it": "buonasera",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "buenas noches",
+          "it": "buonanotte",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "adiós",
+          "it": "arrivederci",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "gracias",
+          "it": "grazie",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "por favor",
+          "it": "per favore",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "¿cómo estás?",
+          "it": "come stai?",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "sc_saluti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Saluti e cortesia",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "hola",
+          "it": "ciao",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "buenos días",
+          "it": "buongiorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "buenas tardes",
+          "it": "buonasera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "adiós",
+          "it": "arrivederci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "por favor",
+          "it": "per favore",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "gracias",
+          "it": "grazie",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "de nada",
+          "it": "prego",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "perdón",
+          "it": "scusa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿cómo estás?",
+          "it": "come stai?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_presentarsi",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Presentarsi",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🙋",
+      "words": [
+        {
+          "fr": "me llamo",
+          "it": "mi chiamo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "soy",
+          "it": "sono",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vivo en",
+          "it": "abito a",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vengo de",
+          "it": "vengo da",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "tengo once años",
+          "it": "ho undici anni",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "encantado",
+          "it": "piacere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "hablo italiano",
+          "it": "parlo italiano",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "no entiendo",
+          "it": "non capisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿puedes repetir?",
+          "it": "puoi ripetere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_numeri",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Numeri e dati",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "uno",
+          "it": "uno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "dos",
+          "it": "due",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "tres",
+          "it": "tre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "cuatro",
+          "it": "quattro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "cinco",
+          "it": "cinque",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "seis",
+          "it": "sei",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "siete",
+          "it": "sette",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ocho",
+          "it": "otto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nueve",
+          "it": "nove",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "diez",
+          "it": "dieci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "veinte",
+          "it": "venti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "cien",
+          "it": "cento",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_famiglia",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Famiglia e persone",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "👨‍👩‍👦",
+      "words": [
+        {
+          "fr": "la familia",
+          "it": "la famiglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la madre",
+          "it": "la madre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el padre",
+          "it": "il padre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el hermano",
+          "it": "il fratello",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la hermana",
+          "it": "la sorella",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el hijo",
+          "it": "il figlio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la hija",
+          "it": "la figlia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "un amigo",
+          "it": "un amico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "una persona",
+          "it": "una persona",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_scuola",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Scuola e studio",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🎒",
+      "words": [
+        {
+          "fr": "la escuela",
+          "it": "la scuola",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la clase",
+          "it": "la classe",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el libro",
+          "it": "il libro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el cuaderno",
+          "it": "il quaderno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el bolígrafo",
+          "it": "la penna",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el lápiz",
+          "it": "la matita",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la lección",
+          "it": "la lezione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el profesor",
+          "it": "l'insegnante",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la tarea",
+          "it": "il compito",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_casa",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Casa e stanze",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🏠",
+      "words": [
+        {
+          "fr": "la casa",
+          "it": "la casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la habitación",
+          "it": "la stanza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la cocina",
+          "it": "la cucina",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el baño",
+          "it": "il bagno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el dormitorio",
+          "it": "la camera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la cama",
+          "it": "il letto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la puerta",
+          "it": "la porta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la ventana",
+          "it": "la finestra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la mesa",
+          "it": "il tavolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_tempo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Giorni, mesi e ora",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "hoy",
+          "it": "oggi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mañana",
+          "it": "domani",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ayer",
+          "it": "ieri",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "lunes",
+          "it": "lunedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "martes",
+          "it": "martedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "miércoles",
+          "it": "mercoledì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "jueves",
+          "it": "giovedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "viernes",
+          "it": "venerdì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "sábado",
+          "it": "sabato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "domingo",
+          "it": "domenica",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿qué hora es?",
+          "it": "che ore sono?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_cibo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Cibo e bevande",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "el agua",
+          "it": "l'acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el pan",
+          "it": "il pane",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la pasta",
+          "it": "la pasta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la fruta",
+          "it": "la frutta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "las verduras",
+          "it": "la verdura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el arroz",
+          "it": "il riso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la manzana",
+          "it": "la mela",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el café",
+          "it": "il caffè",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "quisiera un té",
+          "it": "vorrei un tè",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_acquisti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Negozi e prezzi",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🛍️",
+      "words": [
+        {
+          "fr": "la tienda",
+          "it": "il negozio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el mercado",
+          "it": "il mercato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿cuánto cuesta?",
+          "it": "quanto costa?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "un euro",
+          "it": "un euro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la talla",
+          "it": "la taglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pequeño",
+          "it": "piccolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "grande",
+          "it": "grande",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "caro",
+          "it": "caro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "barato",
+          "it": "economico",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_citta",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Città e indicazioni",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🚏",
+      "words": [
+        {
+          "fr": "la calle",
+          "it": "la strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la plaza",
+          "it": "la piazza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la estación",
+          "it": "la stazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el autobús",
+          "it": "l'autobus",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la farmacia",
+          "it": "la farmacia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la biblioteca",
+          "it": "la biblioteca",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "a la derecha",
+          "it": "a destra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "a la izquierda",
+          "it": "a sinistra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿dónde está...?",
+          "it": "dov'è...?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_salute",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Salute e aiuto",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🩹",
+      "words": [
+        {
+          "fr": "¡ayuda!",
+          "it": "aiuto!",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "necesito ayuda",
+          "it": "ho bisogno di aiuto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "no me siento bien",
+          "it": "non sto bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "me duele",
+          "it": "mi fa male",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el médico",
+          "it": "il medico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el hospital",
+          "it": "l'ospedale",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "tengo fiebre",
+          "it": "ho la febbre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la tarjeta sanitaria",
+          "it": "la tessera sanitaria",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_attivita",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Verbi e attività",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🎲",
+      "words": [
+        {
+          "fr": "comer",
+          "it": "mangiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "beber",
+          "it": "bere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "dormir",
+          "it": "dormire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "estudiar",
+          "it": "studiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "trabajar",
+          "it": "lavorare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "leer",
+          "it": "leggere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "escribir",
+          "it": "scrivere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ir",
+          "it": "andare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "hacer",
+          "it": "fare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "tener",
+          "it": "avere",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_routine",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Routine e frequenza",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "me despierto",
+          "it": "mi sveglio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "me levanto",
+          "it": "mi alzo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "desayuno",
+          "it": "faccio colazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "salgo de casa",
+          "it": "esco di casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vuelvo a casa",
+          "it": "torno a casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "a menudo",
+          "it": "spesso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "a veces",
+          "it": "qualche volta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nunca",
+          "it": "mai",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_passato",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Raccontare il passato",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "📖",
+      "words": [
+        {
+          "fr": "ayer fui",
+          "it": "ieri sono andato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "he comido",
+          "it": "ho mangiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "he estudiado",
+          "it": "ho studiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "he visto",
+          "it": "ho visto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "hemos jugado",
+          "it": "abbiamo giocato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la semana pasada",
+          "it": "la settimana scorsa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el año pasado",
+          "it": "l'anno scorso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "antes",
+          "it": "prima",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_viaggi",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Viaggi e trasporti",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🚆",
+      "words": [
+        {
+          "fr": "el billete",
+          "it": "il biglietto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el tren",
+          "it": "il treno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el aeropuerto",
+          "it": "l'aeroporto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la salida",
+          "it": "la partenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la llegada",
+          "it": "l'arrivo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el retraso",
+          "it": "il ritardo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ida y vuelta",
+          "it": "andata e ritorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿dónde tengo que bajar?",
+          "it": "dove devo scendere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_lavoro",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Lavoro e colloqui",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "💼",
+      "words": [
+        {
+          "fr": "la entrevista",
+          "it": "il colloquio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el currículum",
+          "it": "il curriculum",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el horario",
+          "it": "l'orario",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el contrato",
+          "it": "il contratto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el compañero de trabajo",
+          "it": "il collega",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el sueldo",
+          "it": "lo stipendio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "tengo experiencia",
+          "it": "ho esperienza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "busco trabajo",
+          "it": "cerco lavoro",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_uffici",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Documenti e servizi",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🏛️",
+      "words": [
+        {
+          "fr": "el documento",
+          "it": "il documento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el documento de identidad",
+          "it": "la carta d'identità",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la residencia",
+          "it": "la residenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el ayuntamiento",
+          "it": "il comune",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la cita",
+          "it": "l'appuntamento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el formulario",
+          "it": "il modulo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "tengo que firmar",
+          "it": "devo firmare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿dónde puedo preguntar?",
+          "it": "dove posso chiedere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_sentimenti",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Emozioni e opinioni",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🙂",
+      "words": [
+        {
+          "fr": "estoy contento",
+          "it": "sono contento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "estoy preocupado",
+          "it": "sono preoccupato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "estoy cansado",
+          "it": "sono stanco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "en mi opinión",
+          "it": "secondo me",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pienso que",
+          "it": "penso che",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "prefiero",
+          "it": "preferisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "estoy de acuerdo",
+          "it": "sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "no estoy de acuerdo",
+          "it": "non sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_progetti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Futuro e progetti",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🎯",
+      "words": [
+        {
+          "fr": "mañana iré",
+          "it": "domani andrò",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "quiero aprender",
+          "it": "voglio imparare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "puedo venir",
+          "it": "posso venire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "debo salir",
+          "it": "devo partire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la próxima semana",
+          "it": "la prossima settimana",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mi proyecto",
+          "it": "il mio progetto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "espero",
+          "it": "spero di",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "me gustaría ser",
+          "it": "vorrei diventare",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_relazioni",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Conversazioni e messaggi",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "¿puedo llamarte?",
+          "it": "ti posso chiamare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mándame un mensaje",
+          "it": "mandami un messaggio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "no he entendido",
+          "it": "non ho capito",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿puedes explicar?",
+          "it": "puoi spiegare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "lo siento",
+          "it": "mi dispiace",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "está bien",
+          "it": "va bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿por qué?",
+          "it": "perché?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "por eso",
+          "it": "quindi",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_ambiente",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Ambiente e comunità",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "reciclar",
+          "it": "riciclare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ahorrar agua",
+          "it": "risparmiare acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la naturaleza",
+          "it": "la natura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el parque",
+          "it": "il parco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el barrio",
+          "it": "il quartiere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "los residuos",
+          "it": "i rifiuti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la recogida selectiva",
+          "it": "la raccolta differenziata",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "la comunidad",
+          "it": "la comunità",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_imprevisti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Problemi e richieste",
+      "subtitle": "Parole e frasi in spagnolo",
+      "icon": "📞",
+      "words": [
+        {
+          "fr": "he perdido las llaves",
+          "it": "ho perso le chiavi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "el teléfono no funciona",
+          "it": "il telefono non funziona",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "me he equivocado de camino",
+          "it": "ho sbagliato strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿puede ayudarme?",
+          "it": "può aiutarmi?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "es urgente",
+          "it": "è urgente",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "espere un momento",
+          "it": "aspetti un momento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "no puedo entrar",
+          "it": "non riesco a entrare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "¿qué debo hacer?",
+          "it": "cosa devo fare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_0",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Materie scolastiche",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "📚",
+      "words": [
+        {
+          "fr": "las matemáticas",
+          "it": "la matematica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "las ciencias",
+          "it": "le scienze",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la historia",
+          "it": "la storia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la geografía",
+          "it": "la geografia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la música",
+          "it": "la musica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el arte",
+          "it": "l'arte",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el idioma",
+          "it": "la lingua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la educación física",
+          "it": "l'educazione fisica",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_1",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Sport e hobby",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🏀",
+      "words": [
+        {
+          "fr": "el baloncesto",
+          "it": "il basket",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el fútbol",
+          "it": "il calcio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la natación",
+          "it": "il nuoto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "las artes marciales",
+          "it": "le arti marziali",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "tocar el piano",
+          "it": "suonare il piano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "dibujar",
+          "it": "disegnare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "me gusta leer",
+          "it": "mi piace leggere",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "jugar con amigos",
+          "it": "giocare con gli amici",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_2",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Vestiti e colori",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "👕",
+      "words": [
+        {
+          "fr": "la camiseta",
+          "it": "la maglietta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "los pantalones",
+          "it": "i pantaloni",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "los zapatos",
+          "it": "le scarpe",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la chaqueta",
+          "it": "la giacca",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el abrigo",
+          "it": "il cappotto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el sombrero",
+          "it": "il cappello",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la falda",
+          "it": "la gonna",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el vestido",
+          "it": "il vestito",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_3",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Il tempo meteorologico",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🌦️",
+      "words": [
+        {
+          "fr": "hace calor",
+          "it": "fa caldo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "hace frío",
+          "it": "fa freddo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "llueve",
+          "it": "piove",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "nieva",
+          "it": "nevica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "hace sol",
+          "it": "c'è il sole",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "está nublado",
+          "it": "è nuvoloso",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "hace viento",
+          "it": "c'è vento",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "¿qué tiempo hace?",
+          "it": "che tempo fa?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_4",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Dialoghi in classe",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "¿puedo entrar?",
+          "it": "posso entrare?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "no he entendido",
+          "it": "non ho capito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "¿puedes repetir, por favor?",
+          "it": "puoi ripetere, per favore?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "¿cómo se escribe?",
+          "it": "come si scrive?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "abre el libro",
+          "it": "apri il libro",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "escucha y repite",
+          "it": "ascolta e ripeti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "he terminado",
+          "it": "ho finito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "tengo una pregunta",
+          "it": "ho una domanda",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_5",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Una giornata insieme",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "me despierto a las siete",
+          "it": "mi sveglio alle sette",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "voy a la escuela en autobús",
+          "it": "vado a scuola in autobus",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "estudio por la tarde",
+          "it": "studio nel pomeriggio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "me encuentro con mis amigos",
+          "it": "incontro i miei amici",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "hago deporte los martes",
+          "it": "faccio sport il martedì",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "después de cenar leo",
+          "it": "dopo cena leggo",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_6",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Al ristorante",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "¿tienen una mesa libre?",
+          "it": "avete un tavolo libero?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el menú, por favor",
+          "it": "il menù, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "soy vegetariano",
+          "it": "sono vegetariano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "sin leche, por favor",
+          "it": "senza latte, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "quisiera agua",
+          "it": "vorrei dell'acqua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "la cuenta, por favor",
+          "it": "il conto, per favore",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_7",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Orientarsi in città",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🗺️",
+      "words": [
+        {
+          "fr": "¿dónde está el museo?",
+          "it": "dove si trova il museo?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "gire a la derecha",
+          "it": "giri a destra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "siga recto",
+          "it": "vada sempre dritto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "cruce la plaza",
+          "it": "attraversi la piazza",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "está cerca de la estación",
+          "it": "è vicino alla stazione",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "gracias por su ayuda",
+          "it": "grazie per l'aiuto",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_8",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Raccontare le vacanze",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "🌍",
+      "words": [
+        {
+          "fr": "el verano pasado viajé",
+          "it": "l'estate scorsa ho viaggiato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "visitamos una ciudad",
+          "it": "abbiamo visitato una città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "el viaje fue maravilloso",
+          "it": "il viaggio è stato bellissimo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "saqué muchas fotos",
+          "it": "ho scattato molte foto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "me gustaría volver algún día",
+          "it": "vorrei tornare un giorno",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "cuento mi experiencia",
+          "it": "racconto la mia esperienza",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_9",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Scelte e opinioni",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "💡",
+      "words": [
+        {
+          "fr": "creo que es importante",
+          "it": "penso che sia importante",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "estoy de acuerdo contigo",
+          "it": "sono d'accordo con te",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "prefiero otra solución",
+          "it": "preferisco una soluzione diversa",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "por un lado... por otro",
+          "it": "da una parte... dall'altra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "en mi opinión podemos mejorar",
+          "it": "secondo me possiamo migliorare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "¿puedes explicar tu opinión?",
+          "it": "puoi spiegare la tua opinione?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_10",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Messaggi e progetti",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "✉️",
+      "words": [
+        {
+          "fr": "te escribo para invitarte",
+          "it": "ti scrivo per invitarti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "nos vemos el sábado",
+          "it": "ci vediamo sabato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "mañana visitaremos la ciudad",
+          "it": "domani visiteremo la città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "espero tu respuesta",
+          "it": "aspetto la tua risposta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "hasta pronto y gracias",
+          "it": "a presto e grazie",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "me gustaría participar",
+          "it": "mi piacerebbe partecipare",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_1",
+      "kind": "grammar",
+      "level": "Prima media",
+      "title": "Grammatica Prima media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Artículos",
+          "explanation": "Articoli: un, una, unos, unas; el, la, los, las.",
+          "exampleFr": "Este es un libro.",
+          "exampleIt": "Questo è un libro."
+        },
+        {
+          "title": "Ser y estar",
+          "explanation": "Ser per identità e caratteristiche; estar per posizione e stati temporanei.",
+          "exampleFr": "Soy estudiante y estoy en clase.",
+          "exampleIt": "Sono studente e sono in classe."
+        },
+        {
+          "title": "Tener",
+          "explanation": "Avere: yo tengo, tú tienes, él tiene, nosotros tenemos.",
+          "exampleFr": "Tengo once años.",
+          "exampleIt": "Ho undici anni."
+        },
+        {
+          "title": "Preguntas",
+          "explanation": "Qué, quién, cómo, dónde, cuándo, por qué introducono domande.",
+          "exampleFr": "¿Dónde vives?",
+          "exampleIt": "Dove vivi?"
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_2",
+      "kind": "grammar",
+      "level": "Seconda media",
+      "title": "Grammatica Seconda media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Presente regular",
+          "explanation": "Verbi -ar, -er, -ir: hablar, comer, vivir con desinenze del presente.",
+          "exampleFr": "Vivimos cerca de la escuela.",
+          "exampleIt": "Abitiamo vicino alla scuola."
+        },
+        {
+          "title": "Pretérito perfecto",
+          "explanation": "Haber al presente + participio: he hablado, has comido.",
+          "exampleFr": "He visitado Madrid.",
+          "exampleIt": "Ho visitato Madrid."
+        },
+        {
+          "title": "Gustar",
+          "explanation": "Me gusta una cosa; me gustan più cose.",
+          "exampleFr": "Me gustan los libros.",
+          "exampleIt": "Mi piacciono i libri."
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_3",
+      "kind": "grammar",
+      "level": "Terza media",
+      "title": "Grammatica Terza media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Pretérito indefinido",
+          "explanation": "Usato per eventi conclusi del passato: hablé, fui, comí.",
+          "exampleFr": "Ayer fui al museo.",
+          "exampleIt": "Ieri sono andato al museo."
+        },
+        {
+          "title": "Futuro",
+          "explanation": "Infinito + desinenze -é, -ás, -á...",
+          "exampleFr": "Mañana estudiaré español.",
+          "exampleIt": "Domani studierò spagnolo."
+        },
+        {
+          "title": "Comparativos",
+          "explanation": "Más ... que, menos ... que, tan ... como.",
+          "exampleFr": "Este tren es más rápido.",
+          "exampleIt": "Questo treno è più veloce."
+        }
+      ]
+    }
+  ],
+  "curriculum": "Progressione editoriale originale 1ª–3ª media; non copia del libro scolastico."
+}
