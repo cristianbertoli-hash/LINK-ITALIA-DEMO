@@ -1,0 +1,41 @@
+name: Verify Sirio public web previews
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-sirio-pages.yml'
+      - 'sirio/**'
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check both public GitHub Pages URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://cristianbertoli-hash.github.io/LINK-ITALIA-DEMO/sirio"
+          for site in lingue studiare; do
+            url="$base/$site/"
+            echo "Checking $url"
+            good=false
+            for attempt in $(seq 1 15); do
+              if curl --max-time 12 --fail --silent --show-error --location "$url" -o /tmp/sirio-page.html && grep -qi "con Sirio" /tmp/sirio-page.html; then
+                echo "OK: $url (attempt $attempt)"
+                good=true
+                break
+              fi
+              echo "Awaiting publication: $attempt"
+              sleep 8
+            done
+            if [ "$good" = false ]; then
+              echo "::error::Page not accessible at $url"
+              exit 1
+            fi
+          done
+          for code in fr en es de it curriculum-fr; do
+            curl --max-time 15 --fail --silent --show-error --location "$base/lingue/data/$code.json" -o /tmp/sirio-data.json
+            python3 -m json.tool /tmp/sirio-data.json >/dev/null
+            echo "OK data: $code"
+          done
