@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "level": "Prima media",
+  "language": "fr",
+  "scope": "Percorso originale di francese A1 per la prima media, ispirato agli argomenti visibili dell'indice; non è una trascrizione del libro Sanoma.",
+  "modules": [
+    {
+      "id": "u01",
+      "title": "Bonjour !",
+      "subtitle": "Saluti, presentazioni, formule di cortesia",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Saluti: bonjour, salut, bonsoir, au revoir, à bientôt, merci, s'il te plaît."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Presentarsi: je m'appelle…, je suis…, et toi ?; pronomi je, tu, il, elle; verbo s'appeler."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Salutare, presentarsi e chiedere il nome. Prova: scrivi un dialogo di quattro battute."
+        },
+        {
+          "name": "Esempio",
+          "content": "Bonjour ! Je m'appelle Léa. Comment tu t'appelles ?"
+        }
+      ]
+    },
+    {
+      "id": "u02",
+      "title": "La classe",
+      "subtitle": "Oggetti, persone e istruzioni a scuola",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Oggetti: le livre, le cahier, le stylo, le crayon, la gomme, la règle, la trousse; consignes: écoute, répète, ouvre."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Articoli un/une/des, le/la/l'/les; c'est/ce sont; plurale dei nomi."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Nominare e descrivere il materiale scolastico. Prova: indica cinque oggetti e il loro articolo."
+        },
+        {
+          "name": "Esempio",
+          "content": "C'est mon cahier. Où est ma trousse ?"
+        }
+      ]
+    },
+    {
+      "id": "u03",
+      "title": "Les nombres et les couleurs",
+      "subtitle": "Numeri, età, colori e compleanni",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Numeri 0–100; colori: bleu, rouge, jaune, vert, noir, blanc, rose, orange, violet, gris."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Verbo avoir; domanda Quel âge as-tu ?; accordo base degli aggettivi di colore."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Dire età, numero di telefono e colore. Prova: pronuncia cinque numeri e tre colori."
+        },
+        {
+          "name": "Esempio",
+          "content": "J'ai onze ans. Mon sac est bleu."
+        }
+      ]
+    },
+    {
+      "id": "u04",
+      "title": "Ma famille",
+      "subtitle": "Famiglia, amici e descrizioni",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Famiglia: père, mère, frère, sœur, parents, grands-parents; descrizioni fisiche e caratteriali."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Verbo être; aggettivi possessivi mon/ma/mes, ton/ta/tes; femminile e plurale degli aggettivi."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Presentare due familiari. Prova: scrivi cinque frasi sulla tua famiglia."
+        },
+        {
+          "name": "Esempio",
+          "content": "Voici ma sœur. Elle est gentille et sportive."
+        }
+      ]
+    },
+    {
+      "id": "u05",
+      "title": "Mes goûts",
+      "subtitle": "Gusti, sport e tempo libero",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Sport, hobby, musica, giochi, verbi di attività quotidiana."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Verbi in -er al presente; aimer/adorer/détester; negazione ne…pas."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Esprimere preferenze. Prova: indica tre cose che ami e due che non ami."
+        },
+        {
+          "name": "Esempio",
+          "content": "J'aime le basket, mais je n'aime pas danser."
+        }
+      ]
+    },
+    {
+      "id": "u06",
+      "title": "Mon emploi du temps",
+      "subtitle": "Materie, giorni, orari e routine",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Giorni della settimana, mesi, materie scolastiche, orologio, momenti della giornata."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Domande quand/à quelle heure; preposizioni à/de; verbi faire e aller introduttivi."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Descrivere la giornata scolastica. Prova: racconta tre lezioni con i rispettivi orari."
+        },
+        {
+          "name": "Esempio",
+          "content": "Le lundi, j'ai français à neuf heures."
+        }
+      ]
+    },
+    {
+      "id": "u07",
+      "title": "Chez moi",
+      "subtitle": "Casa, stanze e posizione degli oggetti",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Stanze e mobili: chambre, cuisine, salon, salle de bains, lit, table, chaise, bureau."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Il y a/il n'y a pas; preposizioni sur, sous, dans, devant, derrière, à côté de."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Descrivere la propria camera. Prova: scrivi cinque frasi con le preposizioni."
+        },
+        {
+          "name": "Esempio",
+          "content": "Dans ma chambre, il y a un bureau."
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "title": "En ville",
+      "subtitle": "Città, luoghi e indicazioni",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Luoghi: école, parc, mairie, musée, gare, pharmacie, bibliothèque."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Imperativo di uso frequente; où, à gauche, à droite, tout droit; à/au/aux."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Chiedere e dare indicazioni. Prova: spiega il percorso dalla scuola al parco."
+        },
+        {
+          "name": "Esempio",
+          "content": "Où est la bibliothèque ? Tournez à droite."
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "title": "Au café",
+      "subtitle": "Cibi, bevande e ordinazioni",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Cibi e bevande, pasti, quantità, formule al ristorante."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Articoli partitivi du/de la/de l'/des; je voudrais; combien ça coûte ?"
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Ordinare qualcosa educatamente. Prova: inventa un'ordinazione con prezzo."
+        },
+        {
+          "name": "Esempio",
+          "content": "Je voudrais un jus d'orange, s'il vous plaît."
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "Les vêtements",
+      "subtitle": "Abbigliamento, meteo e stagioni",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Vestiti, accessori, stagioni, tempo atmosferico e temperature."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Verbo mettre introduttivo; il fait beau/froid/chaud, il pleut; accordo aggettivi."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Scegliere cosa indossare secondo il meteo. Prova: descrivi un abbigliamento invernale."
+        },
+        {
+          "name": "Esempio",
+          "content": "Il pleut. Je porte un manteau."
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "Ma journée",
+      "subtitle": "Routine, attività e frequenza",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Azioni della giornata, mezzi di trasporto, avverbi toujours, souvent, parfois, jamais."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Verbi riflessivi più frequenti; aller, faire, prendre al presente; forma interrogativa."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Raccontare la giornata in ordine cronologico. Prova: sei frasi dalla mattina alla sera."
+        },
+        {
+          "name": "Esempio",
+          "content": "Je me lève à sept heures et je vais à l'école."
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "Révisions et DELF A1",
+      "subtitle": "Ripasso, ascolto, dialogo e verifica finale",
+      "sections": [
+        {
+          "name": "Vocabolario",
+          "content": "Ripasso trasversale di saluti, numeri, famiglia, scuola, città, cibo, gusti e routine."
+        },
+        {
+          "name": "Grammatica",
+          "content": "Ripasso di être, avoir, aller, verbi in -er, articoli, negazione, domande e accordi."
+        },
+        {
+          "name": "Comunicazione",
+          "content": "Simula una presentazione A1: parla per un minuto, rispondi a cinque domande e scrivi un breve messaggio."
+        },
+        {
+          "name": "Esempio",
+          "content": "Bonjour ! Je m'appelle… J'ai onze ans et j'habite en Italie."
+        }
+      ]
+    }
+  ]
+}
