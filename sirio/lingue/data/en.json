@@ -1,0 +1,2158 @@
+{
+  "schemaVersion": 3,
+  "locale": "en-GB",
+  "modules": [
+    {
+      "id": "days",
+      "kind": "vocabulary",
+      "title": "I giorni della settimana",
+      "subtitle": "Days / Jours / Días / Tage",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "Monday",
+          "it": "lunedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Tuesday",
+          "it": "martedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Wednesday",
+          "it": "mercoledì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Thursday",
+          "it": "giovedì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Friday",
+          "it": "venerdì",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Saturday",
+          "it": "sabato",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "Sunday",
+          "it": "domenica",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "colors",
+      "kind": "vocabulary",
+      "title": "I colori",
+      "subtitle": "Colors / Couleurs / Colores / Farben",
+      "icon": "🎨",
+      "words": [
+        {
+          "fr": "blue",
+          "it": "blu",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#5072DF"
+        },
+        {
+          "fr": "red",
+          "it": "rosso",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#E54C55"
+        },
+        {
+          "fr": "yellow",
+          "it": "giallo",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#F5D44F"
+        },
+        {
+          "fr": "green",
+          "it": "verde",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#3FAF73"
+        },
+        {
+          "fr": "orange",
+          "it": "arancione",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#FF9E47"
+        },
+        {
+          "fr": "brown",
+          "it": "marrone",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#986445"
+        },
+        {
+          "fr": "pink",
+          "it": "rosa",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#EF85B3"
+        },
+        {
+          "fr": "purple",
+          "it": "viola",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#9061C9"
+        },
+        {
+          "fr": "grey",
+          "it": "grigio",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#9EA5B3"
+        },
+        {
+          "fr": "black",
+          "it": "nero",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#262B37"
+        },
+        {
+          "fr": "white",
+          "it": "bianco",
+          "hint": "Ascolta la pronuncia con il pulsante audio",
+          "color": "#FFFFFF"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "numbers",
+      "kind": "vocabulary",
+      "title": "I numeri da 0 a 20",
+      "subtitle": "Numbers 0–20",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "zero",
+          "it": "zero",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "one",
+          "it": "uno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "two",
+          "it": "due",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "three",
+          "it": "tre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "four",
+          "it": "quattro",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "five",
+          "it": "cinque",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "six",
+          "it": "sei",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "seven",
+          "it": "sette",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "eight",
+          "it": "otto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "nine",
+          "it": "nove",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "ten",
+          "it": "dieci",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "eleven",
+          "it": "undici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "twelve",
+          "it": "dodici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "thirteen",
+          "it": "tredici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "fourteen",
+          "it": "quattordici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "fifteen",
+          "it": "quindici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "sixteen",
+          "it": "sedici",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "seventeen",
+          "it": "diciassette",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "eighteen",
+          "it": "diciotto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "nineteen",
+          "it": "diciannove",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "twenty",
+          "it": "venti",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "months",
+      "kind": "vocabulary",
+      "title": "I mesi dell'anno",
+      "subtitle": "Months / Mois / Meses / Monate",
+      "icon": "🗓️",
+      "words": [
+        {
+          "fr": "January",
+          "it": "gennaio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "February",
+          "it": "febbraio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "March",
+          "it": "marzo",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "April",
+          "it": "aprile",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "May",
+          "it": "maggio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "June",
+          "it": "giugno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "July",
+          "it": "luglio",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "August",
+          "it": "agosto",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "September",
+          "it": "settembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "October",
+          "it": "ottobre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "November",
+          "it": "novembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "December",
+          "it": "dicembre",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "seasons",
+      "kind": "vocabulary",
+      "title": "Le stagioni",
+      "subtitle": "Seasons / Saisons / Estaciones / Jahreszeiten",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "spring",
+          "it": "primavera",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "summer",
+          "it": "estate",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "autumn",
+          "it": "autunno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "winter",
+          "it": "inverno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "greetings",
+      "kind": "vocabulary",
+      "title": "I saluti e le frasi utili",
+      "subtitle": "Greetings / Salutations / Saludos / Grüße",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "hello",
+          "it": "ciao",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "good morning",
+          "it": "buongiorno",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "good evening",
+          "it": "buonasera",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "good night",
+          "it": "buonanotte",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "goodbye",
+          "it": "arrivederci",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "thank you",
+          "it": "grazie",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "please",
+          "it": "per favore",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        },
+        {
+          "fr": "how are you?",
+          "it": "come stai?",
+          "hint": "Ascolta la pronuncia con il pulsante audio"
+        }
+      ],
+      "level": "Prima media"
+    },
+    {
+      "id": "sc_saluti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Saluti e cortesia",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "hi",
+          "it": "ciao",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "good morning",
+          "it": "buongiorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "good evening",
+          "it": "buonasera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "goodbye",
+          "it": "arrivederci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "please",
+          "it": "per favore",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "thank you",
+          "it": "grazie",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "you're welcome",
+          "it": "prego",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "sorry",
+          "it": "scusa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "how are you?",
+          "it": "come stai?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_presentarsi",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Presentarsi",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🙋",
+      "words": [
+        {
+          "fr": "my name is",
+          "it": "mi chiamo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I am",
+          "it": "sono",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I live in",
+          "it": "abito a",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I come from",
+          "it": "vengo da",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I am eleven years old",
+          "it": "ho undici anni",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nice to meet you",
+          "it": "piacere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I speak Italian",
+          "it": "parlo italiano",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I don't understand",
+          "it": "non capisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "can you repeat?",
+          "it": "puoi ripetere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_numeri",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Numeri e dati",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "one",
+          "it": "uno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "two",
+          "it": "due",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "three",
+          "it": "tre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "four",
+          "it": "quattro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "five",
+          "it": "cinque",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "six",
+          "it": "sei",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "seven",
+          "it": "sette",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "eight",
+          "it": "otto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nine",
+          "it": "nove",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "ten",
+          "it": "dieci",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "twenty",
+          "it": "venti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "one hundred",
+          "it": "cento",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_famiglia",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Famiglia e persone",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "👨‍👩‍👦",
+      "words": [
+        {
+          "fr": "family",
+          "it": "la famiglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "mother",
+          "it": "la madre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "father",
+          "it": "il padre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "brother",
+          "it": "il fratello",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "sister",
+          "it": "la sorella",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "son",
+          "it": "il figlio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "daughter",
+          "it": "la figlia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "a friend",
+          "it": "un amico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "a person",
+          "it": "una persona",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_scuola",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Scuola e studio",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🎒",
+      "words": [
+        {
+          "fr": "school",
+          "it": "la scuola",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "classroom",
+          "it": "la classe",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "book",
+          "it": "il libro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "notebook",
+          "it": "il quaderno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pen",
+          "it": "la penna",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pencil",
+          "it": "la matita",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "lesson",
+          "it": "la lezione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "teacher",
+          "it": "l'insegnante",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "homework",
+          "it": "il compito",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_casa",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Casa e stanze",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🏠",
+      "words": [
+        {
+          "fr": "home",
+          "it": "la casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "room",
+          "it": "la stanza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "kitchen",
+          "it": "la cucina",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bathroom",
+          "it": "il bagno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bedroom",
+          "it": "la camera",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bed",
+          "it": "il letto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "door",
+          "it": "la porta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "window",
+          "it": "la finestra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "table",
+          "it": "il tavolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_tempo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Giorni, mesi e ora",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "today",
+          "it": "oggi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "tomorrow",
+          "it": "domani",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "yesterday",
+          "it": "ieri",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Monday",
+          "it": "lunedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Tuesday",
+          "it": "martedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Wednesday",
+          "it": "mercoledì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Thursday",
+          "it": "giovedì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Friday",
+          "it": "venerdì",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Saturday",
+          "it": "sabato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "Sunday",
+          "it": "domenica",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "what time is it?",
+          "it": "che ore sono?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_cibo",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Cibo e bevande",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "water",
+          "it": "l'acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bread",
+          "it": "il pane",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pasta",
+          "it": "la pasta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "fruit",
+          "it": "la frutta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "vegetables",
+          "it": "la verdura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "rice",
+          "it": "il riso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "apple",
+          "it": "la mela",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "coffee",
+          "it": "il caffè",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I would like a tea",
+          "it": "vorrei un tè",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_acquisti",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Negozi e prezzi",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🛍️",
+      "words": [
+        {
+          "fr": "shop",
+          "it": "il negozio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "market",
+          "it": "il mercato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "how much does it cost?",
+          "it": "quanto costa?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "one euro",
+          "it": "un euro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "size",
+          "it": "la taglia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "small",
+          "it": "piccolo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "big",
+          "it": "grande",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "expensive",
+          "it": "caro",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "inexpensive",
+          "it": "economico",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_citta",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Città e indicazioni",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🚏",
+      "words": [
+        {
+          "fr": "street",
+          "it": "la strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "square",
+          "it": "la piazza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "station",
+          "it": "la stazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "bus",
+          "it": "l'autobus",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "pharmacy",
+          "it": "la farmacia",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "library",
+          "it": "la biblioteca",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to the right",
+          "it": "a destra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to the left",
+          "it": "a sinistra",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "where is...?",
+          "it": "dov'è...?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_salute",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Salute e aiuto",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🩹",
+      "words": [
+        {
+          "fr": "help!",
+          "it": "aiuto!",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I need help",
+          "it": "ho bisogno di aiuto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I don't feel well",
+          "it": "non sto bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "it hurts",
+          "it": "mi fa male",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "doctor",
+          "it": "il medico",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "hospital",
+          "it": "l'ospedale",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I have a fever",
+          "it": "ho la febbre",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "health card",
+          "it": "la tessera sanitaria",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_attivita",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Verbi e attività",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🎲",
+      "words": [
+        {
+          "fr": "to eat",
+          "it": "mangiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to drink",
+          "it": "bere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to sleep",
+          "it": "dormire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to study",
+          "it": "studiare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to work",
+          "it": "lavorare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to read",
+          "it": "leggere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to write",
+          "it": "scrivere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to go",
+          "it": "andare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to do",
+          "it": "fare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to have",
+          "it": "avere",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_routine",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Routine e frequenza",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "I wake up",
+          "it": "mi sveglio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I get up",
+          "it": "mi alzo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I have breakfast",
+          "it": "faccio colazione",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I leave home",
+          "it": "esco di casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I come home",
+          "it": "torno a casa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "often",
+          "it": "spesso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "sometimes",
+          "it": "qualche volta",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "never",
+          "it": "mai",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_passato",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Raccontare il passato",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "📖",
+      "words": [
+        {
+          "fr": "yesterday I went",
+          "it": "ieri sono andato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I ate",
+          "it": "ho mangiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I studied",
+          "it": "ho studiato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I saw",
+          "it": "ho visto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "we played",
+          "it": "abbiamo giocato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "last week",
+          "it": "la settimana scorsa",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "last year",
+          "it": "l'anno scorso",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "before",
+          "it": "prima",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_viaggi",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Viaggi e trasporti",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🚆",
+      "words": [
+        {
+          "fr": "ticket",
+          "it": "il biglietto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "train",
+          "it": "il treno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "airport",
+          "it": "l'aeroporto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "departure",
+          "it": "la partenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "arrival",
+          "it": "l'arrivo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "delay",
+          "it": "il ritardo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "return trip",
+          "it": "andata e ritorno",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "where should I get off?",
+          "it": "dove devo scendere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_lavoro",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Lavoro e colloqui",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "💼",
+      "words": [
+        {
+          "fr": "interview",
+          "it": "il colloquio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "CV",
+          "it": "il curriculum",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "schedule",
+          "it": "l'orario",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "contract",
+          "it": "il contratto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "colleague",
+          "it": "il collega",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "salary",
+          "it": "lo stipendio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I have experience",
+          "it": "ho esperienza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I'm looking for work",
+          "it": "cerco lavoro",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_uffici",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Documenti e servizi",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🏛️",
+      "words": [
+        {
+          "fr": "document",
+          "it": "il documento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "identity card",
+          "it": "la carta d'identità",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "residence",
+          "it": "la residenza",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "town hall",
+          "it": "il comune",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "appointment",
+          "it": "l'appuntamento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "form",
+          "it": "il modulo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I must sign",
+          "it": "devo firmare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "where can I ask?",
+          "it": "dove posso chiedere?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_sentimenti",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Emozioni e opinioni",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🙂",
+      "words": [
+        {
+          "fr": "I'm happy",
+          "it": "sono contento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I'm worried",
+          "it": "sono preoccupato",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I'm tired",
+          "it": "sono stanco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "in my opinion",
+          "it": "secondo me",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I think that",
+          "it": "penso che",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I prefer",
+          "it": "preferisco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I agree",
+          "it": "sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I disagree",
+          "it": "non sono d'accordo",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_progetti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Futuro e progetti",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🎯",
+      "words": [
+        {
+          "fr": "tomorrow I will go",
+          "it": "domani andrò",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I want to learn",
+          "it": "voglio imparare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I can come",
+          "it": "posso venire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I must leave",
+          "it": "devo partire",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "next week",
+          "it": "la prossima settimana",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "my plan",
+          "it": "il mio progetto",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I hope to",
+          "it": "spero di",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I would like to become",
+          "it": "vorrei diventare",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_relazioni",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Conversazioni e messaggi",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "may I call you?",
+          "it": "ti posso chiamare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "send me a message",
+          "it": "mandami un messaggio",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I didn't understand",
+          "it": "non ho capito",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "can you explain?",
+          "it": "puoi spiegare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I'm sorry",
+          "it": "mi dispiace",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "all right",
+          "it": "va bene",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "why?",
+          "it": "perché?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "therefore",
+          "it": "quindi",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_ambiente",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Ambiente e comunità",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "to recycle",
+          "it": "riciclare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "to save water",
+          "it": "risparmiare acqua",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "nature",
+          "it": "la natura",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "park",
+          "it": "il parco",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "neighbourhood",
+          "it": "il quartiere",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "waste",
+          "it": "i rifiuti",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "waste sorting",
+          "it": "la raccolta differenziata",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "community",
+          "it": "la comunità",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_imprevisti",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Problemi e richieste",
+      "subtitle": "Parole e frasi in inglese",
+      "icon": "📞",
+      "words": [
+        {
+          "fr": "I've lost my keys",
+          "it": "ho perso le chiavi",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "the phone doesn't work",
+          "it": "il telefono non funziona",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I took the wrong road",
+          "it": "ho sbagliato strada",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "can you help me?",
+          "it": "può aiutarmi?",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "it's urgent",
+          "it": "è urgente",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "wait a moment",
+          "it": "aspetti un momento",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "I can't get in",
+          "it": "non riesco a entrare",
+          "hint": "Ascolta il modello, poi ripeti."
+        },
+        {
+          "fr": "what should I do?",
+          "it": "cosa devo fare?",
+          "hint": "Ascolta il modello, poi ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_0",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Materie scolastiche",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "📚",
+      "words": [
+        {
+          "fr": "mathematics",
+          "it": "la matematica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "science",
+          "it": "le scienze",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "history",
+          "it": "la storia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "geography",
+          "it": "la geografia",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "music",
+          "it": "la musica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "art",
+          "it": "l'arte",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "language",
+          "it": "la lingua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "physical education",
+          "it": "l'educazione fisica",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_1",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Sport e hobby",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🏀",
+      "words": [
+        {
+          "fr": "basketball",
+          "it": "il basket",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "football",
+          "it": "il calcio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "swimming",
+          "it": "il nuoto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "martial arts",
+          "it": "le arti marziali",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "to play the piano",
+          "it": "suonare il piano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "to draw",
+          "it": "disegnare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I like reading",
+          "it": "mi piace leggere",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "to play with friends",
+          "it": "giocare con gli amici",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_2",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Vestiti e colori",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "👕",
+      "words": [
+        {
+          "fr": "T-shirt",
+          "it": "la maglietta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "trousers",
+          "it": "i pantaloni",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "shoes",
+          "it": "le scarpe",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "jacket",
+          "it": "la giacca",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "coat",
+          "it": "il cappotto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "hat",
+          "it": "il cappello",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "skirt",
+          "it": "la gonna",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "dress",
+          "it": "il vestito",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_3",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Il tempo meteorologico",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "🌦️",
+      "words": [
+        {
+          "fr": "it is hot",
+          "it": "fa caldo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "it is cold",
+          "it": "fa freddo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "it is raining",
+          "it": "piove",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "it is snowing",
+          "it": "nevica",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "it is sunny",
+          "it": "c'è il sole",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "it is cloudy",
+          "it": "è nuvoloso",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "it is windy",
+          "it": "c'è vento",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "what is the weather like?",
+          "it": "che tempo fa?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_4",
+      "kind": "vocabulary",
+      "level": "Prima media",
+      "title": "Dialoghi in classe",
+      "subtitle": "Espressioni originali per 1ª media",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "may I come in?",
+          "it": "posso entrare?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I did not understand",
+          "it": "non ho capito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "can you repeat, please?",
+          "it": "puoi ripetere, per favore?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "how do you spell it?",
+          "it": "come si scrive?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "open the book",
+          "it": "apri il libro",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "listen and repeat",
+          "it": "ascolta e ripeti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I have finished",
+          "it": "ho finito",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I have a question",
+          "it": "ho una domanda",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_5",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Una giornata insieme",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "I wake up at seven",
+          "it": "mi sveglio alle sette",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I go to school by bus",
+          "it": "vado a scuola in autobus",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I study in the afternoon",
+          "it": "studio nel pomeriggio",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I meet my friends",
+          "it": "incontro i miei amici",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I do sport on Tuesday",
+          "it": "faccio sport il martedì",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "after dinner I read",
+          "it": "dopo cena leggo",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_6",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Al ristorante",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "do you have a free table?",
+          "it": "avete un tavolo libero?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "the menu, please",
+          "it": "il menù, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I am vegetarian",
+          "it": "sono vegetariano",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "without milk, please",
+          "it": "senza latte, per favore",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I would like some water",
+          "it": "vorrei dell'acqua",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "the bill, please",
+          "it": "il conto, per favore",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_7",
+      "kind": "vocabulary",
+      "level": "Seconda media",
+      "title": "Orientarsi in città",
+      "subtitle": "Espressioni originali per 2ª media",
+      "icon": "🗺️",
+      "words": [
+        {
+          "fr": "where is the museum?",
+          "it": "dove si trova il museo?",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "turn right",
+          "it": "giri a destra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "go straight ahead",
+          "it": "vada sempre dritto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "cross the square",
+          "it": "attraversi la piazza",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "it is near the station",
+          "it": "è vicino alla stazione",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "thank you for your help",
+          "it": "grazie per l'aiuto",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_8",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Raccontare le vacanze",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "🌍",
+      "words": [
+        {
+          "fr": "last summer I travelled",
+          "it": "l'estate scorsa ho viaggiato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "we visited a city",
+          "it": "abbiamo visitato una città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "the trip was wonderful",
+          "it": "il viaggio è stato bellissimo",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I took many photos",
+          "it": "ho scattato molte foto",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I would like to return one day",
+          "it": "vorrei tornare un giorno",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I tell my story",
+          "it": "racconto la mia esperienza",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_9",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Scelte e opinioni",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "💡",
+      "words": [
+        {
+          "fr": "I think it is important",
+          "it": "penso che sia importante",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I agree with you",
+          "it": "sono d'accordo con te",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I prefer a different solution",
+          "it": "preferisco una soluzione diversa",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "on the one hand... on the other",
+          "it": "da una parte... dall'altra",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "in my opinion we can improve",
+          "it": "secondo me possiamo migliorare",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "can you explain your opinion?",
+          "it": "puoi spiegare la tua opinione?",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_extra_10",
+      "kind": "vocabulary",
+      "level": "Terza media",
+      "title": "Messaggi e progetti",
+      "subtitle": "Espressioni originali per 3ª media",
+      "icon": "✉️",
+      "words": [
+        {
+          "fr": "I am writing to invite you",
+          "it": "ti scrivo per invitarti",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "see you on Saturday",
+          "it": "ci vediamo sabato",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "tomorrow we will visit the city",
+          "it": "domani visiteremo la città",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I look forward to your reply",
+          "it": "aspetto la tua risposta",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "see you soon and thanks",
+          "it": "a presto e grazie",
+          "hint": "Ascolta e ripeti."
+        },
+        {
+          "fr": "I would like to take part",
+          "it": "mi piacerebbe partecipare",
+          "hint": "Ascolta e ripeti."
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_1",
+      "kind": "grammar",
+      "level": "Prima media",
+      "title": "Grammatica Prima media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "The articles",
+          "explanation": "Usa a/an davanti a nomi singolari non specifici, the davanti a riferimenti noti.",
+          "exampleFr": "This is a book.",
+          "exampleIt": "Questo è un libro."
+        },
+        {
+          "title": "To be e to have",
+          "explanation": "To be: I am, you are, she is; to have: I have, you have, she has.",
+          "exampleFr": "I am a student and I have a pencil.",
+          "exampleIt": "Sono studente e ho una matita."
+        },
+        {
+          "title": "Present simple",
+          "explanation": "Per abitudini: I play, you play, he plays. In forma negativa do not / does not.",
+          "exampleFr": "She likes music.",
+          "exampleIt": "A lei piace la musica."
+        },
+        {
+          "title": "Question words",
+          "explanation": "Who, what, when, where, why, how introducono domande.",
+          "exampleFr": "Where do you live?",
+          "exampleIt": "Dove abiti?"
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_2",
+      "kind": "grammar",
+      "level": "Seconda media",
+      "title": "Grammatica Seconda media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Present continuous",
+          "explanation": "Per azioni in corso si usa am/is/are + verbo -ing.",
+          "exampleFr": "I am reading a book.",
+          "exampleIt": "Sto leggendo un libro."
+        },
+        {
+          "title": "Past simple",
+          "explanation": "Per eventi conclusi: played, went, saw, ate.",
+          "exampleFr": "We visited London last year.",
+          "exampleIt": "Abbiamo visitato Londra l'anno scorso."
+        },
+        {
+          "title": "Some and any",
+          "explanation": "Some spesso in frasi affermative, any spesso in domande e negative.",
+          "exampleFr": "Do you have any water?",
+          "exampleIt": "Hai dell'acqua?"
+        }
+      ]
+    },
+    {
+      "id": "sc_grammar_3",
+      "kind": "grammar",
+      "level": "Terza media",
+      "title": "Grammatica Terza media",
+      "subtitle": "Regole ed esempi in lingua",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Going to e will",
+          "explanation": "Going to per intenzioni; will per previsioni e decisioni spontanee.",
+          "exampleFr": "I am going to study tomorrow.",
+          "exampleIt": "Studierò domani."
+        },
+        {
+          "title": "Present perfect",
+          "explanation": "Have/has + participio per esperienze e azioni con legame al presente.",
+          "exampleFr": "I have visited Rome.",
+          "exampleIt": "Ho visitato Roma."
+        },
+        {
+          "title": "Comparatives",
+          "explanation": "Aggiungi -er oppure more; superlativi con -est o most.",
+          "exampleFr": "This route is safer.",
+          "exampleIt": "Questo percorso è più sicuro."
+        }
+      ]
+    }
+  ],
+  "curriculum": "Progressione editoriale originale 1ª–3ª media; non copia del libro scolastico."
+}

@@ -1,0 +1,2566 @@
+{
+  "schemaVersion": 2,
+  "locale": "it-IT",
+  "pedagogicalScope": "Italiano L2 CEFR A1/A2, original curriculum for non-native learners; no copyrighted textbook transcription.",
+  "translationLanguages": [
+    "en",
+    "fr",
+    "es",
+    "de"
+  ],
+  "modules": [
+    {
+      "id": "it_saluti",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Saluti e cortesia",
+      "subtitle": "Salutations and politeness",
+      "icon": "👋",
+      "words": [
+        {
+          "fr": "ciao",
+          "it": "hi",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "hi",
+            "fr": "salut",
+            "es": "hola",
+            "de": "hallo"
+          }
+        },
+        {
+          "fr": "buongiorno",
+          "it": "good morning",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "good morning",
+            "fr": "bonjour",
+            "es": "buenos días",
+            "de": "guten Morgen"
+          }
+        },
+        {
+          "fr": "buonasera",
+          "it": "good evening",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "good evening",
+            "fr": "bonsoir",
+            "es": "buenas tardes",
+            "de": "guten Abend"
+          }
+        },
+        {
+          "fr": "arrivederci",
+          "it": "goodbye",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "goodbye",
+            "fr": "au revoir",
+            "es": "adiós",
+            "de": "auf Wiedersehen"
+          }
+        },
+        {
+          "fr": "per favore",
+          "it": "please",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "please",
+            "fr": "s'il vous plaît",
+            "es": "por favor",
+            "de": "bitte"
+          }
+        },
+        {
+          "fr": "grazie",
+          "it": "thank you",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "thank you",
+            "fr": "merci",
+            "es": "gracias",
+            "de": "danke"
+          }
+        },
+        {
+          "fr": "prego",
+          "it": "you're welcome",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "you're welcome",
+            "fr": "de rien",
+            "es": "de nada",
+            "de": "bitte schön"
+          }
+        },
+        {
+          "fr": "scusa",
+          "it": "sorry",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "sorry",
+            "fr": "pardon",
+            "es": "perdón",
+            "de": "entschuldigung"
+          }
+        },
+        {
+          "fr": "come stai?",
+          "it": "how are you?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "how are you?",
+            "fr": "comment ça va ?",
+            "es": "¿cómo estás?",
+            "de": "wie geht es dir?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_presentarsi",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Presentarsi",
+      "subtitle": "Introducing yourself",
+      "icon": "🙋",
+      "words": [
+        {
+          "fr": "mi chiamo",
+          "it": "my name is",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "my name is",
+            "fr": "je m'appelle",
+            "es": "me llamo",
+            "de": "ich heiße"
+          }
+        },
+        {
+          "fr": "sono",
+          "it": "I am",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I am",
+            "fr": "je suis",
+            "es": "soy",
+            "de": "ich bin"
+          }
+        },
+        {
+          "fr": "abito a",
+          "it": "I live in",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I live in",
+            "fr": "j'habite à",
+            "es": "vivo en",
+            "de": "ich wohne in"
+          }
+        },
+        {
+          "fr": "vengo da",
+          "it": "I come from",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I come from",
+            "fr": "je viens de",
+            "es": "vengo de",
+            "de": "ich komme aus"
+          }
+        },
+        {
+          "fr": "ho undici anni",
+          "it": "I am eleven years old",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I am eleven years old",
+            "fr": "j'ai onze ans",
+            "es": "tengo once años",
+            "de": "ich bin elf Jahre alt"
+          }
+        },
+        {
+          "fr": "piacere",
+          "it": "nice to meet you",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "nice to meet you",
+            "fr": "enchanté",
+            "es": "encantado",
+            "de": "freut mich"
+          }
+        },
+        {
+          "fr": "parlo italiano",
+          "it": "I speak Italian",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I speak Italian",
+            "fr": "je parle italien",
+            "es": "hablo italiano",
+            "de": "ich spreche Italienisch"
+          }
+        },
+        {
+          "fr": "non capisco",
+          "it": "I don't understand",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I don't understand",
+            "fr": "je ne comprends pas",
+            "es": "no entiendo",
+            "de": "ich verstehe nicht"
+          }
+        },
+        {
+          "fr": "puoi ripetere?",
+          "it": "can you repeat?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "can you repeat?",
+            "fr": "peux-tu répéter ?",
+            "es": "¿puedes repetir?",
+            "de": "kannst du das wiederholen?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_numeri",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Numeri e dati",
+      "subtitle": "Numbers and information",
+      "icon": "🔢",
+      "words": [
+        {
+          "fr": "uno",
+          "it": "one",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "one",
+            "fr": "un",
+            "es": "uno",
+            "de": "eins"
+          }
+        },
+        {
+          "fr": "due",
+          "it": "two",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "two",
+            "fr": "deux",
+            "es": "dos",
+            "de": "zwei"
+          }
+        },
+        {
+          "fr": "tre",
+          "it": "three",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "three",
+            "fr": "trois",
+            "es": "tres",
+            "de": "drei"
+          }
+        },
+        {
+          "fr": "quattro",
+          "it": "four",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "four",
+            "fr": "quatre",
+            "es": "cuatro",
+            "de": "vier"
+          }
+        },
+        {
+          "fr": "cinque",
+          "it": "five",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "five",
+            "fr": "cinq",
+            "es": "cinco",
+            "de": "fünf"
+          }
+        },
+        {
+          "fr": "sei",
+          "it": "six",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "six",
+            "fr": "six",
+            "es": "seis",
+            "de": "sechs"
+          }
+        },
+        {
+          "fr": "sette",
+          "it": "seven",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "seven",
+            "fr": "sept",
+            "es": "siete",
+            "de": "sieben"
+          }
+        },
+        {
+          "fr": "otto",
+          "it": "eight",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "eight",
+            "fr": "huit",
+            "es": "ocho",
+            "de": "acht"
+          }
+        },
+        {
+          "fr": "nove",
+          "it": "nine",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "nine",
+            "fr": "neuf",
+            "es": "nueve",
+            "de": "neun"
+          }
+        },
+        {
+          "fr": "dieci",
+          "it": "ten",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "ten",
+            "fr": "dix",
+            "es": "diez",
+            "de": "zehn"
+          }
+        },
+        {
+          "fr": "venti",
+          "it": "twenty",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "twenty",
+            "fr": "vingt",
+            "es": "veinte",
+            "de": "zwanzig"
+          }
+        },
+        {
+          "fr": "cento",
+          "it": "one hundred",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "one hundred",
+            "fr": "cent",
+            "es": "cien",
+            "de": "hundert"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_famiglia",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Famiglia e persone",
+      "subtitle": "Family and people",
+      "icon": "👨‍👩‍👦",
+      "words": [
+        {
+          "fr": "la famiglia",
+          "it": "family",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "family",
+            "fr": "la famille",
+            "es": "la familia",
+            "de": "die Familie"
+          }
+        },
+        {
+          "fr": "la madre",
+          "it": "mother",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "mother",
+            "fr": "la mère",
+            "es": "la madre",
+            "de": "die Mutter"
+          }
+        },
+        {
+          "fr": "il padre",
+          "it": "father",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "father",
+            "fr": "le père",
+            "es": "el padre",
+            "de": "der Vater"
+          }
+        },
+        {
+          "fr": "il fratello",
+          "it": "brother",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "brother",
+            "fr": "le frère",
+            "es": "el hermano",
+            "de": "der Bruder"
+          }
+        },
+        {
+          "fr": "la sorella",
+          "it": "sister",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "sister",
+            "fr": "la sœur",
+            "es": "la hermana",
+            "de": "die Schwester"
+          }
+        },
+        {
+          "fr": "il figlio",
+          "it": "son",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "son",
+            "fr": "le fils",
+            "es": "el hijo",
+            "de": "der Sohn"
+          }
+        },
+        {
+          "fr": "la figlia",
+          "it": "daughter",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "daughter",
+            "fr": "la fille",
+            "es": "la hija",
+            "de": "die Tochter"
+          }
+        },
+        {
+          "fr": "un amico",
+          "it": "a friend",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "a friend",
+            "fr": "un ami",
+            "es": "un amigo",
+            "de": "ein Freund"
+          }
+        },
+        {
+          "fr": "una persona",
+          "it": "a person",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "a person",
+            "fr": "une personne",
+            "es": "una persona",
+            "de": "eine Person"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_scuola",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Scuola e studio",
+      "subtitle": "School and learning",
+      "icon": "🎒",
+      "words": [
+        {
+          "fr": "la scuola",
+          "it": "school",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "school",
+            "fr": "l'école",
+            "es": "la escuela",
+            "de": "die Schule"
+          }
+        },
+        {
+          "fr": "la classe",
+          "it": "classroom",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "classroom",
+            "fr": "la classe",
+            "es": "la clase",
+            "de": "das Klassenzimmer"
+          }
+        },
+        {
+          "fr": "il libro",
+          "it": "book",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "book",
+            "fr": "le livre",
+            "es": "el libro",
+            "de": "das Buch"
+          }
+        },
+        {
+          "fr": "il quaderno",
+          "it": "notebook",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "notebook",
+            "fr": "le cahier",
+            "es": "el cuaderno",
+            "de": "das Heft"
+          }
+        },
+        {
+          "fr": "la penna",
+          "it": "pen",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "pen",
+            "fr": "le stylo",
+            "es": "el bolígrafo",
+            "de": "der Kugelschreiber"
+          }
+        },
+        {
+          "fr": "la matita",
+          "it": "pencil",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "pencil",
+            "fr": "le crayon",
+            "es": "el lápiz",
+            "de": "der Bleistift"
+          }
+        },
+        {
+          "fr": "la lezione",
+          "it": "lesson",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "lesson",
+            "fr": "la leçon",
+            "es": "la lección",
+            "de": "die Unterrichtsstunde"
+          }
+        },
+        {
+          "fr": "l'insegnante",
+          "it": "teacher",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "teacher",
+            "fr": "le professeur",
+            "es": "el profesor",
+            "de": "die Lehrkraft"
+          }
+        },
+        {
+          "fr": "il compito",
+          "it": "homework",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "homework",
+            "fr": "le devoir",
+            "es": "la tarea",
+            "de": "die Hausaufgabe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_casa",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Casa e stanze",
+      "subtitle": "Home and rooms",
+      "icon": "🏠",
+      "words": [
+        {
+          "fr": "la casa",
+          "it": "home",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "home",
+            "fr": "la maison",
+            "es": "la casa",
+            "de": "das Haus"
+          }
+        },
+        {
+          "fr": "la stanza",
+          "it": "room",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "room",
+            "fr": "la pièce",
+            "es": "la habitación",
+            "de": "das Zimmer"
+          }
+        },
+        {
+          "fr": "la cucina",
+          "it": "kitchen",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "kitchen",
+            "fr": "la cuisine",
+            "es": "la cocina",
+            "de": "die Küche"
+          }
+        },
+        {
+          "fr": "il bagno",
+          "it": "bathroom",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "bathroom",
+            "fr": "la salle de bains",
+            "es": "el baño",
+            "de": "das Badezimmer"
+          }
+        },
+        {
+          "fr": "la camera",
+          "it": "bedroom",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "bedroom",
+            "fr": "la chambre",
+            "es": "el dormitorio",
+            "de": "das Schlafzimmer"
+          }
+        },
+        {
+          "fr": "il letto",
+          "it": "bed",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "bed",
+            "fr": "le lit",
+            "es": "la cama",
+            "de": "das Bett"
+          }
+        },
+        {
+          "fr": "la porta",
+          "it": "door",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "door",
+            "fr": "la porte",
+            "es": "la puerta",
+            "de": "die Tür"
+          }
+        },
+        {
+          "fr": "la finestra",
+          "it": "window",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "window",
+            "fr": "la fenêtre",
+            "es": "la ventana",
+            "de": "das Fenster"
+          }
+        },
+        {
+          "fr": "il tavolo",
+          "it": "table",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "table",
+            "fr": "la table",
+            "es": "la mesa",
+            "de": "der Tisch"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_tempo",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Giorni, mesi e ora",
+      "subtitle": "Days, months and time",
+      "icon": "📅",
+      "words": [
+        {
+          "fr": "oggi",
+          "it": "today",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "today",
+            "fr": "aujourd'hui",
+            "es": "hoy",
+            "de": "heute"
+          }
+        },
+        {
+          "fr": "domani",
+          "it": "tomorrow",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "tomorrow",
+            "fr": "demain",
+            "es": "mañana",
+            "de": "morgen"
+          }
+        },
+        {
+          "fr": "ieri",
+          "it": "yesterday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "yesterday",
+            "fr": "hier",
+            "es": "ayer",
+            "de": "gestern"
+          }
+        },
+        {
+          "fr": "lunedì",
+          "it": "Monday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "Monday",
+            "fr": "lundi",
+            "es": "lunes",
+            "de": "Montag"
+          }
+        },
+        {
+          "fr": "martedì",
+          "it": "Tuesday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "Tuesday",
+            "fr": "mardi",
+            "es": "martes",
+            "de": "Dienstag"
+          }
+        },
+        {
+          "fr": "mercoledì",
+          "it": "Wednesday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "Wednesday",
+            "fr": "mercredi",
+            "es": "miércoles",
+            "de": "Mittwoch"
+          }
+        },
+        {
+          "fr": "giovedì",
+          "it": "Thursday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "Thursday",
+            "fr": "jeudi",
+            "es": "jueves",
+            "de": "Donnerstag"
+          }
+        },
+        {
+          "fr": "venerdì",
+          "it": "Friday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "Friday",
+            "fr": "vendredi",
+            "es": "viernes",
+            "de": "Freitag"
+          }
+        },
+        {
+          "fr": "sabato",
+          "it": "Saturday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "Saturday",
+            "fr": "samedi",
+            "es": "sábado",
+            "de": "Samstag"
+          }
+        },
+        {
+          "fr": "domenica",
+          "it": "Sunday",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "Sunday",
+            "fr": "dimanche",
+            "es": "domingo",
+            "de": "Sonntag"
+          }
+        },
+        {
+          "fr": "che ore sono?",
+          "it": "what time is it?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "what time is it?",
+            "fr": "quelle heure est-il ?",
+            "es": "¿qué hora es?",
+            "de": "wie spät ist es?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_cibo",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Cibo e bevande",
+      "subtitle": "Food and drinks",
+      "icon": "🥗",
+      "words": [
+        {
+          "fr": "l'acqua",
+          "it": "water",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "water",
+            "fr": "l'eau",
+            "es": "el agua",
+            "de": "das Wasser"
+          }
+        },
+        {
+          "fr": "il pane",
+          "it": "bread",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "bread",
+            "fr": "le pain",
+            "es": "el pan",
+            "de": "das Brot"
+          }
+        },
+        {
+          "fr": "la pasta",
+          "it": "pasta",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "pasta",
+            "fr": "les pâtes",
+            "es": "la pasta",
+            "de": "die Nudeln"
+          }
+        },
+        {
+          "fr": "la frutta",
+          "it": "fruit",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "fruit",
+            "fr": "les fruits",
+            "es": "la fruta",
+            "de": "das Obst"
+          }
+        },
+        {
+          "fr": "la verdura",
+          "it": "vegetables",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "vegetables",
+            "fr": "les légumes",
+            "es": "las verduras",
+            "de": "das Gemüse"
+          }
+        },
+        {
+          "fr": "il riso",
+          "it": "rice",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "rice",
+            "fr": "le riz",
+            "es": "el arroz",
+            "de": "der Reis"
+          }
+        },
+        {
+          "fr": "la mela",
+          "it": "apple",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "apple",
+            "fr": "la pomme",
+            "es": "la manzana",
+            "de": "der Apfel"
+          }
+        },
+        {
+          "fr": "il caffè",
+          "it": "coffee",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "coffee",
+            "fr": "le café",
+            "es": "el café",
+            "de": "der Kaffee"
+          }
+        },
+        {
+          "fr": "vorrei un tè",
+          "it": "I would like a tea",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I would like a tea",
+            "fr": "je voudrais un thé",
+            "es": "quisiera un té",
+            "de": "ich hätte gern einen Tee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_acquisti",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Negozi e prezzi",
+      "subtitle": "Shops and prices",
+      "icon": "🛍️",
+      "words": [
+        {
+          "fr": "il negozio",
+          "it": "shop",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "shop",
+            "fr": "le magasin",
+            "es": "la tienda",
+            "de": "das Geschäft"
+          }
+        },
+        {
+          "fr": "il mercato",
+          "it": "market",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "market",
+            "fr": "le marché",
+            "es": "el mercado",
+            "de": "der Markt"
+          }
+        },
+        {
+          "fr": "quanto costa?",
+          "it": "how much does it cost?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "how much does it cost?",
+            "fr": "combien ça coûte ?",
+            "es": "¿cuánto cuesta?",
+            "de": "wie viel kostet das?"
+          }
+        },
+        {
+          "fr": "un euro",
+          "it": "one euro",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "one euro",
+            "fr": "un euro",
+            "es": "un euro",
+            "de": "ein Euro"
+          }
+        },
+        {
+          "fr": "la taglia",
+          "it": "size",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "size",
+            "fr": "la taille",
+            "es": "la talla",
+            "de": "die Größe"
+          }
+        },
+        {
+          "fr": "piccolo",
+          "it": "small",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "small",
+            "fr": "petit",
+            "es": "pequeño",
+            "de": "klein"
+          }
+        },
+        {
+          "fr": "grande",
+          "it": "big",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "big",
+            "fr": "grand",
+            "es": "grande",
+            "de": "groß"
+          }
+        },
+        {
+          "fr": "caro",
+          "it": "expensive",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "expensive",
+            "fr": "cher",
+            "es": "caro",
+            "de": "teuer"
+          }
+        },
+        {
+          "fr": "economico",
+          "it": "inexpensive",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "inexpensive",
+            "fr": "bon marché",
+            "es": "barato",
+            "de": "günstig"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_citta",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Città e indicazioni",
+      "subtitle": "Town and directions",
+      "icon": "🚏",
+      "words": [
+        {
+          "fr": "la strada",
+          "it": "street",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "street",
+            "fr": "la rue",
+            "es": "la calle",
+            "de": "die Straße"
+          }
+        },
+        {
+          "fr": "la piazza",
+          "it": "square",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "square",
+            "fr": "la place",
+            "es": "la plaza",
+            "de": "der Platz"
+          }
+        },
+        {
+          "fr": "la stazione",
+          "it": "station",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "station",
+            "fr": "la gare",
+            "es": "la estación",
+            "de": "der Bahnhof"
+          }
+        },
+        {
+          "fr": "l'autobus",
+          "it": "bus",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "bus",
+            "fr": "le bus",
+            "es": "el autobús",
+            "de": "der Bus"
+          }
+        },
+        {
+          "fr": "la farmacia",
+          "it": "pharmacy",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "pharmacy",
+            "fr": "la pharmacie",
+            "es": "la farmacia",
+            "de": "die Apotheke"
+          }
+        },
+        {
+          "fr": "la biblioteca",
+          "it": "library",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "library",
+            "fr": "la bibliothèque",
+            "es": "la biblioteca",
+            "de": "die Bibliothek"
+          }
+        },
+        {
+          "fr": "a destra",
+          "it": "to the right",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to the right",
+            "fr": "à droite",
+            "es": "a la derecha",
+            "de": "nach rechts"
+          }
+        },
+        {
+          "fr": "a sinistra",
+          "it": "to the left",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to the left",
+            "fr": "à gauche",
+            "es": "a la izquierda",
+            "de": "nach links"
+          }
+        },
+        {
+          "fr": "dov'è...?",
+          "it": "where is...?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "where is...?",
+            "fr": "où est... ?",
+            "es": "¿dónde está...?",
+            "de": "wo ist...?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_salute",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Salute e aiuto",
+      "subtitle": "Health and asking for help",
+      "icon": "🩹",
+      "words": [
+        {
+          "fr": "aiuto!",
+          "it": "help!",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "help!",
+            "fr": "au secours !",
+            "es": "¡ayuda!",
+            "de": "Hilfe!"
+          }
+        },
+        {
+          "fr": "ho bisogno di aiuto",
+          "it": "I need help",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I need help",
+            "fr": "j'ai besoin d'aide",
+            "es": "necesito ayuda",
+            "de": "ich brauche Hilfe"
+          }
+        },
+        {
+          "fr": "non sto bene",
+          "it": "I don't feel well",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I don't feel well",
+            "fr": "je ne vais pas bien",
+            "es": "no me siento bien",
+            "de": "mir geht es nicht gut"
+          }
+        },
+        {
+          "fr": "mi fa male",
+          "it": "it hurts",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "it hurts",
+            "fr": "j'ai mal",
+            "es": "me duele",
+            "de": "es tut weh"
+          }
+        },
+        {
+          "fr": "il medico",
+          "it": "doctor",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "doctor",
+            "fr": "le médecin",
+            "es": "el médico",
+            "de": "der Arzt"
+          }
+        },
+        {
+          "fr": "l'ospedale",
+          "it": "hospital",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "hospital",
+            "fr": "l'hôpital",
+            "es": "el hospital",
+            "de": "das Krankenhaus"
+          }
+        },
+        {
+          "fr": "ho la febbre",
+          "it": "I have a fever",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I have a fever",
+            "fr": "j'ai de la fièvre",
+            "es": "tengo fiebre",
+            "de": "ich habe Fieber"
+          }
+        },
+        {
+          "fr": "la tessera sanitaria",
+          "it": "health card",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "health card",
+            "fr": "la carte de santé",
+            "es": "la tarjeta sanitaria",
+            "de": "die Gesundheitskarte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_attivita",
+      "level": "A1",
+      "kind": "vocabulary",
+      "title": "Verbi e attività",
+      "subtitle": "Everyday actions",
+      "icon": "🎲",
+      "words": [
+        {
+          "fr": "mangiare",
+          "it": "to eat",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to eat",
+            "fr": "manger",
+            "es": "comer",
+            "de": "essen"
+          }
+        },
+        {
+          "fr": "bere",
+          "it": "to drink",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to drink",
+            "fr": "boire",
+            "es": "beber",
+            "de": "trinken"
+          }
+        },
+        {
+          "fr": "dormire",
+          "it": "to sleep",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to sleep",
+            "fr": "dormir",
+            "es": "dormir",
+            "de": "schlafen"
+          }
+        },
+        {
+          "fr": "studiare",
+          "it": "to study",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to study",
+            "fr": "étudier",
+            "es": "estudiar",
+            "de": "lernen"
+          }
+        },
+        {
+          "fr": "lavorare",
+          "it": "to work",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to work",
+            "fr": "travailler",
+            "es": "trabajar",
+            "de": "arbeiten"
+          }
+        },
+        {
+          "fr": "leggere",
+          "it": "to read",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to read",
+            "fr": "lire",
+            "es": "leer",
+            "de": "lesen"
+          }
+        },
+        {
+          "fr": "scrivere",
+          "it": "to write",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to write",
+            "fr": "écrire",
+            "es": "escribir",
+            "de": "schreiben"
+          }
+        },
+        {
+          "fr": "andare",
+          "it": "to go",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to go",
+            "fr": "aller",
+            "es": "ir",
+            "de": "gehen"
+          }
+        },
+        {
+          "fr": "fare",
+          "it": "to do",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to do",
+            "fr": "faire",
+            "es": "hacer",
+            "de": "machen"
+          }
+        },
+        {
+          "fr": "avere",
+          "it": "to have",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to have",
+            "fr": "avoir",
+            "es": "tener",
+            "de": "haben"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_routine",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Routine e frequenza",
+      "subtitle": "Routine and frequency",
+      "icon": "⏰",
+      "words": [
+        {
+          "fr": "mi sveglio",
+          "it": "I wake up",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I wake up",
+            "fr": "je me réveille",
+            "es": "me despierto",
+            "de": "ich wache auf"
+          }
+        },
+        {
+          "fr": "mi alzo",
+          "it": "I get up",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I get up",
+            "fr": "je me lève",
+            "es": "me levanto",
+            "de": "ich stehe auf"
+          }
+        },
+        {
+          "fr": "faccio colazione",
+          "it": "I have breakfast",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I have breakfast",
+            "fr": "je prends le petit-déjeuner",
+            "es": "desayuno",
+            "de": "ich frühstücke"
+          }
+        },
+        {
+          "fr": "esco di casa",
+          "it": "I leave home",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I leave home",
+            "fr": "je quitte la maison",
+            "es": "salgo de casa",
+            "de": "ich gehe aus dem Haus"
+          }
+        },
+        {
+          "fr": "torno a casa",
+          "it": "I come home",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I come home",
+            "fr": "je rentre à la maison",
+            "es": "vuelvo a casa",
+            "de": "ich komme nach Hause"
+          }
+        },
+        {
+          "fr": "spesso",
+          "it": "often",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "often",
+            "fr": "souvent",
+            "es": "a menudo",
+            "de": "oft"
+          }
+        },
+        {
+          "fr": "qualche volta",
+          "it": "sometimes",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "sometimes",
+            "fr": "parfois",
+            "es": "a veces",
+            "de": "manchmal"
+          }
+        },
+        {
+          "fr": "mai",
+          "it": "never",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "never",
+            "fr": "jamais",
+            "es": "nunca",
+            "de": "nie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_passato",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Raccontare il passato",
+      "subtitle": "Talking about the past",
+      "icon": "📖",
+      "words": [
+        {
+          "fr": "ieri sono andato",
+          "it": "yesterday I went",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "yesterday I went",
+            "fr": "hier je suis allé",
+            "es": "ayer fui",
+            "de": "gestern bin ich gegangen"
+          }
+        },
+        {
+          "fr": "ho mangiato",
+          "it": "I ate",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I ate",
+            "fr": "j'ai mangé",
+            "es": "he comido",
+            "de": "ich habe gegessen"
+          }
+        },
+        {
+          "fr": "ho studiato",
+          "it": "I studied",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I studied",
+            "fr": "j'ai étudié",
+            "es": "he estudiado",
+            "de": "ich habe gelernt"
+          }
+        },
+        {
+          "fr": "ho visto",
+          "it": "I saw",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I saw",
+            "fr": "j'ai vu",
+            "es": "he visto",
+            "de": "ich habe gesehen"
+          }
+        },
+        {
+          "fr": "abbiamo giocato",
+          "it": "we played",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "we played",
+            "fr": "nous avons joué",
+            "es": "hemos jugado",
+            "de": "wir haben gespielt"
+          }
+        },
+        {
+          "fr": "la settimana scorsa",
+          "it": "last week",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "last week",
+            "fr": "la semaine dernière",
+            "es": "la semana pasada",
+            "de": "letzte Woche"
+          }
+        },
+        {
+          "fr": "l'anno scorso",
+          "it": "last year",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "last year",
+            "fr": "l'année dernière",
+            "es": "el año pasado",
+            "de": "letztes Jahr"
+          }
+        },
+        {
+          "fr": "prima",
+          "it": "before",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "before",
+            "fr": "avant",
+            "es": "antes",
+            "de": "vorher"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_viaggi",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Viaggi e trasporti",
+      "subtitle": "Travel and transport",
+      "icon": "🚆",
+      "words": [
+        {
+          "fr": "il biglietto",
+          "it": "ticket",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "ticket",
+            "fr": "le billet",
+            "es": "el billete",
+            "de": "die Fahrkarte"
+          }
+        },
+        {
+          "fr": "il treno",
+          "it": "train",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "train",
+            "fr": "le train",
+            "es": "el tren",
+            "de": "der Zug"
+          }
+        },
+        {
+          "fr": "l'aeroporto",
+          "it": "airport",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "airport",
+            "fr": "l'aéroport",
+            "es": "el aeropuerto",
+            "de": "der Flughafen"
+          }
+        },
+        {
+          "fr": "la partenza",
+          "it": "departure",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "departure",
+            "fr": "le départ",
+            "es": "la salida",
+            "de": "die Abfahrt"
+          }
+        },
+        {
+          "fr": "l'arrivo",
+          "it": "arrival",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "arrival",
+            "fr": "l'arrivée",
+            "es": "la llegada",
+            "de": "die Ankunft"
+          }
+        },
+        {
+          "fr": "il ritardo",
+          "it": "delay",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "delay",
+            "fr": "le retard",
+            "es": "el retraso",
+            "de": "die Verspätung"
+          }
+        },
+        {
+          "fr": "andata e ritorno",
+          "it": "return trip",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "return trip",
+            "fr": "aller-retour",
+            "es": "ida y vuelta",
+            "de": "Hin- und Rückfahrt"
+          }
+        },
+        {
+          "fr": "dove devo scendere?",
+          "it": "where should I get off?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "where should I get off?",
+            "fr": "où dois-je descendre ?",
+            "es": "¿dónde tengo que bajar?",
+            "de": "wo muss ich aussteigen?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_lavoro",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Lavoro e colloqui",
+      "subtitle": "Work and job interviews",
+      "icon": "💼",
+      "words": [
+        {
+          "fr": "il colloquio",
+          "it": "interview",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "interview",
+            "fr": "l'entretien",
+            "es": "la entrevista",
+            "de": "das Vorstellungsgespräch"
+          }
+        },
+        {
+          "fr": "il curriculum",
+          "it": "CV",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "CV",
+            "fr": "le CV",
+            "es": "el currículum",
+            "de": "der Lebenslauf"
+          }
+        },
+        {
+          "fr": "l'orario",
+          "it": "schedule",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "schedule",
+            "fr": "l'horaire",
+            "es": "el horario",
+            "de": "die Arbeitszeit"
+          }
+        },
+        {
+          "fr": "il contratto",
+          "it": "contract",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "contract",
+            "fr": "le contrat",
+            "es": "el contrato",
+            "de": "der Vertrag"
+          }
+        },
+        {
+          "fr": "il collega",
+          "it": "colleague",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "colleague",
+            "fr": "le collègue",
+            "es": "el compañero de trabajo",
+            "de": "der Kollege"
+          }
+        },
+        {
+          "fr": "lo stipendio",
+          "it": "salary",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "salary",
+            "fr": "le salaire",
+            "es": "el sueldo",
+            "de": "das Gehalt"
+          }
+        },
+        {
+          "fr": "ho esperienza",
+          "it": "I have experience",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I have experience",
+            "fr": "j'ai de l'expérience",
+            "es": "tengo experiencia",
+            "de": "ich habe Erfahrung"
+          }
+        },
+        {
+          "fr": "cerco lavoro",
+          "it": "I'm looking for work",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I'm looking for work",
+            "fr": "je cherche du travail",
+            "es": "busco trabajo",
+            "de": "ich suche Arbeit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_uffici",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Documenti e servizi",
+      "subtitle": "Documents and services",
+      "icon": "🏛️",
+      "words": [
+        {
+          "fr": "il documento",
+          "it": "document",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "document",
+            "fr": "le document",
+            "es": "el documento",
+            "de": "das Dokument"
+          }
+        },
+        {
+          "fr": "la carta d'identità",
+          "it": "identity card",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "identity card",
+            "fr": "la carte d'identité",
+            "es": "el documento de identidad",
+            "de": "der Personalausweis"
+          }
+        },
+        {
+          "fr": "la residenza",
+          "it": "residence",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "residence",
+            "fr": "la résidence",
+            "es": "la residencia",
+            "de": "der Wohnsitz"
+          }
+        },
+        {
+          "fr": "il comune",
+          "it": "town hall",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "town hall",
+            "fr": "la mairie",
+            "es": "el ayuntamiento",
+            "de": "das Rathaus"
+          }
+        },
+        {
+          "fr": "l'appuntamento",
+          "it": "appointment",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "appointment",
+            "fr": "le rendez-vous",
+            "es": "la cita",
+            "de": "der Termin"
+          }
+        },
+        {
+          "fr": "il modulo",
+          "it": "form",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "form",
+            "fr": "le formulaire",
+            "es": "el formulario",
+            "de": "das Formular"
+          }
+        },
+        {
+          "fr": "devo firmare",
+          "it": "I must sign",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I must sign",
+            "fr": "je dois signer",
+            "es": "tengo que firmar",
+            "de": "ich muss unterschreiben"
+          }
+        },
+        {
+          "fr": "dove posso chiedere?",
+          "it": "where can I ask?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "where can I ask?",
+            "fr": "où puis-je demander ?",
+            "es": "¿dónde puedo preguntar?",
+            "de": "wo kann ich fragen?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_sentimenti",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Emozioni e opinioni",
+      "subtitle": "Feelings and opinions",
+      "icon": "🙂",
+      "words": [
+        {
+          "fr": "sono contento",
+          "it": "I'm happy",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I'm happy",
+            "fr": "je suis content",
+            "es": "estoy contento",
+            "de": "ich bin froh"
+          }
+        },
+        {
+          "fr": "sono preoccupato",
+          "it": "I'm worried",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I'm worried",
+            "fr": "je suis inquiet",
+            "es": "estoy preocupado",
+            "de": "ich bin besorgt"
+          }
+        },
+        {
+          "fr": "sono stanco",
+          "it": "I'm tired",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I'm tired",
+            "fr": "je suis fatigué",
+            "es": "estoy cansado",
+            "de": "ich bin müde"
+          }
+        },
+        {
+          "fr": "secondo me",
+          "it": "in my opinion",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "in my opinion",
+            "fr": "à mon avis",
+            "es": "en mi opinión",
+            "de": "meiner Meinung nach"
+          }
+        },
+        {
+          "fr": "penso che",
+          "it": "I think that",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I think that",
+            "fr": "je pense que",
+            "es": "pienso que",
+            "de": "ich denke dass"
+          }
+        },
+        {
+          "fr": "preferisco",
+          "it": "I prefer",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I prefer",
+            "fr": "je préfère",
+            "es": "prefiero",
+            "de": "ich bevorzuge"
+          }
+        },
+        {
+          "fr": "sono d'accordo",
+          "it": "I agree",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I agree",
+            "fr": "je suis d'accord",
+            "es": "estoy de acuerdo",
+            "de": "ich bin einverstanden"
+          }
+        },
+        {
+          "fr": "non sono d'accordo",
+          "it": "I disagree",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I disagree",
+            "fr": "je ne suis pas d'accord",
+            "es": "no estoy de acuerdo",
+            "de": "ich bin nicht einverstanden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_progetti",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Futuro e progetti",
+      "subtitle": "Future and plans",
+      "icon": "🎯",
+      "words": [
+        {
+          "fr": "domani andrò",
+          "it": "tomorrow I will go",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "tomorrow I will go",
+            "fr": "demain j'irai",
+            "es": "mañana iré",
+            "de": "morgen werde ich gehen"
+          }
+        },
+        {
+          "fr": "voglio imparare",
+          "it": "I want to learn",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I want to learn",
+            "fr": "je veux apprendre",
+            "es": "quiero aprender",
+            "de": "ich möchte lernen"
+          }
+        },
+        {
+          "fr": "posso venire",
+          "it": "I can come",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I can come",
+            "fr": "je peux venir",
+            "es": "puedo venir",
+            "de": "ich kann kommen"
+          }
+        },
+        {
+          "fr": "devo partire",
+          "it": "I must leave",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I must leave",
+            "fr": "je dois partir",
+            "es": "debo salir",
+            "de": "ich muss losfahren"
+          }
+        },
+        {
+          "fr": "la prossima settimana",
+          "it": "next week",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "next week",
+            "fr": "la semaine prochaine",
+            "es": "la próxima semana",
+            "de": "nächste Woche"
+          }
+        },
+        {
+          "fr": "il mio progetto",
+          "it": "my plan",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "my plan",
+            "fr": "mon projet",
+            "es": "mi proyecto",
+            "de": "mein Plan"
+          }
+        },
+        {
+          "fr": "spero di",
+          "it": "I hope to",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I hope to",
+            "fr": "j'espère",
+            "es": "espero",
+            "de": "ich hoffe"
+          }
+        },
+        {
+          "fr": "vorrei diventare",
+          "it": "I would like to become",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I would like to become",
+            "fr": "je voudrais devenir",
+            "es": "me gustaría ser",
+            "de": "ich möchte werden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_relazioni",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Conversazioni e messaggi",
+      "subtitle": "Conversations and messages",
+      "icon": "💬",
+      "words": [
+        {
+          "fr": "ti posso chiamare?",
+          "it": "may I call you?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "may I call you?",
+            "fr": "je peux t'appeler ?",
+            "es": "¿puedo llamarte?",
+            "de": "darf ich dich anrufen?"
+          }
+        },
+        {
+          "fr": "mandami un messaggio",
+          "it": "send me a message",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "send me a message",
+            "fr": "envoie-moi un message",
+            "es": "mándame un mensaje",
+            "de": "schick mir eine Nachricht"
+          }
+        },
+        {
+          "fr": "non ho capito",
+          "it": "I didn't understand",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I didn't understand",
+            "fr": "je n'ai pas compris",
+            "es": "no he entendido",
+            "de": "ich habe nicht verstanden"
+          }
+        },
+        {
+          "fr": "puoi spiegare?",
+          "it": "can you explain?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "can you explain?",
+            "fr": "peux-tu expliquer ?",
+            "es": "¿puedes explicar?",
+            "de": "kannst du es erklären?"
+          }
+        },
+        {
+          "fr": "mi dispiace",
+          "it": "I'm sorry",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I'm sorry",
+            "fr": "je suis désolé",
+            "es": "lo siento",
+            "de": "es tut mir leid"
+          }
+        },
+        {
+          "fr": "va bene",
+          "it": "all right",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "all right",
+            "fr": "d'accord",
+            "es": "está bien",
+            "de": "in Ordnung"
+          }
+        },
+        {
+          "fr": "perché?",
+          "it": "why?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "why?",
+            "fr": "pourquoi ?",
+            "es": "¿por qué?",
+            "de": "warum?"
+          }
+        },
+        {
+          "fr": "quindi",
+          "it": "therefore",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "therefore",
+            "fr": "donc",
+            "es": "por eso",
+            "de": "also"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_ambiente",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Ambiente e comunità",
+      "subtitle": "Environment and community",
+      "icon": "🌱",
+      "words": [
+        {
+          "fr": "riciclare",
+          "it": "to recycle",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to recycle",
+            "fr": "recycler",
+            "es": "reciclar",
+            "de": "recyceln"
+          }
+        },
+        {
+          "fr": "risparmiare acqua",
+          "it": "to save water",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "to save water",
+            "fr": "économiser l'eau",
+            "es": "ahorrar agua",
+            "de": "Wasser sparen"
+          }
+        },
+        {
+          "fr": "la natura",
+          "it": "nature",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "nature",
+            "fr": "la nature",
+            "es": "la naturaleza",
+            "de": "die Natur"
+          }
+        },
+        {
+          "fr": "il parco",
+          "it": "park",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "park",
+            "fr": "le parc",
+            "es": "el parque",
+            "de": "der Park"
+          }
+        },
+        {
+          "fr": "il quartiere",
+          "it": "neighbourhood",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "neighbourhood",
+            "fr": "le quartier",
+            "es": "el barrio",
+            "de": "das Viertel"
+          }
+        },
+        {
+          "fr": "i rifiuti",
+          "it": "waste",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "waste",
+            "fr": "les déchets",
+            "es": "los residuos",
+            "de": "der Müll"
+          }
+        },
+        {
+          "fr": "la raccolta differenziata",
+          "it": "waste sorting",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "waste sorting",
+            "fr": "le tri sélectif",
+            "es": "la recogida selectiva",
+            "de": "die Mülltrennung"
+          }
+        },
+        {
+          "fr": "la comunità",
+          "it": "community",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "community",
+            "fr": "la communauté",
+            "es": "la comunidad",
+            "de": "die Gemeinschaft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_imprevisti",
+      "level": "A2",
+      "kind": "vocabulary",
+      "title": "Problemi e richieste",
+      "subtitle": "Problems and requests",
+      "icon": "📞",
+      "words": [
+        {
+          "fr": "ho perso le chiavi",
+          "it": "I've lost my keys",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I've lost my keys",
+            "fr": "j'ai perdu mes clés",
+            "es": "he perdido las llaves",
+            "de": "ich habe meine Schlüssel verloren"
+          }
+        },
+        {
+          "fr": "il telefono non funziona",
+          "it": "the phone doesn't work",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "the phone doesn't work",
+            "fr": "le téléphone ne fonctionne pas",
+            "es": "el teléfono no funciona",
+            "de": "das Telefon funktioniert nicht"
+          }
+        },
+        {
+          "fr": "ho sbagliato strada",
+          "it": "I took the wrong road",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I took the wrong road",
+            "fr": "je me suis trompé de route",
+            "es": "me he equivocado de camino",
+            "de": "ich bin falsch abgebogen"
+          }
+        },
+        {
+          "fr": "può aiutarmi?",
+          "it": "can you help me?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "can you help me?",
+            "fr": "pouvez-vous m'aider ?",
+            "es": "¿puede ayudarme?",
+            "de": "können Sie mir helfen?"
+          }
+        },
+        {
+          "fr": "è urgente",
+          "it": "it's urgent",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "it's urgent",
+            "fr": "c'est urgent",
+            "es": "es urgente",
+            "de": "es ist dringend"
+          }
+        },
+        {
+          "fr": "aspetti un momento",
+          "it": "wait a moment",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "wait a moment",
+            "fr": "attendez un instant",
+            "es": "espere un momento",
+            "de": "warten Sie einen Moment"
+          }
+        },
+        {
+          "fr": "non riesco a entrare",
+          "it": "I can't get in",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "I can't get in",
+            "fr": "je n'arrive pas à entrer",
+            "es": "no puedo entrar",
+            "de": "ich komme nicht hinein"
+          }
+        },
+        {
+          "fr": "cosa devo fare?",
+          "it": "what should I do?",
+          "hint": "Ascolta la pronuncia, poi ripeti.",
+          "translations": {
+            "en": "what should I do?",
+            "fr": "que dois-je faire ?",
+            "es": "¿qué debo hacer?",
+            "de": "was soll ich tun?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_gram-a1",
+      "level": "A1",
+      "kind": "grammar",
+      "title": "Grammatica essenziale A1",
+      "subtitle": "Spiegazioni con esempi",
+      "icon": "📘",
+      "rules": [
+        {
+          "title": "Essere e avere",
+          "explanation": "Io sono, tu sei, lui è; io ho, tu hai, lei ha. Questi due verbi sono molto frequenti.",
+          "explanationEn": "I am, you are, he is; I have, you have, she has.",
+          "exampleFr": "Io sono qui. Tu hai un libro.",
+          "exampleIt": "I am here. You have a book.",
+          "explanationTranslations": {
+            "en": "I am, you are, he is; I have, you have, she has.",
+            "fr": "Je suis, tu es, il est ; j'ai, tu as, elle a. Ces deux verbes sont très courants.",
+            "es": "Yo soy/estoy, tú eres/estás, él es/está; yo tengo, tú tienes, ella tiene. Son muy frecuentes.",
+            "de": "Ich bin, du bist, er ist; ich habe, du hast, sie hat. Diese Verben sind sehr häufig."
+          },
+          "exampleTranslations": {
+            "en": "I am here. You have a book.",
+            "fr": "Je suis ici. Tu as un livre.",
+            "es": "Estoy aquí. Tú tienes un libro.",
+            "de": "Ich bin hier. Du hast ein Buch."
+          }
+        },
+        {
+          "title": "Articoli e nomi",
+          "explanation": "Un e uno sono maschili; una e un' sono femminili. Gli articoli determinativi sono il, lo, la, l', i, gli, le.",
+          "explanationEn": "A/an and the change depending on gender and sound.",
+          "exampleFr": "Il libro è sul tavolo.",
+          "exampleIt": "The book is on the table.",
+          "explanationTranslations": {
+            "en": "A/an and the change depending on gender and sound.",
+            "fr": "Les articles italiens changent selon le genre et le son initial : un, uno, una, un' ; il, lo, la, l', i, gli, le.",
+            "es": "Los artículos italianos cambian con el género y el sonido inicial: un, uno, una, un'; il, lo, la, l', i, gli, le.",
+            "de": "Italienische Artikel hängen von Geschlecht und Anfangslaut ab: un, uno, una, un'; il, lo, la, l', i, gli, le."
+          },
+          "exampleTranslations": {
+            "en": "The book is on the table.",
+            "fr": "Le livre est sur la table.",
+            "es": "El libro está sobre la mesa.",
+            "de": "Das Buch liegt auf dem Tisch."
+          }
+        },
+        {
+          "title": "Presente dei verbi",
+          "explanation": "Molti verbi in -are seguono: io parlo, tu parli, lui parla, noi parliamo, voi parlate, loro parlano.",
+          "explanationEn": "Many -are verbs follow regular present-tense endings.",
+          "exampleFr": "Noi parliamo italiano.",
+          "exampleIt": "We speak Italian.",
+          "explanationTranslations": {
+            "en": "Many -are verbs follow regular present-tense endings.",
+            "fr": "Au présent, les verbes italiens réguliers en -are se terminent comme parlo, parli, parla, parliamo, parlate, parlano.",
+            "es": "En presente, muchos verbos italianos en -are siguen parlo, parli, parla, parliamo, parlate, parlano.",
+            "de": "Im Präsens folgen viele italienische -are-Verben den Formen parlo, parli, parla, parliamo, parlate, parlano."
+          },
+          "exampleTranslations": {
+            "en": "We speak Italian.",
+            "fr": "Nous parlons italien.",
+            "es": "Hablamos italiano.",
+            "de": "Wir sprechen Italienisch."
+          }
+        },
+        {
+          "title": "Domande e negazione",
+          "explanation": "Per chiedere qualcosa usa come, dove, quando, chi, perché. Non va prima del verbo.",
+          "explanationEn": "Use question words; put non before the verb for negation.",
+          "exampleFr": "Non capisco. Dove abiti?",
+          "exampleIt": "I don't understand. Where do you live?",
+          "explanationTranslations": {
+            "en": "Use question words; put non before the verb for negation.",
+            "fr": "Les mots interrogatifs sont come, dove, quando, chi, perché. Mets non avant le verbe pour nier.",
+            "es": "Las preguntas usan come, dove, quando, chi, perché. Coloca non antes del verbo para negar.",
+            "de": "Fragewörter sind come, dove, quando, chi, perché. Zur Verneinung steht non vor dem Verb."
+          },
+          "exampleTranslations": {
+            "en": "I don't understand. Where do you live?",
+            "fr": "Je ne comprends pas. Où habites-tu ?",
+            "es": "No entiendo. ¿Dónde vives?",
+            "de": "Ich verstehe nicht. Wo wohnst du?"
+          }
+        },
+        {
+          "title": "Accordo degli aggettivi",
+          "explanation": "Molti aggettivi finiscono in -o al maschile e in -a al femminile; il plurale cambia.",
+          "explanationEn": "Adjectives often agree in gender and number.",
+          "exampleFr": "Il ragazzo è alto. La ragazza è alta.",
+          "exampleIt": "The boy is tall. The girl is tall.",
+          "explanationTranslations": {
+            "en": "Adjectives often agree in gender and number.",
+            "fr": "Les adjectifs s'accordent souvent en genre et en nombre : alto, alta, alti, alte.",
+            "es": "Los adjetivos concuerdan en género y número: alto, alta, alti, alte.",
+            "de": "Viele Adjektive werden an Geschlecht und Zahl angepasst: alto, alta, alti, alte."
+          },
+          "exampleTranslations": {
+            "en": "The boy is tall. The girl is tall.",
+            "fr": "Le garçon est grand. La fille est grande.",
+            "es": "El chico es alto. La chica es alta.",
+            "de": "Der Junge ist groß. Das Mädchen ist groß."
+          }
+        }
+      ]
+    },
+    {
+      "id": "it_gram-a2",
+      "level": "A2",
+      "kind": "grammar",
+      "title": "Grammatica essenziale A2",
+      "subtitle": "Spiegazioni con esempi",
+      "icon": "📗",
+      "rules": [
+        {
+          "title": "Passato prossimo",
+          "explanation": "Si forma con avere o essere al presente più il participio passato; con essere il participio concorda.",
+          "explanationEn": "Use present avere/essere plus past participle.",
+          "exampleFr": "Ieri ho studiato. Maria è arrivata.",
+          "exampleIt": "Yesterday I studied. Maria arrived.",
+          "explanationTranslations": {
+            "en": "Use present avere/essere plus past participle.",
+            "fr": "Le passé composé italien utilise avere ou essere au présent et un participe passé ; avec essere, il s'accorde souvent.",
+            "es": "El pasado compuesto italiano se forma con avere o essere en presente y un participio; con essere suele concordar.",
+            "de": "Das italienische passato prossimo besteht aus avere oder essere im Präsens und dem Partizip; bei essere mit Anpassung."
+          },
+          "exampleTranslations": {
+            "en": "Yesterday I studied. Maria arrived.",
+            "fr": "Hier, j'ai étudié. Maria est arrivée.",
+            "es": "Ayer estudié. María llegó.",
+            "de": "Gestern habe ich gelernt. Maria ist angekommen."
+          }
+        },
+        {
+          "title": "Imperfetto",
+          "explanation": "Descrive abitudini e situazioni del passato: parlavo, avevo, ero.",
+          "explanationEn": "Imperfetto describes past habits or background situations.",
+          "exampleFr": "Da piccolo giocavo spesso.",
+          "exampleIt": "When I was little, I often played.",
+          "explanationTranslations": {
+            "en": "Imperfetto describes past habits or background situations.",
+            "fr": "L'imparfait italien décrit les habitudes ou les situations en arrière-plan dans le passé.",
+            "es": "El imperfecto italiano describe hábitos y situaciones de fondo en el pasado.",
+            "de": "Das imperfetto beschreibt Gewohnheiten und Hintergrundsituationen in der Vergangenheit."
+          },
+          "exampleTranslations": {
+            "en": "When I was little, I often played.",
+            "fr": "Quand j'étais petit, je jouais souvent.",
+            "es": "De pequeño jugaba a menudo.",
+            "de": "Als Kind spielte ich oft."
+          }
+        },
+        {
+          "title": "Pronomi diretti",
+          "explanation": "Lo, la, li, le sostituiscono una cosa o persona già nominata.",
+          "explanationEn": "Direct object pronouns replace a noun.",
+          "exampleFr": "Il libro? Lo compro domani.",
+          "exampleIt": "The book? I'll buy it tomorrow.",
+          "explanationTranslations": {
+            "en": "Direct object pronouns replace a noun.",
+            "fr": "Lo, la, li, le remplacent un nom complément d'objet direct déjà connu.",
+            "es": "Lo, la, li, le sustituyen un objeto directo mencionado antes.",
+            "de": "Lo, la, li, le ersetzen ein bereits genanntes direktes Objekt."
+          },
+          "exampleTranslations": {
+            "en": "The book? I'll buy it tomorrow.",
+            "fr": "Le livre ? Je l'achète demain.",
+            "es": "¿El libro? Lo compro mañana.",
+            "de": "Das Buch? Ich kaufe es morgen."
+          }
+        },
+        {
+          "title": "Comparativi",
+          "explanation": "Più… di/che e meno… di/che servono per confrontare.",
+          "explanationEn": "Use più and meno to compare.",
+          "exampleFr": "Questo treno è più veloce dell'autobus.",
+          "exampleIt": "This train is faster than the bus.",
+          "explanationTranslations": {
+            "en": "Use più and meno to compare.",
+            "fr": "On compare avec più… di/che et meno… di/che, selon la phrase.",
+            "es": "Se compara con più… di/che y meno… di/che, según la oración.",
+            "de": "Vergleiche nutzt man mit più… di/che und meno… di/che."
+          },
+          "exampleTranslations": {
+            "en": "This train is faster than the bus.",
+            "fr": "Ce train est plus rapide que le bus.",
+            "es": "Este tren es más rápido que el autobús.",
+            "de": "Dieser Zug ist schneller als der Bus."
+          }
+        },
+        {
+          "title": "Futuro semplice",
+          "explanation": "Verbi comuni: andrò, farò, sarò, avrò. Indica azioni e progetti futuri.",
+          "explanationEn": "Use future tense for plans and predictions.",
+          "exampleFr": "Domani andrò in biblioteca.",
+          "exampleIt": "Tomorrow I will go to the library.",
+          "explanationTranslations": {
+            "en": "Use future tense for plans and predictions.",
+            "fr": "Le futur simple exprime les projets et prévisions : andrò, farò, sarò, avrò.",
+            "es": "El futuro simple expresa planes y predicciones: andrò, farò, sarò, avrò.",
+            "de": "Das Futur drückt Pläne und Vorhersagen aus: andrò, farò, sarò, avrò."
+          },
+          "exampleTranslations": {
+            "en": "Tomorrow I will go to the library.",
+            "fr": "Demain, j'irai à la bibliothèque.",
+            "es": "Mañana iré a la biblioteca.",
+            "de": "Morgen werde ich in die Bibliothek gehen."
+          }
+        }
+      ]
+    }
+  ]
+}
