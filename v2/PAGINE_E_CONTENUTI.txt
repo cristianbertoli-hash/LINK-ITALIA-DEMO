@@ -1,0 +1,21 @@
+MAPPATURA DEL SITO V2 CHIARO
+
+HOME — Introduzione, manifesto, THE LINK / ONE HEALTH / ONE SAFETY, programma, destinatari, CTA.
+CHI SIAMO — Missione, fenomeno LINK, direzione scientifica.
+DESTINATARI — Professionisti, aziende/enti, cittadini.
+PROPOSTA FORMATIVA — Principi, Livello I / Livello II, approccio integrato.
+CERTIFICAZIONI — Certified Professional e Certified Company (schede introduttive non regolamenti).
+PARTNERS — FOR.MED. e impostazione per i futuri partner.
+GALLERIA — Struttura media, collegamenti a fonti pubbliche; non contiene falsi eventi/video.
+CONTATTI — Informazioni ufficiali e form che apre un client email.
+PRIVACY — Descrizione del prototipo statico.
+
+FONTI DI RIFERIMENTO:
+https://www.linkitalia-partners.it/
+https://www.linkitalia-partners.it/chi-siamo/
+https://www.linkitalia-partners.it/destinatari/
+https://www.linkitalia-partners.it/proposta-formativa/
+https://www.linkitalia-partners.it/certificazioni/
+https://www.linkitalia-partners.it/partners/
+https://www.linkitalia-partners.it/galleria/
+https://www.linkitalia-partners.it/contatti-e-informazioni/
