@@ -158,3 +158,24 @@ html.pd-lock{overflow:hidden}
 .cs-intro{grid-template-columns:max-content minmax(0,1fr);justify-content:stretch;align-items:start;gap:40px}
 .cs-intro-photo{justify-self:center;width:234px;max-width:100%;margin:4px 0 0}
 @media (max-width:860px){.cs-intro{grid-template-columns:1fr}.cs-intro-photo{justify-self:start;width:220px;margin-top:0}}
+
+/* Certificazioni: azioni delle schede e area documenti */
+.cert-actions{margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px}
+.cert-card .cert-actions .text-link{margin-top:0}
+.docs-section{scroll-margin-top:110px;border-top:1px solid var(--line)}
+.docs-sub{margin:10px 0 0;font-family:var(--serif);font-size:1.25rem;color:#626154;text-align:center}
+.doc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:20px;max-width:980px;margin:0 auto}
+.doc-card{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:20px;padding:24px 26px;background:white;border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow)}
+.doc-icon{width:54px;height:54px;border-radius:12px;background:#f1eee3;color:var(--oliveDark);display:grid;place-items:center}
+.doc-icon .icon{width:28px;height:28px}
+.doc-body h3{margin:0 0 6px;font-size:1.35rem}
+.doc-body p{margin:0 0 10px;color:#5f5b52;text-align:justify;hyphens:auto}
+.doc-meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.78rem;letter-spacing:.03em;color:#7a7668}
+html[lang="it"] .doc-lang-note{display:none}
+.doc-dl{min-height:44px}
+.doc-empty{grid-column:1/-1;text-align:center;color:#7a7668;font-style:italic;margin:0;padding:26px;border:1px dashed var(--line);border-radius:13px}
+@media (max-width:640px){.doc-card{grid-template-columns:auto 1fr}.doc-dl{grid-column:1/-1;width:100%}}
+.docs-section .section-heading,.docs-section .section-heading .eyebrow,.docs-section .section-heading h2{text-align:center;margin-left:auto;margin-right:auto}
+.doc-grid{grid-template-columns:1fr;max-width:760px}
+.doc-body p{text-align:left;hyphens:manual}
+.docs-section .section-heading{margin-bottom:24px}
