@@ -35,7 +35,7 @@
  "t038": "Közösségi adószám: IT04205860366",
  "t039": "Felfedezés",
  "t043": "Tájékoztatás kérése",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Adatvédelem és sütik</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Adatvédelem és sütik</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Rólunk | LINK-ITALIA & PARTNERS",
  "t046": "A LINK-ITALIA & PARTNERS jövőképe, küldetése és tudományos irányítása.",
  "t047": "Rólunk — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Megnyílik a levelezőprogramja. Ellenőrizze az üzenetet, és erősítse meg a küldést: ez a weboldal nem küld automatikusan üzeneteket.",
  "js_mail_name": "Név",
  "js_mail_request": "Kérés",
- "js_mail_message": "Üzenet"
+ "js_mail_message": "Üzenet",
+ "t300": "A <strong>We Break THE LINK® – One Safety, One Health, One Welfare® Erőszakellenes Program</strong> felkészíti a szakembereket, a szervezeteket és az állampolgárokat arra, hogy aktívan részt vegyenek a deviáns, antiszociális és bűnöző magatartások megelőzésében, kezelésében és visszaszorításában, az emberek és az állatok védelmében.",
+ "t301": "Alapja a <strong>LINK-jelenség</strong>: az állatok bántalmazása és/vagy megölése, a személyek közötti erőszak, valamint minden más deviáns, antiszociális vagy bűnöző magatartás közötti szoros összefüggés (F. Sorcinelli, 2006). Olaszországban a deviancia zooantropológiája az irányadó tudományterület.",
+ "t302": "A LINK-ITALIA &amp; PARTNERS közel húszéves tapasztalatot hoz e munkába az állampolgárok tudatosításában, a szakemberek képzésében és a szakmai tanácsadásban, zooantropológiai szemlélettel.",
+ "t303": "Amit kínálunk",
+ "t304": "<strong>Kétszintű képzés</strong> Az I. szint a szakmai érzékenységet és a szociális kompetenciákat, a II. szint a szakterületen dolgozók szakmai kompetenciáit fejleszti.",
+ "t305": "<strong>Certified Professional és Certified Company tanúsítványok</strong> Szabványok egyéni szakembereknek, valamint állami és magánszervezeteknek, összhangban az ESG-, CSR/PSR-szempontokkal és a Fenntartható Fejlődési Célokkal, a fenntarthatósági jelentésekben is felhasználhatók.",
+ "t306": "<strong>Részvételi igazolás</strong> Azoknak a szakembereknek, akik nem kérnek tanúsítványt, és a tudatos állampolgároknak.",
+ "t307": "<strong>Szakmai tanácsadás</strong> Irányelvek és protokollok, LINK-esetek elemzése, megelőzési rendszerek, az állatoknak ártó cselekmények társadalmi veszélyességének értékelése.",
+ "t308": "A program három alapelve"
 }

@@ -35,7 +35,7 @@
  "t038": "NIP UE IT04205860366",
  "t039": "Odkryj",
  "t043": "Zapytaj o informacje",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Prywatność i pliki cookie</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Prywatność i pliki cookie</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "O nas | LINK-ITALIA & PARTNERS",
  "t046": "Wizja, misja i kierownictwo naukowe LINK-ITALIA & PARTNERS.",
  "t047": "O nas — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Otwiera się Twój program pocztowy. Sprawdź wiadomość i potwierdź wysłanie: strona nie wysyła wiadomości automatycznie.",
  "js_mail_name": "Imię i nazwisko",
  "js_mail_request": "Zapytanie",
- "js_mail_message": "Wiadomość"
+ "js_mail_message": "Wiadomość",
+ "t300": "<strong>Program Przeciwdziałania Przemocy We Break THE LINK® – One Safety, One Health, One Welfare®</strong> przygotowuje specjalistów, organizacje i obywateli do aktywnej roli w zapobieganiu zachowaniom dewiacyjnym, aspołecznym i przestępczym, ich leczeniu i przeciwdziałaniu im, w trosce o ludzi i zwierzęta.",
+ "t301": "Jego podstawą jest <strong>zjawisko LINK</strong>: ścisły związek między znęcaniem się nad zwierzętami i/lub ich zabijaniem, przemocą interpersonalną i wszelkimi innymi zachowaniami dewiacyjnymi, aspołecznymi lub przestępczymi (F. Sorcinelli, 2006). We Włoszech dyscypliną referencyjną jest zooantropologia dewiacji.",
+ "t302": "LINK-ITALIA &amp; PARTNERS wnosi do tej pracy blisko dwadzieścia lat doświadczenia w uwrażliwianiu obywateli, szkoleniu specjalistów i doradztwie technicznym, w ujęciu zooantropologicznym.",
+ "t303": "Co oferujemy",
+ "t304": "<strong>Szkolenia na dwóch poziomach</strong> Poziom I rozwija wrażliwość zawodową i kompetencje społeczne; poziom II – kompetencje techniczne specjalistów.",
+ "t305": "<strong>Certyfikaty Certified Professional i Certified Company</strong> Standardy dla indywidualnych specjalistów oraz organizacji publicznych i prywatnych, zgodne z ESG, CSR/PSR i Celami Zrównoważonego Rozwoju, przydatne w raportowaniu zrównoważonego rozwoju.",
+ "t306": "<strong>Zaświadczenie o uczestnictwie</strong> Dla specjalistów, którzy nie ubiegają się o certyfikat, oraz dla świadomych obywateli.",
+ "t307": "<strong>Specjalistyczne doradztwo techniczne</strong> Wytyczne i protokoły, analiza przypadków LINK, systemy prewencji oraz ocena społecznej szkodliwości czynów wymierzonych w zwierzęta.",
+ "t308": "Trzy zasady programu"
 }

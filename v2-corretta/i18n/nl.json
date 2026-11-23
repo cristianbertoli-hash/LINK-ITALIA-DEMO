@@ -35,7 +35,7 @@
  "t038": "Btw-nr. IT04205860366",
  "t039": "Ontdekken",
  "t043": "Informatie aanvragen",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Privacy en cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Privacy en cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Over ons | LINK-ITALIA & PARTNERS",
  "t046": "De visie, missie en wetenschappelijke leiding van LINK-ITALIA & PARTNERS.",
  "t047": "Over ons — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Uw e-mailprogramma wordt geopend. Controleer het bericht en bevestig de verzending: de website verstuurt geen berichten automatisch.",
  "js_mail_name": "Naam",
  "js_mail_request": "Vraag",
- "js_mail_message": "Bericht"
+ "js_mail_message": "Bericht",
+ "t300": "Het <strong>Antigeweldprogramma We Break THE LINK® – One Safety, One Health, One Welfare®</strong> leidt professionals, organisaties en burgers op om actief bij te dragen aan het voorkomen, behandelen en bestrijden van afwijkend, antisociaal en crimineel gedrag, ter bescherming van mensen en dieren.",
+ "t301": "De basis is het <strong>LINK-fenomeen</strong>: de nauwe samenhang tussen mishandeling en/of het doden van dieren, interpersoonlijk geweld en elk ander afwijkend, antisociaal of crimineel gedrag (F. Sorcinelli, 2006). In Italië is de zoöantropologie van deviantie de referentiediscipline.",
+ "t302": "LINK-ITALIA &amp; PARTNERS brengt bijna twintig jaar ervaring mee in bewustmaking van burgers, opleiding van professionals en technisch advies, vanuit een zoöantropologische benadering.",
+ "t303": "Wat wij bieden",
+ "t304": "<strong>Opleiding op twee niveaus</strong> Niveau I voor professionele sensitiviteit en sociale competenties; niveau II voor de technische competenties van vakmensen.",
+ "t305": "<strong>Certificeringen Certified Professional en Certified Company</strong> Normen voor individuele professionals en voor publieke en private organisaties, afgestemd op ESG, MVO/PSR en de Duurzame Ontwikkelingsdoelen, bruikbaar in duurzaamheidsverslagen.",
+ "t306": "<strong>Bewijs van deelname</strong> Voor professionals die geen certificering aanvragen en voor betrokken burgers.",
+ "t307": "<strong>Gespecialiseerd technisch advies</strong> Richtlijnen en protocollen, analyse van LINK-zaken, preventiesystemen en beoordeling van het maatschappelijk gevaar van schadelijk gedrag tegenover dieren.",
+ "t308": "De drie principes van het programma"
 }

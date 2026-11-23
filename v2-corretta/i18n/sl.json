@@ -35,7 +35,7 @@
  "t038": "ID za DDV IT04205860366",
  "t039": "Raziščite",
  "t043": "Zahtevajte informacije",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Zasebnost in piškotki</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Zasebnost in piškotki</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "O nas | LINK-ITALIA & PARTNERS",
  "t046": "Vizija, poslanstvo in znanstveno vodstvo LINK-ITALIA & PARTNERS.",
  "t047": "O nas — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Odpira se vaš e-poštni program. Preverite sporočilo in potrdite pošiljanje: to spletno mesto ne pošilja sporočil samodejno.",
  "js_mail_name": "Ime",
  "js_mail_request": "Zahteva",
- "js_mail_message": "Sporočilo"
+ "js_mail_message": "Sporočilo",
+ "t300": "<strong>Program proti nasilju We Break THE LINK® – One Safety, One Health, One Welfare®</strong> usposablja strokovnjake, organizacije in državljane, da delujejo kot aktivna zaščita pri preprečevanju, obravnavi in zatiranju deviantnih, antisocialnih in kaznivih vedenj, za zaščito ljudi in živali.",
+ "t301": "Temelji na <strong>fenomenu LINK</strong>: tesni povezavi med trpinčenjem in/ali ubijanjem živali, medosebnim nasiljem in vsakim drugim deviantnim, antisocialnim ali kaznivim vedenjem (F. Sorcinelli, 2006). V Italiji je referenčna disciplina zooantropologija deviantnosti.",
+ "t302": "LINK-ITALIA &amp; PARTNERS v to delo prinaša skoraj dvajset let izkušenj z ozaveščanjem državljanov, izobraževanjem strokovnjakov in tehničnim svetovanjem, z zooantropološkim pristopom.",
+ "t303": "Kaj ponujamo",
+ "t304": "<strong>Izobraževanje na dveh ravneh</strong> I. raven za strokovno občutljivost in socialne kompetence; II. raven za tehnične kompetence strokovnjakov s področja.",
+ "t305": "<strong>Certifikata Certified Professional in Certified Company</strong> Standarda za posamezne strokovnjake ter javne in zasebne organizacije, usklajena z ESG, DOP (CSR/PSR) in cilji trajnostnega razvoja, uporabna pri trajnostnem poročanju.",
+ "t306": "<strong>Potrdilo o udeležbi</strong> Za strokovnjake, ki ne zaprosijo za certifikat, in za ozaveščene državljane.",
+ "t307": "<strong>Specialistično tehnično svetovanje</strong> Smernice in protokoli, analiza primerov LINK, sistemi preprečevanja ter ocena družbene nevarnosti škodljivih dejanj zoper živali.",
+ "t308": "Tri načela programa"
 }

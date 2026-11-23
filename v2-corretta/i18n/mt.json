@@ -35,7 +35,7 @@
  "t038": "Nru tal-VAT IT04205860366",
  "t039": "Esplora",
  "t043": "Itlob informazzjoni",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Privatezza u cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Privatezza u cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Dwarna | LINK-ITALIA & PARTNERS",
  "t046": "Il-viżjoni, il-missjoni u d-direzzjoni xjentifika ta' LINK-ITALIA & PARTNERS.",
  "t047": "Dwarna — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Il-programm tal-email tiegħek qed jinfetaħ. Iċċekkja l-messaġġ u kkonferma l-bgħit: dan is-sit web ma jibgħatx messaġġi b'mod awtomatiku.",
  "js_mail_name": "Isem",
  "js_mail_request": "Talba",
- "js_mail_message": "Messaġġ"
+ "js_mail_message": "Messaġġ",
+ "t300": "Il-<strong>Programm Kontra l-Vjolenza We Break THE LINK® – One Safety, One Health, One Welfare®</strong> iħarreġ lill-professjonisti, lill-organizzazzjonijiet u liċ-ċittadini biex ikunu salvagwardja attiva fil-prevenzjoni, fit-trattament u fil-ġlieda kontra mġiba devjanti, antisoċjali u kriminali, għall-protezzjoni tan-nies u tal-annimali.",
+ "t301": "Huwa bbażat fuq il-<strong>fenomenu LINK</strong>: il-korrelazzjoni mill-qrib bejn l-abbuż fuq u/jew il-qtil tal-annimali, il-vjolenza interpersonali u kull mġiba devjanti, antisoċjali jew kriminali oħra (F. Sorcinelli, 2006). Fl-Italja, id-dixxiplina ta’ referenza hija ż-Żooantropoloġija tad-Devjanza.",
+ "t302": "LINK-ITALIA &amp; PARTNERS iġġib f’din il-ħidma kważi għoxrin sena esperjenza fis-sensibilizzazzjoni taċ-ċittadini, fit-taħriġ tal-professjonisti u fil-konsulenza teknika, b’approċċ żooantropoloġiku.",
+ "t303": "X’noffru",
+ "t304": "<strong>Taħriġ fuq żewġ livelli</strong> Livell I għas-sensittività professjonali u l-kompetenzi soċjali; Livell II għall-kompetenzi tekniċi tal-professjonisti tas-settur.",
+ "t305": "<strong>Ċertifikazzjonijiet Certified Professional u Certified Company</strong> Standards għall-professjonisti individwali u għall-organizzazzjonijiet pubbliċi u privati, allinjati mal-ESG, is-CSR/PSR u l-Għanijiet ta’ Żvilupp Sostenibbli, utli fir-rappurtar dwar is-sostenibbiltà.",
+ "t306": "<strong>Ċertifikat ta’ attendenza</strong> Għall-professjonisti li ma jitolbux ċertifikazzjoni u għaċ-ċittadini konxji.",
+ "t307": "<strong>Konsulenza teknika speċjalizzata</strong> Linji gwida u protokolli, analiżi ta’ każijiet LINK, sistemi ta’ prevenzjoni, u valutazzjoni tal-perikolu soċjali ta’ atti li jagħmlu ħsara lill-annimali.",
+ "t308": "It-tliet prinċipji tal-programm"
 }

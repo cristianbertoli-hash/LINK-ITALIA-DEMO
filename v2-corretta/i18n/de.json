@@ -35,7 +35,7 @@
  "t038": "USt-IdNr. IT04205860366",
  "t039": "Entdecken",
  "t043": "Informationen anfragen",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Datenschutz und Cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Datenschutz und Cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Über uns | LINK-ITALIA & PARTNERS",
  "t046": "Vision, Auftrag und wissenschaftliche Leitung von LINK-ITALIA & PARTNERS.",
  "t047": "Über uns — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Ihr E-Mail-Programm wird geöffnet. Prüfen Sie die Nachricht und bestätigen Sie den Versand: Die Website versendet keine Nachrichten automatisch.",
  "js_mail_name": "Name",
  "js_mail_request": "Anfrage",
- "js_mail_message": "Nachricht"
+ "js_mail_message": "Nachricht",
+ "t300": "Das <strong>Antigewaltprogramm We Break THE LINK® – One Safety, One Health, One Welfare®</strong> befähigt Fachkräfte, Organisationen und Bürgerinnen und Bürger, als aktive Schutzinstanz deviantes, antisoziales und kriminelles Verhalten zu verhindern, zu behandeln und zu bekämpfen – zum Schutz von Menschen und Tieren.",
+ "t301": "Grundlage ist das <strong>LINK-Phänomen</strong>: der enge Zusammenhang zwischen Misshandlung und/oder Tötung von Tieren, zwischenmenschlicher Gewalt und jedem anderen devianten, antisozialen oder kriminellen Verhalten (F. Sorcinelli, 2006). In Italien ist die Zooanthropologie der Devianz die maßgebliche Disziplin.",
+ "t302": "LINK-ITALIA &amp; PARTNERS bringt fast zwanzig Jahre Erfahrung in der Sensibilisierung der Öffentlichkeit, der Ausbildung von Fachkräften und der technischen Beratung ein – mit zooanthropologischer Ausrichtung.",
+ "t303": "Unser Angebot",
+ "t304": "<strong>Weiterbildung auf zwei Stufen</strong> Stufe I für berufliche Sensibilität und soziale Kompetenzen; Stufe II für die fachlichen Kompetenzen von Fachleuten.",
+ "t305": "<strong>Zertifizierungen Certified Professional und Certified Company</strong> Standards für einzelne Fachkräfte sowie für öffentliche und private Organisationen, ausgerichtet an ESG, CSR/PSR und den Zielen für nachhaltige Entwicklung und nutzbar in der Nachhaltigkeitsberichterstattung.",
+ "t306": "<strong>Teilnahmebescheinigung</strong> Für Fachkräfte, die keine Zertifizierung beantragen, und für engagierte Bürgerinnen und Bürger.",
+ "t307": "<strong>Fachliche Beratung</strong> Leitlinien und Protokolle, Analyse von LINK-Fällen, Präventionssysteme und Bewertung der sozialen Gefährlichkeit tierschädigender Handlungen.",
+ "t308": "Die drei Grundsätze des Programms"
 }

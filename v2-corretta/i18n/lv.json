@@ -35,7 +35,7 @@
  "t038": "PVN reģ. nr. IT04205860366",
  "t039": "Izpētīt",
  "t043": "Pieprasīt informāciju",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Privātums un sīkdatnes</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Privātums un sīkdatnes</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Par mums | LINK-ITALIA & PARTNERS",
  "t046": "LINK-ITALIA & PARTNERS vīzija, misija un zinātniskā vadība.",
  "t047": "Par mums — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Tiek atvērta jūsu e-pasta programma. Pārbaudiet ziņojumu un apstipriniet nosūtīšanu: šī tīmekļa vietne nesūta ziņojumus automātiski.",
  "js_mail_name": "Vārds",
  "js_mail_request": "Pieprasījums",
- "js_mail_message": "Ziņojums"
+ "js_mail_message": "Ziņojums",
+ "t300": "<strong>Pretvardarbības programma We Break THE LINK® – One Safety, One Health, One Welfare®</strong> sagatavo speciālistus, organizācijas un pilsoņus būt aktīvai aizsardzībai deviantas, antisociālas un noziedzīgas uzvedības novēršanā, ārstēšanā un apkarošanā, lai aizsargātu cilvēkus un dzīvniekus.",
+ "t301": "Tās pamatā ir <strong>LINK fenomens</strong>: ciešā saikne starp vardarbību pret dzīvniekiem un/vai to nogalināšanu, starppersonu vardarbību un jebkuru citu deviantu, antisociālu vai noziedzīgu uzvedību (F. Sorcinelli, 2006). Itālijā atsauces disciplīna ir deviances zooantropoloģija.",
+ "t302": "LINK-ITALIA &amp; PARTNERS šajā darbā ienes gandrīz divdesmit gadu pieredzi pilsoņu izpratnes veicināšanā, speciālistu apmācībā un tehniskajās konsultācijās, ar zooantropoloģisku pieeju.",
+ "t303": "Ko mēs piedāvājam",
+ "t304": "<strong>Apmācība divos līmeņos</strong> I līmenis profesionālajai jutībai un sociālajām kompetencēm; II līmenis nozares speciālistu tehniskajām kompetencēm.",
+ "t305": "<strong>Sertifikāti Certified Professional un Certified Company</strong> Standarti atsevišķiem speciālistiem un publiskām un privātām organizācijām, saskaņoti ar ESG, KSA (CSR/PSR) un Ilgtspējīgas attīstības mērķiem, noderīgi ilgtspējas ziņošanā.",
+ "t306": "<strong>Apliecība par dalību</strong> Speciālistiem, kuri nepiesakās sertifikācijai, un apzinīgiem pilsoņiem.",
+ "t307": "<strong>Specializētas tehniskās konsultācijas</strong> Vadlīnijas un protokoli, LINK gadījumu analīze, prevencijas sistēmas un dzīvniekiem kaitīgu darbību sociālās bīstamības novērtēšana.",
+ "t308": "Programmas trīs principi"
 }

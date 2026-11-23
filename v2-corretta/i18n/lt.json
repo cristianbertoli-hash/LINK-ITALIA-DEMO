@@ -35,7 +35,7 @@
  "t038": "PVM mokėtojo kodas IT04205860366",
  "t039": "Naršyti",
  "t043": "Gauti informacijos",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Privatumas ir slapukai</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Privatumas ir slapukai</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Apie mus | LINK-ITALIA & PARTNERS",
  "t046": "LINK-ITALIA & PARTNERS vizija, misija ir mokslinis vadovavimas.",
  "t047": "Apie mus — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Atsidaro jūsų el. pašto programa. Patikrinkite žinutę ir patvirtinkite siuntimą: ši svetainė automatiškai žinučių nesiunčia.",
  "js_mail_name": "Vardas",
  "js_mail_request": "Užklausa",
- "js_mail_message": "Žinutė"
+ "js_mail_message": "Žinutė",
+ "t300": "<strong>Kovos su smurtu programa We Break THE LINK® – One Safety, One Health, One Welfare®</strong> rengia specialistus, organizacijas ir piliečius būti aktyvia apsauga užkertant kelią deviantiniam, antisocialiam ir nusikalstamam elgesiui, jį gydant ir su juo kovojant, siekiant apsaugoti žmones ir gyvūnus.",
+ "t301": "Jos pagrindas – <strong>LINK reiškinys</strong>: glaudi sąsaja tarp žiauraus elgesio su gyvūnais ir (arba) jų žudymo, tarpasmeninio smurto ir bet kokio kito deviantinio, antisocialaus ar nusikalstamo elgesio (F. Sorcinelli, 2006). Italijoje pagrindinė disciplina yra deviacijos zooantropologija.",
+ "t302": "LINK-ITALIA &amp; PARTNERS į šį darbą atneša beveik dvidešimties metų patirtį didinant piliečių sąmoningumą, mokant specialistus ir teikiant technines konsultacijas, laikantis zooantropologinio požiūrio.",
+ "t303": "Ką siūlome",
+ "t304": "<strong>Dviejų lygių mokymai</strong> I lygis – profesiniam jautrumui ir socialinėms kompetencijoms; II lygis – srities specialistų techninėms kompetencijoms.",
+ "t305": "<strong>Sertifikatai Certified Professional ir Certified Company</strong> Standartai atskiriems specialistams ir viešosioms bei privačioms organizacijoms, suderinti su ESG, ĮSA (CSR/PSR) ir Darnaus vystymosi tikslais, naudingi tvarumo ataskaitoms.",
+ "t306": "<strong>Dalyvavimo pažymėjimas</strong> Specialistams, kurie neprašo sertifikavimo, ir sąmoningiems piliečiams.",
+ "t307": "<strong>Specializuotos techninės konsultacijos</strong> Gairės ir protokolai, LINK atvejų analizė, prevencijos sistemos ir gyvūnams žalingų veiksmų socialinio pavojingumo vertinimas.",
+ "t308": "Trys programos principai"
 }
