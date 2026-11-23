@@ -86,3 +86,5 @@ html.pd-lock{overflow:hidden}
 .prose a{color:var(--oliveDark);overflow-wrap:anywhere}
 .page-intro>p[data-i18n="cs03"]{text-transform:none}
 @media(max-width:720px){.cs-profile{flex-direction:column;gap:18px}.cs-quote{padding:18px 18px}}
+.pd-body h2.pd-brand{text-align:center;color:#8b1a1a;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.15;margin:0 0 28px}
+.pd-body ul.caps{font-family:var(--sans);font-size:.88rem;letter-spacing:.02em}
