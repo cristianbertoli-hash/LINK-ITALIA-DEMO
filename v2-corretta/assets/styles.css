@@ -88,3 +88,17 @@ html.pd-lock{overflow:hidden}
 @media(max-width:720px){.cs-profile{flex-direction:column;gap:18px}.cs-quote{padding:18px 18px}}
 .pd-body h2.pd-brand{text-align:center;color:#8b1a1a;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.15;margin:0 0 28px}
 .pd-body ul.caps{font-family:var(--sans);font-size:.88rem;letter-spacing:.02em}
+/* Destinatari – testo originale */
+.dest-claim{font-family:var(--serif);font-size:clamp(1.3rem,2vw,1.7rem);line-height:1.4;text-align:center;color:var(--oliveDark);max-width:900px;margin:0 auto 44px}
+.dest-quote{font-family:var(--serif);font-style:italic;font-size:1.25rem;color:var(--goldDark);border-left:3px solid var(--gold);padding-left:18px}
+.dest-heading{font-family:var(--sans);font-size:clamp(1rem,1.4vw,1.2rem);letter-spacing:.06em;line-height:1.55;text-align:center;color:var(--oliveDark);max-width:960px;margin:0 auto 34px;font-weight:700}
+.dest-list{display:grid;gap:22px;max-width:1000px;margin:0 auto}
+.dest-card{background:var(--white);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:32px 36px;box-shadow:var(--shadow);scroll-margin-top:130px}
+.dest-card .eyebrow{margin-bottom:8px}
+.dest-card h3{font-size:clamp(1.25rem,1.8vw,1.55rem);line-height:1.3;margin:0 0 16px;color:var(--ink)}
+.dest-card p{font-family:var(--serif);font-size:1.05rem;line-height:1.72}
+.dest-card p:last-child{margin-bottom:0}
+.dest-sub{font-family:var(--sans)!important;font-size:.9rem!important;font-weight:700;color:var(--olive)}
+.notice+.notice{margin-top:18px}.notice ul{margin:10px 0;padding-left:20px}.notice li{padding:3px 0}
+@media(max-width:720px){.dest-card{padding:24px 20px}}
+.dest-intro .prose{margin-inline:auto}.dest-intro~.notice,section .notice{max-width:1000px;margin-inline:auto}
