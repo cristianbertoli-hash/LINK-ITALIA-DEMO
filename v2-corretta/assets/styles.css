@@ -141,3 +141,6 @@ html.pd-lock{overflow:hidden}
 /* Chi siamo: foto più piccola (-25%) e vicina al testo */
 .cs-intro{grid-template-columns:minmax(0,max-content) 300px;justify-content:start;gap:56px}
 @media (max-width:860px){.cs-intro{grid-template-columns:1fr}.cs-intro-photo{max-width:280px;margin-inline:0}}
+
+/* Copertina home: foto intervento, viso sempre visibile */
+.hero-media img.hero-cover{object-position:30% 28%}
