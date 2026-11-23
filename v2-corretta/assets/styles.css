@@ -141,13 +141,3 @@ html.pd-lock{overflow:hidden}
 /* Chi siamo: foto più piccola (-25%) e vicina al testo */
 .cs-intro{grid-template-columns:minmax(0,max-content) 300px;justify-content:start;gap:56px}
 @media (max-width:860px){.cs-intro{grid-template-columns:1fr}.cs-intro-photo{max-width:280px;margin-inline:0}}
-
-/* Copertina home: foto intervento, viso sempre visibile */
-.hero-media img.hero-cover{object-position:30% 28%}
-
-/* Copertina home: scena intera visibile (foto 4:3, nessun ritaglio aggressivo) */
-.hero-media{align-self:center;height:auto;min-height:0;aspect-ratio:1448/1086;border-radius:0 0 34% 6%}
-.hero-media:before{display:none}
-.hero-media img.hero-cover{object-position:center}
-@media (max-width:860px){.hero-media{aspect-ratio:1448/1086;border-radius:0 0 28px 28px}}
-.hero-media{border-radius:18px}@media (max-width:860px){.hero-media{border-radius:0 0 24px 24px}}
