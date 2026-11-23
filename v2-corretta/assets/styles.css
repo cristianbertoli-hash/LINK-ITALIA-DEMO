@@ -117,3 +117,7 @@ html.pd-lock{overflow:hidden}
 .pf-sources{font-family:var(--sans);font-size:.85rem!important;color:var(--muted);text-align:left!important;margin-top:30px}
 .pf-contact{max-width:900px;margin:0 auto;text-align:center;font-family:var(--sans);font-size:.92rem;letter-spacing:.02em;line-height:1.7;color:var(--oliveDark);font-weight:600}
 .pf-contact a{color:var(--goldDark)}
+/* Testo giustificato in tutte le pagine con testo originale */
+.prose p,.prose li,.dest-card p,.cs-profile p,.focus-block p,.pd-body p,.pd-body li,.pd-body blockquote,.cs-quote,.notice p,.notice li{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.pd-body .kicker,.pd-body h2.pd-brand,.pd-cta,.dest-claim,.pf-banner p,.pf-sources,.pf-contact,.dest-sub{text-align:center}
+.pf-sources,.dest-sub{text-align:left!important}
