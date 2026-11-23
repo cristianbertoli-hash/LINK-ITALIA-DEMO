@@ -189,3 +189,12 @@ html[lang="it"] .doc-lang-note{display:none}
 .doc-badge{display:inline-block;padding:3px 10px;border-radius:999px;background:#f1eee3;color:#7a6a3a;font-weight:700;letter-spacing:.05em;text-transform:uppercase;font-size:.7rem}
 .btn.is-disabled{background:#e9e6dc;border-color:#e9e6dc;color:#9a9585;cursor:not-allowed;pointer-events:none;box-shadow:none}
 @media (max-width:640px){.doc-actions{grid-column:1/-1;width:100%}}
+
+/* Certificazioni: testo a sinistra e immagine della certificazione a destra */
+.cert-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:56px;align-items:center}
+.cert-intro .cert-intro-text{text-align:left}
+.cert-intro-text h1,.cert-intro-text>p{margin-left:0;margin-right:0}
+.cert-intro-photo{margin:0;position:relative;z-index:1}
+.cert-intro-photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px;box-shadow:0 18px 40px rgba(40,40,30,.14)}
+@media (max-width:860px){.cert-intro{grid-template-columns:1fr;gap:30px}.cert-intro-photo{max-width:520px}}
+.cert-intro-text>p{text-align:justify;hyphens:auto}
