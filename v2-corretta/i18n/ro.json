@@ -35,7 +35,7 @@
  "t038": "Cod TVA IT04205860366",
  "t039": "Explorează",
  "t043": "Solicită informații",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Confidențialitate și cookie-uri</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Confidențialitate și cookie-uri</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Despre noi | LINK-ITALIA & PARTNERS",
  "t046": "Viziunea, misiunea și coordonarea științifică a LINK-ITALIA & PARTNERS.",
  "t047": "Despre noi — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Se deschide programul tău de e-mail. Verifică mesajul și confirmă trimiterea: site-ul nu trimite mesaje automat.",
  "js_mail_name": "Nume",
  "js_mail_request": "Solicitare",
- "js_mail_message": "Mesaj"
+ "js_mail_message": "Mesaj",
+ "t300": "<strong>Programul împotriva Violenței We Break THE LINK® – One Safety, One Health, One Welfare®</strong> pregătește profesioniști, organizații și cetățeni să acționeze ca un sprijin activ în prevenirea, tratarea și combaterea comportamentelor deviante, antisociale și infracționale, pentru protecția oamenilor și a animalelor.",
+ "t301": "La baza sa se află <strong>fenomenul LINK</strong>: corelația strânsă dintre maltratarea și/sau uciderea animalelor, violența interpersonală și orice alt comportament deviant, antisocial sau infracțional (F. Sorcinelli, 2006). În Italia, disciplina de referință este Zooantropologia devianței.",
+ "t302": "LINK-ITALIA &amp; PARTNERS aduce în această activitate aproape douăzeci de ani de experiență în sensibilizarea cetățenilor, formarea profesioniștilor și consultanța tehnică, cu o orientare zooantropologică.",
+ "t303": "Ce oferim",
+ "t304": "<strong>Formare pe două niveluri</strong> Nivelul I pentru sensibilitatea profesională și competențele sociale; Nivelul II pentru competențele tehnice ale specialiștilor.",
+ "t305": "<strong>Certificările Certified Professional și Certified Company</strong> Standarde pentru profesioniști individuali și pentru organizații publice și private, aliniate la ESG, CSR/PSR și Obiectivele de Dezvoltare Durabilă, utile în raportarea privind sustenabilitatea.",
+ "t306": "<strong>Certificat de participare</strong> Pentru profesioniștii care nu solicită certificarea și pentru cetățenii implicați.",
+ "t307": "<strong>Consultanță tehnică de specialitate</strong> Ghiduri și protocoale, analiza cazurilor LINK, sisteme de prevenire și evaluarea periculozității sociale a faptelor care dăunează animalelor.",
+ "t308": "Cele trei principii ale programului"
 }

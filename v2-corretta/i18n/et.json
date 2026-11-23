@@ -35,7 +35,7 @@
  "t038": "KMKR nr IT04205860366",
  "t039": "Avasta",
  "t043": "Küsi teavet",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Privaatsus ja küpsised</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Privaatsus ja küpsised</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Meist | LINK-ITALIA & PARTNERS",
  "t046": "LINK-ITALIA & PARTNERSi visioon, missioon ja teaduslik juhtimine.",
  "t047": "Meist — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Teie e-posti programm avaneb. Kontrollige sõnumit ja kinnitage saatmine: see veebisait ei saada sõnumeid automaatselt.",
  "js_mail_name": "Nimi",
  "js_mail_request": "Päring",
- "js_mail_message": "Sõnum"
+ "js_mail_message": "Sõnum",
+ "t300": "<strong>Vägivallavastane programm We Break THE LINK® – One Safety, One Health, One Welfare®</strong> valmistab spetsialiste, organisatsioone ja kodanikke ette olema aktiivne kaitse hälbiva, antisotsiaalse ja kuritegeliku käitumise ennetamisel, käsitlemisel ja tõkestamisel, et kaitsta inimesi ja loomi.",
+ "t301": "Selle aluseks on <strong>LINK-nähtus</strong>: tihe seos loomade väärkohtlemise ja/või tapmise, inimestevahelise vägivalla ning mis tahes muu hälbiva, antisotsiaalse või kuritegeliku käitumise vahel (F. Sorcinelli, 2006). Itaalias on lähtedistsipliiniks hälbivuse zooantropoloogia.",
+ "t302": "LINK-ITALIA &amp; PARTNERS toob sellesse töösse peaaegu kahekümne aasta kogemuse kodanike teadlikkuse tõstmisel, spetsialistide koolitamisel ja tehnilisel nõustamisel, zooantropoloogilise lähenemisega.",
+ "t303": "Mida pakume",
+ "t304": "<strong>Kahetasandiline koolitus</strong> I tase erialase tundlikkuse ja sotsiaalsete pädevuste arendamiseks; II tase valdkonna spetsialistide tehniliste pädevuste arendamiseks.",
+ "t305": "<strong>Sertifikaadid Certified Professional ja Certified Company</strong> Standardid üksikspetsialistidele ning avaliku ja erasektori organisatsioonidele, kooskõlas ESG, CSR/PSR ja kestliku arengu eesmärkidega, kasutatavad kestlikkusaruandluses.",
+ "t306": "<strong>Osalemistõend</strong> Spetsialistidele, kes sertifikaati ei taotle, ja teadlikele kodanikele.",
+ "t307": "<strong>Spetsialiseeritud tehniline nõustamine</strong> Juhised ja protokollid, LINK-juhtumite analüüs, ennetussüsteemid ning loomi kahjustavate tegude sotsiaalse ohtlikkuse hindamine.",
+ "t308": "Programmi kolm põhimõtet"
 }

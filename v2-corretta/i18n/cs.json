@@ -35,7 +35,7 @@
  "t038": "DIČ IT04205860366",
  "t039": "Prozkoumat",
  "t043": "Vyžádat informace",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Soukromí a cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Soukromí a cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "O nás | LINK-ITALIA & PARTNERS",
  "t046": "Vize, poslání a odborné vedení LINK-ITALIA & PARTNERS.",
  "t047": "O nás — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Otevírá se váš e-mailový program. Zkontrolujte zprávu a potvrďte odeslání: web neposílá zprávy automaticky.",
  "js_mail_name": "Jméno",
  "js_mail_request": "Dotaz",
- "js_mail_message": "Zpráva"
+ "js_mail_message": "Zpráva",
+ "t300": "<strong>Program proti násilí We Break THE LINK® – One Safety, One Health, One Welfare®</strong> připravuje odborníky, organizace a občany na aktivní roli v prevenci, léčbě a potírání deviantního, antisociálního a trestného jednání, na ochranu lidí i zvířat.",
+ "t301": "Vychází z <strong>fenoménu LINK</strong>: úzké souvislosti mezi týráním a/nebo zabíjením zvířat, mezilidským násilím a jakýmkoli jiným deviantním, antisociálním nebo trestným jednáním (F. Sorcinelli, 2006). V Itálii je referenční disciplínou zooantropologie deviace.",
+ "t302": "LINK-ITALIA &amp; PARTNERS přináší téměř dvacet let zkušeností s osvětou veřejnosti, vzděláváním odborníků a technickým poradenstvím, se zooantropologickým zaměřením.",
+ "t303": "Co nabízíme",
+ "t304": "<strong>Vzdělávání ve dvou úrovních</strong> Úroveň I pro profesní citlivost a sociální kompetence; úroveň II pro odborné kompetence profesionálů v oboru.",
+ "t305": "<strong>Certifikace Certified Professional a Certified Company</strong> Standardy pro jednotlivé odborníky i pro veřejné a soukromé organizace, v souladu s ESG, CSR/PSR a Cíli udržitelného rozvoje, využitelné ve zprávách o udržitelnosti.",
+ "t306": "<strong>Osvědčení o účasti</strong> Pro odborníky, kteří o certifikaci nežádají, a pro uvědomělé občany.",
+ "t307": "<strong>Specializované technické poradenství</strong> Pokyny a protokoly, analýza případů LINK, systémy prevence a posouzení společenské nebezpečnosti jednání poškozujícího zvířata.",
+ "t308": "Tři principy programu"
 }

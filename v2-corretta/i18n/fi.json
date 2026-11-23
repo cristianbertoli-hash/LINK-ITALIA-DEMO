@@ -35,7 +35,7 @@
  "t038": "ALV-tunniste IT04205860366",
  "t039": "Tutustu",
  "t043": "Pyydä tietoja",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Tietosuoja ja evästeet</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Tietosuoja ja evästeet</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Tietoa meistä | LINK-ITALIA & PARTNERS",
  "t046": "LINK-ITALIA & PARTNERSin visio, missio ja tieteellinen johto.",
  "t047": "Tietoa meistä — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Sähköpostiohjelmasi avautuu. Tarkista viesti ja vahvista lähetys: tämä sivusto ei lähetä viestejä automaattisesti.",
  "js_mail_name": "Nimi",
  "js_mail_request": "Pyyntö",
- "js_mail_message": "Viesti"
+ "js_mail_message": "Viesti",
+ "t300": "<strong>We Break THE LINK® – One Safety, One Health, One Welfare® -väkivallanvastainen ohjelma</strong> kouluttaa ammattilaisia, organisaatioita ja kansalaisia toimimaan aktiivisena suojana poikkeavan, epäsosiaalisen ja rikollisen käyttäytymisen ehkäisyssä, hoidossa ja torjunnassa ihmisten ja eläinten suojelemiseksi.",
+ "t301": "Ohjelma perustuu <strong>LINK-ilmiöön</strong>: eläinten kaltoinkohtelun ja/tai tappamisen, ihmisten välisen väkivallan ja kaiken muun poikkeavan, epäsosiaalisen tai rikollisen käyttäytymisen tiiviiseen yhteyteen (F. Sorcinelli, 2006). Italiassa viitetieteenala on poikkeavuuden zooantropologia.",
+ "t302": "LINK-ITALIA &amp; PARTNERS tuo työhön lähes kahdenkymmenen vuoden kokemuksen kansalaisten tietoisuuden lisäämisestä, ammattilaisten kouluttamisesta ja asiantuntijaneuvonnasta zooantropologisella otteella.",
+ "t303": "Mitä tarjoamme",
+ "t304": "<strong>Kaksitasoinen koulutus</strong> Taso I ammatillista herkkyyttä ja sosiaalisia taitoja varten; taso II alan ammattilaisten teknistä osaamista varten.",
+ "t305": "<strong>Certified Professional- ja Certified Company -sertifioinnit</strong> Standardit yksittäisille ammattilaisille sekä julkisille ja yksityisille organisaatioille; ne tukevat ESG-, CSR/PSR- ja kestävän kehityksen tavoitteita ja soveltuvat kestävyysraportointiin.",
+ "t306": "<strong>Osallistumistodistus</strong> Ammattilaisille, jotka eivät hae sertifiointia, sekä valveutuneille kansalaisille.",
+ "t307": "<strong>Erikoistunut asiantuntijaneuvonta</strong> Ohjeistukset ja toimintamallit, LINK-tapausten analysointi, ennaltaehkäisyjärjestelmät sekä eläimiä vahingoittavien tekojen yhteiskunnallisen vaarallisuuden arviointi.",
+ "t308": "Ohjelman kolme periaatetta"
 }

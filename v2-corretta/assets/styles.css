@@ -31,3 +31,21 @@ body{transition:opacity .15s}
 .nav-collapse .desktop-nav{display:none}.nav-collapse .menu-toggle{display:flex}.nav-collapse .lang-switch{margin-left:auto}.nav-collapse .header-inner{gap:12px}
 .nav-collapse .mobile-nav{position:absolute;top:100%;left:0;width:100%;background:#fbf9f4;padding:8px 26px 26px;box-shadow:0 20px 35px rgba(25,30,20,.13);border-top:1px solid var(--line)}
 .nav-collapse .mobile-nav:not([hidden]){display:grid;grid-template-columns:repeat(4,1fr);gap:5px}.nav-collapse .mobile-nav a{text-decoration:none;padding:12px 13px;border-radius:5px}.nav-collapse .mobile-nav a.current{background:#eee8d6;color:var(--goldDark);font-weight:700}
+
+/* Presentazione del programma nella home (sopra i tre riquadri) */
+.program-overview{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start;margin:8px 0 54px}
+.program-text p{font-family:var(--serif);font-size:1.08rem;line-height:1.62;margin:0 0 1em;color:#3f4136}
+.program-text .program-lead{font-size:1.28rem;line-height:1.5;color:var(--ink);border-left:3px solid var(--gold);padding-left:20px}
+.program-offer{background:var(--white);border:1px solid #f0eadf;border-radius:16px;box-shadow:var(--shadow);padding:28px 30px}
+.program-offer h3{font-size:1.55rem;margin:0 0 14px}
+.program-offer ul{list-style:none;margin:0;padding:0}
+.program-offer li{padding:13px 0 13px 26px;border-top:1px solid var(--line);position:relative;font-size:.92rem;line-height:1.5;color:#57574e}
+.program-offer li:first-child{border-top:0;padding-top:4px}
+.program-offer li:before{content:'';position:absolute;left:4px;top:20px;width:9px;height:9px;border-radius:50%;background:var(--gold)}
+.program-offer li:first-child:before{top:11px}
+.program-offer li strong{display:block;color:var(--ink);font-size:.98rem;margin-bottom:2px}
+.pillars-subtitle{text-align:center;font-family:var(--sans);font-size:.78rem;letter-spacing:.21em;font-weight:700;color:var(--olive);text-transform:uppercase;margin:0 0 22px}
+@media(max-width:960px){.program-overview{grid-template-columns:1fr;gap:26px}}
+@media(max-width:720px){.program-text .program-lead{font-size:1.14rem;padding-left:15px}.program-offer{padding:22px 20px}.program-overview{margin-bottom:40px}}
+
+.footer-brand .legal-form{display:inline;font-size:.6em;letter-spacing:.04em;color:#e2d0a6;margin-left:.1em}

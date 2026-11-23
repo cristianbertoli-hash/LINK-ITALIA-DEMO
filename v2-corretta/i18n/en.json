@@ -35,7 +35,7 @@
  "t038": "VAT IT04205860366",
  "t039": "Explore",
  "t043": "Request information",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Privacy and cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Privacy and cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "About us | LINK-ITALIA & PARTNERS",
  "t046": "The vision, mission and scientific direction of LINK-ITALIA & PARTNERS.",
  "t047": "About us — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Your email program is opening. Check the message and confirm sending: this website does not send messages automatically.",
  "js_mail_name": "Name",
  "js_mail_request": "Request",
- "js_mail_message": "Message"
+ "js_mail_message": "Message",
+ "t300": "The <strong>We Break THE LINK® – One Safety, One Health, One Welfare® Anti-Violence Programme</strong> trains professionals, organisations and citizens to act as an active safeguard in preventing, treating and countering deviant, antisocial and criminal behaviour, to protect people and animals.",
+ "t301": "It is built on the <strong>LINK phenomenon</strong>: the close correlation between the abuse and/or killing of animals, interpersonal violence and any other deviant, antisocial or criminal behaviour (F. Sorcinelli, 2006). In Italy the reference discipline is the Zooanthropology of Deviance.",
+ "t302": "LINK-ITALIA &amp; PARTNERS brings almost twenty years of experience to this work in raising public awareness, training professionals and providing technical consultancy, with a zooanthropological approach.",
+ "t303": "What we offer",
+ "t304": "<strong>Training at two levels</strong> Level I for professional sensitivity and social competences; Level II for the technical competences of practitioners.",
+ "t305": "<strong>Certified Professional and Certified Company certifications</strong> Standards for individual professionals and for public and private organisations, aligned with ESG, CSR/PSR and the Sustainable Development Goals, and useful for sustainability reporting.",
+ "t306": "<strong>Certificate of attendance</strong> For professionals who do not apply for certification and for engaged citizens.",
+ "t307": "<strong>Specialist technical consultancy</strong> Guidelines and protocols, analysis of LINK cases, prevention systems, and assessment of the social dangerousness of harmful acts against animals.",
+ "t308": "The three principles of the programme"
 }

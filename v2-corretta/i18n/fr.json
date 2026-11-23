@@ -35,7 +35,7 @@
  "t038": "N° TVA IT04205860366",
  "t039": "Explorer",
  "t043": "Demander des informations",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Confidentialité et cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Confidentialité et cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Qui sommes-nous | LINK-ITALIA & PARTNERS",
  "t046": "La vision, la mission et la direction scientifique de LINK-ITALIA & PARTNERS.",
  "t047": "Qui sommes-nous — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Votre messagerie s’ouvre. Vérifiez le message et confirmez l’envoi : le site n’envoie aucun message automatiquement.",
  "js_mail_name": "Nom",
  "js_mail_request": "Demande",
- "js_mail_message": "Message"
+ "js_mail_message": "Message",
+ "t300": "Le <strong>Programme de lutte contre la violence We Break THE LINK® – One Safety, One Health, One Welfare®</strong> forme professionnels, organisations et citoyens à jouer un rôle de vigie active dans la prévention, la prise en charge et la lutte contre les comportements déviants, antisociaux et criminels, pour protéger les personnes et les animaux.",
+ "t301": "Il repose sur le <strong>phénomène LINK</strong> : la corrélation étroite entre la maltraitance et/ou la mise à mort d’animaux, la violence interpersonnelle et tout autre comportement déviant, antisocial ou criminel (F. Sorcinelli, 2006). En Italie, la discipline de référence est la zooanthropologie de la déviance.",
+ "t302": "LINK-ITALIA &amp; PARTNERS y apporte près de vingt ans d’expérience dans la sensibilisation du public, la formation des professionnels et le conseil technique, selon une approche zooanthropologique.",
+ "t303": "Ce que nous proposons",
+ "t304": "<strong>Une formation sur deux niveaux</strong> Niveau I pour la sensibilité professionnelle et les compétences sociales ; niveau II pour les compétences techniques des professionnels du secteur.",
+ "t305": "<strong>Certifications Certified Professional et Certified Company</strong> Des référentiels pour les professionnels et pour les organisations publiques et privées, alignés sur l’ESG, la RSE/PSR et les Objectifs de développement durable, utiles au rapport de durabilité.",
+ "t306": "<strong>Attestation de participation</strong> Pour les professionnels qui ne demandent pas la certification et pour les citoyens engagés.",
+ "t307": "<strong>Conseil technique spécialisé</strong> Lignes directrices et protocoles, analyse de cas LINK, dispositifs de prévention, évaluation de la dangerosité sociale des actes nuisibles envers les animaux.",
+ "t308": "Les trois principes du programme"
 }

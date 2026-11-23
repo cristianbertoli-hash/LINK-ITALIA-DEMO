@@ -35,7 +35,7 @@
  "t038": "Momsreg.nr IT04205860366",
  "t039": "Utforska",
  "t043": "Begär information",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Integritet och cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Integritet och cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Om oss | LINK-ITALIA & PARTNERS",
  "t046": "Vision, uppdrag och vetenskaplig ledning för LINK-ITALIA & PARTNERS.",
  "t047": "Om oss — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Ditt e-postprogram öppnas. Kontrollera meddelandet och bekräfta att det ska skickas: den här webbplatsen skickar inga meddelanden automatiskt.",
  "js_mail_name": "Namn",
  "js_mail_request": "Ärende",
- "js_mail_message": "Meddelande"
+ "js_mail_message": "Meddelande",
+ "t300": "<strong>Programmet mot våld We Break THE LINK® – One Safety, One Health, One Welfare®</strong> utbildar yrkespersoner, organisationer och medborgare att vara ett aktivt skydd i arbetet med att förebygga, behandla och motverka avvikande, antisociala och kriminella beteenden, för att skydda människor och djur.",
+ "t301": "Grunden är <strong>LINK-fenomenet</strong>: det nära sambandet mellan misshandel och/eller dödande av djur, våld mellan människor och alla andra avvikande, antisociala eller kriminella beteenden (F. Sorcinelli, 2006). I Italien är avvikelsens zooantropologi den vägledande disciplinen.",
+ "t302": "LINK-ITALIA &amp; PARTNERS bidrar med nästan tjugo års erfarenhet av att öka allmänhetens medvetenhet, utbilda yrkespersoner och ge teknisk rådgivning, utifrån ett zooantropologiskt synsätt.",
+ "t303": "Det här erbjuder vi",
+ "t304": "<strong>Utbildning på två nivåer</strong> Nivå I för professionell lyhördhet och sociala kompetenser; nivå II för yrkesverksammas tekniska kompetenser.",
+ "t305": "<strong>Certifieringarna Certified Professional och Certified Company</strong> Standarder för enskilda yrkespersoner och för offentliga och privata organisationer, i linje med ESG, CSR/PSR och de globala målen för hållbar utveckling, användbara i hållbarhetsrapportering.",
+ "t306": "<strong>Deltagarintyg</strong> För yrkespersoner som inte ansöker om certifiering och för engagerade medborgare.",
+ "t307": "<strong>Specialiserad teknisk rådgivning</strong> Riktlinjer och protokoll, analys av LINK-fall, förebyggande system och bedömning av samhällsfarligheten i handlingar som skadar djur.",
+ "t308": "Programmets tre principer"
 }

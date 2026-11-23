@@ -35,7 +35,7 @@
  "t038": "Uimhir CBL IT04205860366",
  "t039": "Taiscéal",
  "t043": "Iarr eolas",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Príobháideacht agus fianáin</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Príobháideacht agus fianáin</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Fúinn | LINK-ITALIA & PARTNERS",
  "t046": "Fís, misean agus stiúradh eolaíoch LINK-ITALIA & PARTNERS.",
  "t047": "Fúinn — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Tá do ríomhchlár ríomhphoist ag oscailt. Seiceáil an teachtaireacht agus deimhnigh an seoladh: ní sheolann an suíomh gréasáin seo teachtaireachtaí go huathoibríoch.",
  "js_mail_name": "Ainm",
  "js_mail_request": "Iarratas",
- "js_mail_message": "Teachtaireacht"
+ "js_mail_message": "Teachtaireacht",
+ "t300": "Cuireann <strong>Clár in aghaidh an Fhoréigin We Break THE LINK® – One Safety, One Health, One Welfare®</strong> oiliúint ar ghairmithe, ar eagraíochtaí agus ar shaoránaigh le bheith ina gcosaint ghníomhach chun iompar diallasach, frithshóisialta agus coiriúil a chosc, a láimhseáil agus a chomhrac, ar mhaithe le daoine agus le hainmhithe.",
+ "t301": "Tá sé bunaithe ar <strong>fheiniméan LINK</strong>: an dlúthghaol idir mí-úsáid agus/nó marú ainmhithe, foréigean idirphearsanta agus aon iompar diallasach, frithshóisialta nó coiriúil eile (F. Sorcinelli, 2006). San Iodáil, is í Zó-antraipeolaíocht an Diallais an disciplín tagartha.",
+ "t302": "Tugann LINK-ITALIA &amp; PARTNERS beagnach fiche bliain de thaithí don obair seo i múscailt feasachta i measc saoránach, in oiliúint gairmithe agus i gcomhairleoireacht theicniúil, le cur chuige zó-antraipeolaíoch.",
+ "t303": "Cad a thairgimid",
+ "t304": "<strong>Oiliúint ar dhá leibhéal</strong> Leibhéal I d’íogaireacht ghairmiúil agus d’inniúlachtaí sóisialta; Leibhéal II d’inniúlachtaí teicniúla na ngairmithe san earnáil.",
+ "t305": "<strong>Deimhniúcháin Certified Professional agus Certified Company</strong> Caighdeáin do ghairmithe aonair agus d’eagraíochtaí poiblí agus príobháideacha, ailínithe le ESG, CSR/PSR agus na Spriocanna Forbartha Inbhuanaithe, úsáideach do thuairisciú inbhuanaitheachta.",
+ "t306": "<strong>Teastas freastail</strong> Do ghairmithe nach n-iarrann deimhniú agus do shaoránaigh fheasacha.",
+ "t307": "<strong>Comhairleoireacht theicniúil speisialtóireachta</strong> Treoirlínte agus prótacail, anailís ar chásanna LINK, córais choisc, agus measúnú ar an mbaol sóisialta a bhaineann le gníomhartha díobhálacha in aghaidh ainmhithe.",
+ "t308": "Trí phrionsabal an chláir"
 }

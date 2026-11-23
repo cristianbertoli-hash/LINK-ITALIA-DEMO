@@ -35,7 +35,7 @@
  "t038": "Momsnr. IT04205860366",
  "t039": "Udforsk",
  "t043": "Bed om information",
- "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS</span><span><a href=\"privacy.html\">Privatliv og cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
+ "t044": "<span>© 2026 LINK-ITALIA &amp; PARTNERS Srl</span><span><a href=\"privacy.html\">Privatliv og cookies</a> · <a href=\"https://www.link-italia.net/\" rel=\"noopener noreferrer\" target=\"_blank\">LINK-ITALIA</a></span>",
  "t045": "Om os | LINK-ITALIA & PARTNERS",
  "t046": "Vision, mission og videnskabelig ledelse i LINK-ITALIA & PARTNERS.",
  "t047": "Om os — LINK-ITALIA & PARTNERS",
@@ -227,5 +227,14 @@
  "js_feedback": "Dit e-mailprogram åbner. Kontrollér beskeden, og bekræft afsendelsen: dette websted sender ikke beskeder automatisk.",
  "js_mail_name": "Navn",
  "js_mail_request": "Henvendelse",
- "js_mail_message": "Besked"
+ "js_mail_message": "Besked",
+ "t300": "<strong>Programmet mod vold We Break THE LINK® – One Safety, One Health, One Welfare®</strong> uddanner fagpersoner, organisationer og borgere til at være et aktivt værn i forebyggelse, behandling og bekæmpelse af afvigende, antisocial og kriminel adfærd, til beskyttelse af mennesker og dyr.",
+ "t301": "Grundlaget er <strong>LINK-fænomenet</strong>: den tætte sammenhæng mellem mishandling og/eller drab på dyr, vold mellem mennesker og al anden afvigende, antisocial eller kriminel adfærd (F. Sorcinelli, 2006). I Italien er afvigelsens zooantropologi den toneangivende disciplin.",
+ "t302": "LINK-ITALIA &amp; PARTNERS bidrager med næsten tyve års erfaring med oplysning af borgere, uddannelse af fagpersoner og teknisk rådgivning, med en zooantropologisk tilgang.",
+ "t303": "Det tilbyder vi",
+ "t304": "<strong>Uddannelse på to niveauer</strong> Niveau I for faglig sensitivitet og sociale kompetencer; niveau II for fagfolks tekniske kompetencer.",
+ "t305": "<strong>Certificeringerne Certified Professional og Certified Company</strong> Standarder for enkelte fagpersoner og for offentlige og private organisationer, i tråd med ESG, CSR/PSR og verdensmålene for bæredygtig udvikling, anvendelige i bæredygtighedsrapportering.",
+ "t306": "<strong>Deltagerbevis</strong> For fagpersoner, der ikke søger certificering, og for engagerede borgere.",
+ "t307": "<strong>Specialiseret teknisk rådgivning</strong> Retningslinjer og protokoller, analyse af LINK-sager, forebyggelsessystemer og vurdering af samfundsfarligheden ved skadelige handlinger mod dyr.",
+ "t308": "Programmets tre principper"
 }
