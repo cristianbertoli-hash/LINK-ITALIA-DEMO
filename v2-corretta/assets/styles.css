@@ -77,3 +77,4 @@ html.pd-lock{overflow:hidden}
 .pd-body .kicker{text-align:center;font-family:var(--sans);font-size:.92rem;letter-spacing:.03em;line-height:1.6;color:var(--ink);margin:0 0 26px}
 .pd-body h3.pd-brand{text-align:center;color:#8b1a1a;font-size:clamp(1.6rem,2.8vw,2.2rem);margin:0 0 26px}.pd-body h3.pd-brand:after{margin:12px auto 0}
 .pd-open{margin-top:14px}
+.program-overview{grid-template-columns:1fr;max-width:900px;margin-inline:auto}
