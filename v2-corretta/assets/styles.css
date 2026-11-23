@@ -138,3 +138,6 @@ html.pd-lock{overflow:hidden}
 @media (max-width:860px){.cs-intro{grid-template-columns:1fr;gap:30px}.cs-intro-photo{max-width:360px;margin-inline:auto;width:100%}}
 .cs-intro .cs-intro-text{text-align:left}.cs-intro-text h1,.cs-intro-text>p{margin-left:0;margin-right:0}
 @media (max-width:860px){.cs-intro .cs-intro-text{text-align:left}}
+/* Chi siamo: foto più piccola (-25%) e vicina al testo */
+.cs-intro{grid-template-columns:minmax(0,max-content) 300px;justify-content:start;gap:56px}
+@media (max-width:860px){.cs-intro{grid-template-columns:1fr}.cs-intro-photo{max-width:280px;margin-inline:0}}
