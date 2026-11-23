@@ -121,3 +121,10 @@ html.pd-lock{overflow:hidden}
 .prose p,.prose li,.dest-card p,.cs-profile p,.focus-block p,.pd-body p,.pd-body li,.pd-body blockquote,.cs-quote,.notice p,.notice li{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
 .pd-body .kicker,.pd-body h2.pd-brand,.pd-cta,.dest-claim,.pf-banner p,.pf-sources,.pf-contact,.dest-sub{text-align:center}
 .pf-sources,.dest-sub{text-align:left!important}
+/* Titoli centrati ovunque, testo giustificato */
+.cs-first .section-heading{text-align:center;margin-bottom:26px}.cs-first .prose{max-width:none}
+.cs-history h2,.cs-profile h2{text-align:center}
+.dest-card .eyebrow,.dest-card h3,.dest-sub{text-align:center!important}
+.pd-body h3,.pd-body h4,.pd-body .eyebrow{text-align:center}.pd-body h3:after{margin-left:auto;margin-right:auto}
+.focus-block h2{text-align:center}
+.pf-col .section-heading h2{margin:0}
