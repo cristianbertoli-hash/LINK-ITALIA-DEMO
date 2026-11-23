@@ -105,3 +105,15 @@ html.pd-lock{overflow:hidden}
 .intro-center{text-align:center}.intro-center h1,.intro-center>p{margin-inline:auto}
 .dest-intro .prose{max-width:860px;margin-inline:auto}
 .dest-card{text-align:left}
+/* Proposta formativa – testo originale, colonna centrata e giustificata */
+.pf-col{max-width:860px;margin-inline:auto}
+.pf-col p,.pf-col li{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.pf-lead{font-size:1.22rem;line-height:1.6;color:var(--oliveDark)}
+.pf-banner{text-align:center;margin:44px auto;padding:36px 28px;background:var(--oliveDark,#39462f);color:#f6f1e5;border-radius:14px}
+.pf-banner h2{color:#e2d0a6;margin:0 0 8px;font-size:clamp(2rem,3vw,2.8rem)}
+.pf-banner p{text-align:center!important;margin:0}.pf-banner-sub{font-size:1.15rem;margin-bottom:16px!important}
+.pf-banner-text{font-family:var(--sans);font-size:.95rem;letter-spacing:.02em;color:#e8e4d6}
+.pf-list{padding-left:22px}.pf-list li{padding:6px 0}.pf-list li::marker{color:var(--gold)}
+.pf-sources{font-family:var(--sans);font-size:.85rem!important;color:var(--muted);text-align:left!important;margin-top:30px}
+.pf-contact{max-width:900px;margin:0 auto;text-align:center;font-family:var(--sans);font-size:.92rem;letter-spacing:.02em;line-height:1.7;color:var(--oliveDark);font-weight:600}
+.pf-contact a{color:var(--goldDark)}
