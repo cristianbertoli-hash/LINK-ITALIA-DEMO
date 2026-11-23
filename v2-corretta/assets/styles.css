@@ -78,3 +78,11 @@ html.pd-lock{overflow:hidden}
 .pd-body h3.pd-brand{text-align:center;color:#8b1a1a;font-size:clamp(1.6rem,2.8vw,2.2rem);margin:0 0 26px}.pd-body h3.pd-brand:after{margin:12px auto 0}
 .pd-open{margin-top:14px}
 .program-overview{grid-template-columns:1fr;max-width:900px;margin-inline:auto}
+/* Chi siamo – testo originale */
+.cs-quote{margin:26px 0;padding:22px 26px;border-left:3px solid var(--gold);background:#f6f1e7;border-radius:0 10px 10px 0;font-style:italic;color:#4a4840;font-size:1.05rem;line-height:1.7}
+.cs-quote cite{display:block;margin-top:12px;font-style:normal;font-family:var(--sans);font-size:.85rem;font-weight:700;color:var(--olive)}
+.cs-profile{align-items:flex-start;margin-top:0}.cs-profile h2{margin:0 0 16px}.cs-profile p{font-family:var(--serif);font-size:1.06rem;line-height:1.72}
+.cs-history{padding-top:20px}.cs-history h2{font-size:clamp(1.5rem,2.2vw,2.1rem);margin:0 0 24px;color:var(--oliveDark)}
+.prose a{color:var(--oliveDark);overflow-wrap:anywhere}
+.page-intro>p[data-i18n="cs03"]{text-transform:none}
+@media(max-width:720px){.cs-profile{flex-direction:column;gap:18px}.cs-quote{padding:18px 18px}}
