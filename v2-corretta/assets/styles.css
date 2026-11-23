@@ -102,3 +102,6 @@ html.pd-lock{overflow:hidden}
 .notice+.notice{margin-top:18px}.notice ul{margin:10px 0;padding-left:20px}.notice li{padding:3px 0}
 @media(max-width:720px){.dest-card{padding:24px 20px}}
 .dest-intro .prose{margin-inline:auto}.dest-intro~.notice,section .notice{max-width:1000px;margin-inline:auto}
+.intro-center{text-align:center}.intro-center h1,.intro-center>p{margin-inline:auto}
+.dest-intro .prose{max-width:860px;margin-inline:auto}
+.dest-card{text-align:left}
