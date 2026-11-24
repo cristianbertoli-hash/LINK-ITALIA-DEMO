@@ -224,3 +224,4 @@ html[lang="it"] .doc-lang-note{display:none}
 @media(max-width:700px){.pd-body .pp-mission br,.pd-body p.pp-c:not([data-i18n="pp21"]) br{display:none}}
 .pillars-tagline{text-align:center;font-family:var(--serif);font-weight:400;color:var(--ink);font-size:clamp(1.15rem,2.2vw,1.65rem);line-height:1.22;letter-spacing:-.01em;margin:0 0 22px}
 .pillars-tagline+.pillars-subtitle{font-size:clamp(.95rem,1.9vw,1.45rem);letter-spacing:.22em;font-weight:800;color:#4a5a36;margin-bottom:30px}
+.pd-body.pp p.pp-left{margin-bottom:.25em}
